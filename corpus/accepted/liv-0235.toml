@@ -1,0 +1,30 @@
+id = "liv-0235"
+canonical = "Impiàstro"
+lemma = "impiàstro"
+kind = "lexeme"
+gloss_it = "persona dai gusti difficili e sempre scontenta"
+gloss_en = "fussy person who is never satisfied"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Insulto generico riferito a una persona difficile da accontentare."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un gli va bene mai nulla, è un impiàstro."
+italian = "Non gli va mai bene niente, è una persona impossibile da accontentare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=73#lemma_146"
+url = "https://livornese.altervista.org/index.php?ascii=73#lemma_146"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=73#lemma_146"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

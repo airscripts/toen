@@ -1,0 +1,30 @@
+id = "liv-0173"
+canonical = "Fassi la pitta"
+lemma = "fassi la pitta"
+kind = "idiom"
+gloss_it = "Tagliarsi i capelli"
+gloss_en = "To get one’s hair cut"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["farsi la pitta"]
+usage_notes = "Locuzione indicata come in via d'estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Domani vo a farmi la pitta corta."
+italian = "Domani vado a tagliarmi i capelli corti."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_501"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_501"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_501"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

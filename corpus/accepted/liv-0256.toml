@@ -1,0 +1,30 @@
+id = "liv-0256"
+canonical = "Lótro"
+lemma = "lótro"
+kind = "lexeme"
+gloss_it = "Persona molto ingorda."
+gloss_en = "A person who eats excessively."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sei proprio un lótro, hai finito anche il tegame."
+italian = "Sei proprio un ingordo, hai finito anche la teglia."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=76#lemma_404"
+url = "https://livornese.altervista.org/index.php?ascii=76#lemma_404"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=76#lemma_404"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

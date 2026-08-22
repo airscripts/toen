@@ -1,0 +1,30 @@
+id = "liv-0167"
+canonical = "Fare la chèa"
+lemma = "fare la chèa"
+kind = "idiom"
+gloss_it = "Imbrogliare su conto o resto per guadagnare poco"
+gloss_en = "To cheat on a bill or change for a small financial gain"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Locuzione indicata come in via d'estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Al mercato ha fatto la chèa col resto."
+italian = "Al mercato ha imbrogliato sul resto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_546"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_546"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_546"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

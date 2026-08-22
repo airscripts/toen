@@ -1,0 +1,30 @@
+id = "liv-0019"
+canonical = "Appuntìno"
+lemma = "appuntìno"
+kind = "lexeme"
+gloss_it = "Temperamatite"
+gloss_en = "Pencil sharpener"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come endangered."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Passami l'appuntìno, ho la matita tutta spuntata."
+italian = "Passami il temperamatite, ho la matita completamente spuntata."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_724"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_724"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_724"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

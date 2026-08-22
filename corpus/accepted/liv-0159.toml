@@ -1,0 +1,30 @@
+id = "liv-0159"
+canonical = "Fàrda"
+lemma = "fàrda"
+kind = "lexeme"
+gloss_it = "Puttana; anche in espressioni insultanti riferite a una prostituta"
+gloss_en = "Whore; also used in insulting expressions referring to a prostitute"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Insulto volgare; attestati gli abbinamenti farda di 'asìno e farda smessa."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quello la tratta da fàrda, ma non sa niente di lei."
+italian = "Quello la tratta da puttana, ma non sa niente di lei."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_111"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_111"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_111"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0056"
+canonical = "Bìschero"
+lemma = "bìschero"
+kind = "lexeme"
+gloss_it = "Pene; anche persona sciocca"
+gloss_en = "Penis; also a foolish person"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Ha sia il senso anatomico volgare sia quello figurato di fesso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fare il bìschero e vieni a darci una mano."
+italian = "Non fare lo sciocco e vieni ad aiutarci."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_249"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_249"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_249"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

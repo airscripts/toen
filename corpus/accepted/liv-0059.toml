@@ -1,0 +1,30 @@
+id = "liv-0059"
+canonical = "Boa marina"
+lemma = "boa marina"
+kind = "lexeme"
+gloss_it = "boa marina"
+gloss_en = "sea buoy"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["bodda", "bodda marina"]
+usage_notes = "Rimando a bodda; forma indicata come endangered."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "La boa marina segna il limite oltre cui un si può nuotà."
+italian = "La boa marina segna il limite oltre il quale non si può nuotare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_360"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_360"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_360"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0162"
+canonical = "Fare a zìghene"
+lemma = "fare a zìghene"
+kind = "idiom"
+gloss_it = "Dividere in parti uguali una spesa o una vincita"
+gloss_en = "To split an expense or winnings equally"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Locuzione indicata come in via d'estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "La pizza la pagamo a zìghene."
+italian = "La pizza la paghiamo a metà."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_428"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_428"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_428"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

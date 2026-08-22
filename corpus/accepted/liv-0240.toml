@@ -1,0 +1,30 @@
+id = "liv-0240"
+canonical = "Incoccià"
+lemma = "incoccià"
+kind = "lexeme"
+gloss_it = "sentire il lieve tocco del pesce sull'amo"
+gloss_en = "to feel a fish lightly nudge the bait"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["incocciare"]
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ho incocciato, piano piano: prepara il guadino."
+italian = "Ho sentito il pesce toccare l'esca: prepara il guadino."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=73#lemma_673"
+url = "https://livornese.altervista.org/index.php?ascii=73#lemma_673"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=73#lemma_673"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

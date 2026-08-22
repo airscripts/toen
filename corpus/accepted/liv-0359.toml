@@ -1,0 +1,30 @@
+id = "liv-0359"
+canonical = "Rinfiosecchì"
+lemma = "rinfiosecchì"
+kind = "lexeme"
+gloss_it = "Dimagrire fino a diventare raggrinzito come un fico secco"
+gloss_en = "To lose weight and become wrinkled like a dried fig"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["rinficosecchire"]
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "S'è rinfiosecchito a forza di lavorà senza mangià."
+italian = "È dimagrito moltissimo lavorando senza mangiare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_377"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_377"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_377"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

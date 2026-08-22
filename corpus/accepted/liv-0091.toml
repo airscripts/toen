@@ -1,0 +1,30 @@
+id = "liv-0091"
+canonical = "Caarìtto"
+lemma = "caarìtto"
+kind = "lexeme"
+gloss_it = "Uomo molto basso; per estensione, persona di poco valore o sbruffone."
+gloss_en = "A very short man; figuratively, a worthless person or a small-time braggart."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["caca ritto"]
+usage_notes = "Appellativo insultante e attestato come endangered."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fa' 'r caarìtto, se c'hai da dì qualcosa dilla."
+italian = "Non fare lo sbruffoncello, se hai qualcosa da dire dilla."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_16"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_16"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_16"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

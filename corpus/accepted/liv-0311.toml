@@ -1,0 +1,30 @@
+id = "liv-0311"
+canonical = "Pentolàccia"
+lemma = "pentolàccia"
+kind = "lexeme"
+gloss_it = "Gioco quaresimale della pentola sospesa da rompere bendati."
+gloss_en = "A Lenten game of trying to smash a suspended pot while blindfolded."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Gioco tradizionale praticato nel periodo della Quaresima."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "A Pentolàccia si rideva mentre tutti tiravano al buio."
+italian = "Alla Pentolàccia si rideva mentre tutti colpivano al buio."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_528"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_528"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_528"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

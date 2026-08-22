@@ -1,0 +1,30 @@
+id = "liv-0481"
+canonical = "Trabagài"
+lemma = "trabagài"
+kind = "lexeme"
+gloss_it = "macchinazione confusa e losca"
+gloss_en = "tangled shady scheme"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un mi voglio infilà ne’ tuoi trabagài, arrangiati da te."
+italian = "Non voglio immischiarmi nelle tue macchinazioni, arrangiati da solo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_309"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_309"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_309"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

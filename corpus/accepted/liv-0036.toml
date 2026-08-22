@@ -1,0 +1,30 @@
+id = "liv-0036"
+canonical = "Avécci le ruzze"
+lemma = "avécci le ruzze"
+kind = "idiom"
+gloss_it = "avere molta voglia di scherzare"
+gloss_en = "to be in a very playful mood"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["averci le ruzze"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Oggi c'hai le ruzze: un tu smetti mai di fa' battute."
+italian = "Oggi hai una gran voglia di scherzare: non smetti mai di fare battute."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_66"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_66"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_66"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

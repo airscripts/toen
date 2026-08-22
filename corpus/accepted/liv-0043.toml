@@ -1,0 +1,30 @@
+id = "liv-0043"
+canonical = "Bào"
+lemma = "bào"
+kind = "lexeme"
+gloss_it = "Alternativa infantile per il pene"
+gloss_en = "Childish word for penis"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["baco"]
+usage_notes = "Alternativa a pipi; voce indicata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Da piccolo chiamava il bào col suo nome livornese."
+italian = "Da piccolo chiamava il pene con il suo nome livornese."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_657"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_657"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_657"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0146"
+canonical = "Dóddo"
+lemma = "dóddo"
+kind = "lexeme"
+gloss_it = "persona tonta o poco sveglia"
+gloss_en = "a dim-witted or foolish person"
+register = "expressive"
+grammatical_role = "adjective"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come in declino."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fa' il dóddo e guarda dove vai."
+italian = "Non fare lo sciocco e guarda dove vai."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=68#lemma_396"
+url = "https://livornese.altervista.org/index.php?ascii=68#lemma_396"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=68#lemma_396"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

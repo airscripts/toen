@@ -1,0 +1,30 @@
+id = "liv-0423"
+canonical = "Siùski"
+lemma = "siùski"
+kind = "lexeme"
+gloss_it = "Tuffo personalizzato labronico, apprezzato soprattutto per gli schizzi alti e l'effetto comico."
+gloss_en = "A distinctive Livorno-style dive, valued mainly for its splash and comic effect."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il gesto non ha una forma unica: le interpretazioni sono personali e l'altezza degli schizzi è centrale."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ha fatto una siùski dal molo che l'acqua è arrivata fin sopra la banchina."
+italian = "Ha fatto un tuffo dal molo e l'acqua è arrivata fin sopra la banchina."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_431"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_431"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_431"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

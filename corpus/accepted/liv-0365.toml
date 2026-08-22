@@ -1,0 +1,30 @@
+id = "liv-0365"
+canonical = "Ròbba"
+lemma = "ròbba"
+kind = "lexeme"
+gloss_it = "Cosa o insieme di oggetti"
+gloss_en = "Thing or collection of belongings"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Forma segnalata come a rischio d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 35
+
+[[examples]]
+livornese = "Metti la ròbba tua nella borsa."
+italian = "Metti le tue cose nella borsa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_97"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_97"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_97"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

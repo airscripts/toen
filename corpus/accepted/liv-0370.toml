@@ -1,0 +1,30 @@
+id = "liv-0370"
+canonical = "Rubbà"
+lemma = "rubbà"
+kind = "lexeme"
+gloss_it = "Prendere qualcosa senza permesso"
+gloss_en = "To steal"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["rubbare"]
+usage_notes = "Forma segnalata come a rischio d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 25
+
+[[examples]]
+livornese = "Un si deve rubbà la roba degli altri."
+italian = "Non si deve rubare la roba degli altri."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_62"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_62"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_62"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

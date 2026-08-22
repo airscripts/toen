@@ -1,0 +1,30 @@
+id = "liv-0054"
+canonical = "Bertèlle"
+lemma = "bertèlle"
+kind = "lexeme"
+gloss_it = "bretelle"
+gloss_en = "braces or suspenders"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Forma indicata come endangered."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "S'è messo le bertèlle nuove per la festa."
+italian = "Si è messo le bretelle nuove per la festa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_7"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_7"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_7"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

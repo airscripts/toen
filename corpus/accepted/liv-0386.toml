@@ -1,0 +1,30 @@
+id = "liv-0386"
+canonical = "Sbuonàta"
+lemma = "sbuonàta"
+kind = "lexeme"
+gloss_it = "Insulto estremamente volgare, spesso rivolto alla madre dell'interlocutore."
+gloss_en = "An extremely vulgar insult, often directed at the other person's mother."
+register = "expressive"
+grammatical_role = "adjective"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["sbuconata"]
+usage_notes = "Volgarità ai massimi livelli; uso insultante e non elogiativo. Voce segnalata come in via d'estinzione."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quella risposta sbuonàta ha fatto calà il silenzio al tavolo."
+italian = "Quella risposta volgare ha fatto calare il silenzio al tavolo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_685"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_685"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_685"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

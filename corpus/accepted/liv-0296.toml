@@ -1,0 +1,30 @@
+id = "liv-0296"
+canonical = "Ónco"
+lemma = "ónco"
+kind = "particle"
+gloss_it = "Verso che imita un conato e comunica disgusto."
+gloss_en = "A sound imitating a retch and conveying disgust."
+register = "expressive"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Interiezione onomatopeica."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 10
+
+[[examples]]
+livornese = "Ónco, levami quel pesce da davanti!"
+italian = "Che schifo, levami quel pesce da davanti!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=79#lemma_132"
+url = "https://livornese.altervista.org/index.php?ascii=79#lemma_132"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=79#lemma_132"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

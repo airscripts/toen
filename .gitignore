@@ -1,0 +1,7 @@
+/target/
+/dist/
+.container-cache/
+benchmarks/releases/*/work/
+__pycache__/
+*.py[cod]
+*.swp

@@ -1,0 +1,30 @@
+id = "liv-0345"
+canonical = "Pùppa!"
+lemma = "pùppa"
+kind = "particle"
+gloss_it = "esclamazione di rifiuto o di scherno"
+gloss_en = "exclamation of refusal or dismissal"
+register = "expressive"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "In molti contesti equivale a «attaccati al tram!»; il valore preciso dipende dalla situazione."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 16
+
+[[examples]]
+livornese = "Vuoi che ti presti ancora i vaini? Pùppa!"
+italian = "Vuoi che ti presti ancora dei soldi? Attaccati al tram!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_523"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_523"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_523"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

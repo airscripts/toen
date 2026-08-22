@@ -1,0 +1,30 @@
+id = "liv-0210"
+canonical = "Giacchétta"
+lemma = "giacchétta"
+kind = "lexeme"
+gloss_it = "Giacca da uomo"
+gloss_en = "men’s jacket"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Nel parlato familiare livornese è preferita a giacca; la forma standard può comparire in contesti commerciali."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Prendi la giacchétta, che fora tira vento."
+italian = "Prendi la giacca, perché fuori tira vento."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_256"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_256"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_256"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

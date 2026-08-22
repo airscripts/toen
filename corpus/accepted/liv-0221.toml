@@ -1,0 +1,30 @@
+id = "liv-0221"
+canonical = "Gozzàta"
+lemma = "gozzàta"
+kind = "lexeme"
+gloss_it = "Grande sorsata"
+gloss_en = "large gulp"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Fammi fa’ una gozzàta d’acqua e riparto."
+italian = "Fammi fare una grande sorsata d’acqua e riparto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_671"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_671"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_671"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

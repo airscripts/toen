@@ -1,0 +1,30 @@
+id = "liv-0424"
+canonical = "Slìppe"
+lemma = "slìppe"
+kind = "lexeme"
+gloss_it = "Mutanda sgambata; in passato anche costume da bagno."
+gloss_en = "High-cut briefs; formerly also a swimsuit."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["slip"]
+usage_notes = "L'uso contemporaneo indica soprattutto la biancheria intima; l'uso per il costume da bagno è antico e il termine è in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ha steso la slìppe sul balcone insieme agli asciugamani."
+italian = "Ha steso lo slip sul balcone insieme agli asciugamani."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_675"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_675"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_675"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

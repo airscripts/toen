@@ -1,0 +1,37 @@
+id = "liv-0141"
+canonical = "Dé"
+lemma = "dé"
+kind = "particle"
+gloss_it = "interiezione dal valore determinato dal contesto e dall'intonazione"
+gloss_en = "a context-dependent discourse interjection"
+register = "expressive"
+grammatical_role = "discourse"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il significato varia ampiamente secondo contesto, intonazione ed espressione del volto; è tipica del dialogo livornese."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 3
+
+[[examples]]
+livornese = "Dé, vieni o no?"
+italian = "Dai, vieni o no?"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=68#lemma_235"
+url = "https://livornese.altervista.org/index.php?ascii=68#lemma_235"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=68#lemma_235"
+
+[[evidence]]
+source_id = "livornotoday-de"
+locator = "Nota linguistica su significato, grafia e funzioni di dé"
+url = "https://www.livornotoday.it/social/de-livornese-significato-origine-funzioni.html"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://www.livornotoday.it/social/de-livornese-significato-origine-funzioni.html"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

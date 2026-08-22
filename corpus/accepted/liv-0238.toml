@@ -1,0 +1,30 @@
+id = "liv-0238"
+canonical = "Incardanàto"
+lemma = "incardanàto"
+kind = "lexeme"
+gloss_it = "persona nella fase intensa dell'innamoramento"
+gloss_en = "person in the throes of infatuation"
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Forma attestata a Livorno; segnalata come in possibile declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Da quando l'ha conosciuta è incardanàto e pensa solo a lei."
+italian = "Da quando l'ha conosciuta è innamorato cotto e pensa solo a lei."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=73#lemma_425"
+url = "https://livornese.altervista.org/index.php?ascii=73#lemma_425"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=73#lemma_425"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

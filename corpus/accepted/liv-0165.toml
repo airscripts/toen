@@ -1,0 +1,30 @@
+id = "liv-0165"
+canonical = "Fare comparìta"
+lemma = "fare comparìta"
+kind = "idiom"
+gloss_it = "Presentarsi bene o far apparire qualcosa più ricco e curato"
+gloss_en = "To look presentable or make something appear richer and better arranged"
+register = "everyday"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Può riferirsi all’aspetto di una persona, di una pietanza o di un oggetto."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Con du’ foglie di basilico fa subito comparìta."
+italian = "Con due foglie di basilico acquista subito un bell’aspetto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_541"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_541"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_541"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

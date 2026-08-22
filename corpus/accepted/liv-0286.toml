@@ -1,0 +1,30 @@
+id = "liv-0286"
+canonical = "Nàppa"
+lemma = "nàppa"
+kind = "lexeme"
+gloss_it = "Naso, soprattutto se molto grande."
+gloss_en = "A nose, especially a very large one."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come endangered."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Con quella nàppa un trova nemmeno gli occhiali."
+italian = "Con quel nasone non trova nemmeno gli occhiali."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=78#lemma_409"
+url = "https://livornese.altervista.org/index.php?ascii=78#lemma_409"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=78#lemma_409"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

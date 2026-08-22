@@ -1,0 +1,30 @@
+id = "liv-0208"
+canonical = "Ghinè"
+lemma = "ghinè"
+kind = "lexeme"
+gloss_it = "Gioco popolare della lippa; anche idea assurda o sciocchezza"
+gloss_en = "traditional tip-cat game; also a foolish idea"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["cambrì"]
+usage_notes = "Il gioco da strada non è più praticato, ma il termine resta vivo in senso figurato per un’idea sciocca."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Questa trovata der motorino è un ghinè bell’e bono."
+italian = "Questa idea per il motorino è una vera sciocchezza."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_341"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_341"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_341"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

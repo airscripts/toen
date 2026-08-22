@@ -1,0 +1,30 @@
+id = "liv-0320"
+canonical = "Piglià gambone"
+lemma = "piglià gambone"
+kind = "idiom"
+gloss_it = "Prendere troppa confidenza."
+gloss_en = "To become overly familiar or presumptuous."
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["pigliare/prendere gambone"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un t’ho dato tutta questa confidenza: un piglià gambone."
+italian = "Non ti ho dato tutta questa confidenza: non prenderti troppe libertà."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_572"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_572"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_572"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

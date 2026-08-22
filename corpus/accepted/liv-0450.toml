@@ -1,0 +1,30 @@
+id = "liv-0450"
+canonical = "Stranùto"
+lemma = "stranùto"
+kind = "lexeme"
+gloss_it = "starnuto"
+gloss_en = "sneeze"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come in via d’estinzione; significa anche sternuto."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ho fatto uno stranùto che m’hanno sentito in cucina."
+italian = "Ho fatto uno starnuto che mi hanno sentito in cucina."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_77"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_77"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_77"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

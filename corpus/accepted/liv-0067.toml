@@ -1,0 +1,30 @@
+id = "liv-0067"
+canonical = "Bottìno"
+lemma = "bottìno"
+kind = "lexeme"
+gloss_it = "Fogna o situazione senza via d’uscita; anche persona insaziabile"
+gloss_en = "Sewer or hopeless predicament; also an insatiable person"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il senso figurato indica una situazione critica oppure, in tono offensivo, una persona vista come un pozzo senza fondo."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Con tutti que' debiti siamo finiti ner bottìno."
+italian = "Con tutti quei debiti siamo finiti in una situazione senza via d’uscita."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_482"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_482"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_482"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0175"
+canonical = "Fìa"
+lemma = "fìa"
+kind = "lexeme"
+gloss_it = "Organo genitale femminile; per estensione, bella o attraente"
+gloss_en = "Female genitalia; by extension, a beautiful or attractive woman or person"
+register = "expressive"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = ["fica"]
+usage_notes = "Termine volgare con antico significato anatomico; oggi è usato anche da uomini e donne per dire “bella” o “attraente”."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Stasera sei proprio fìa con quel vestito."
+italian = "Stasera sei davvero bella con quel vestito."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_618"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_618"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_618"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

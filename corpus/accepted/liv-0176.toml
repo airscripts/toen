@@ -1,0 +1,30 @@
+id = "liv-0176"
+canonical = "Fìdo!"
+lemma = "fìdo"
+kind = "particle"
+gloss_it = "Esclamazione per fermare temporaneamente un gioco"
+gloss_en = "An exclamation used to pause a game temporarily"
+register = "everyday"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Formula convenzionale dei giochi di gruppo; invita tutti a fermarsi per pochi istanti."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Fìdo! M'è sciolta la stringa."
+italian = "Fido! Mi si è slacciata la stringa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_474"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_474"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_474"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

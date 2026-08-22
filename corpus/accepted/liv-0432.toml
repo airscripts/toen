@@ -1,0 +1,44 @@
+id = "liv-0432"
+canonical = "Spengi"
+lemma = "spengere"
+kind = "lexeme"
+gloss_it = "Spegni; forma di comando del verbo spengere"
+gloss_en = "Turn off; imperative form of spengere"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Forma di casa scelta per il comando ASCII; appartiene alla famiglia occidentale toscana spengere."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 2
+
+[[examples]]
+livornese = "Spengi la luce e vieni via."
+italian = "Spegni la luce e vieni via."
+
+[[evidence]]
+source_id = "repubblica-bottai-spengi"
+locator = "Intervista a Lenny Bottai, ultimo capoverso della citazione diretta"
+url = "https://firenze.repubblica.it/cronaca/2015/05/22/news/il_pugno_di_lenny_io_non_cambio_idee_-115001338/"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://firenze.repubblica.it/cronaca/2015/05/22/news/il_pugno_di_lenny_io_non_cambio_idee_-115001338/"
+
+[[evidence]]
+source_id = "crusca-spengere"
+locator = "Consulenza linguistica, risposta su spegnere/spengere"
+url = "https://accademiadellacrusca.it/it/consulenza/spegnere-o-spengere/220"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://accademiadellacrusca.it/it/consulenza/spegnere-o-spengere/220"
+
+[[evidence]]
+source_id = "geostogrammit"
+locator = "Sezione 2, manualetto pisano-livornese, volume III p. 22"
+url = "https://geostogrammit.it/page/percorso-pisano-livornese"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://geostogrammit.it/page/percorso-pisano-livornese"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0205"
+canonical = "Gelóni"
+lemma = "gelóni"
+kind = "lexeme"
+gloss_it = "Gelosia infantile"
+gloss_en = "childish jealousy"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione; indica soprattutto la gelosia manifestata da un bambino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Da quando è arrivata la gattina, ir piccolo mostra i geloni."
+italian = "Da quando è arrivata la gattina, il piccolo mostra gelosia."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_295"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_295"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_295"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0348"
+canonical = "Puzzo di rifrésco"
+lemma = "puzzo di rifrésco"
+kind = "idiom"
+gloss_it = "cattivo odore di fogna o di oggetti bagnati e mal lavati"
+gloss_en = "foul smell from sewers or from wet, poorly washed objects"
+register = "everyday"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Può riferirsi all’odore delle fognature, di un cane bagnato o di stoviglie non ben pulite; è associato anche ai cambiamenti di pressione atmosferica."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "C’è un puzzo di rifrésco ’n cucina: rilava quei piatti."
+italian = "C’è un cattivo odore in cucina: rilava quei piatti."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_308"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_308"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_308"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

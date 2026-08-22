@@ -1,0 +1,30 @@
+id = "liv-0476"
+canonical = "Tortàio"
+lemma = "tortàio"
+kind = "lexeme"
+gloss_it = "persona che prepara e vende la torta"
+gloss_en = "person who makes and sells torta"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Qui “torta” indica la specialità livornese a base di ceci."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dal tortàio c’è già la fila per la torta bella calda."
+italian = "Dal venditore di torta c’è già la fila per la torta ben calda."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_143"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_143"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_143"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

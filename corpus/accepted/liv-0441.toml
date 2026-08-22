@@ -1,0 +1,30 @@
+id = "liv-0441"
+canonical = "Stempià"
+lemma = "stempià"
+kind = "lexeme"
+gloss_it = "colpire un bersaglio con forza e precisione"
+gloss_en = "to hit a target with force and precision"
+register = "expressive"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["stempiare"]
+usage_notes = "Si usa per sottolineare la precisione e la forza del colpo, anche contro una persona."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Cor pallone l’ha stempiàto preciso ner vetro der garage."
+italian = "Con il pallone ha colpito in pieno il vetro del garage."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_334"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_334"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_334"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

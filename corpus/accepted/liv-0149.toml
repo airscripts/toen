@@ -1,0 +1,30 @@
+id = "liv-0149"
+canonical = "È capace"
+lemma = "è capace"
+kind = "idiom"
+gloss_it = "Può succedere, probabilmente in senso negativo o ironico"
+gloss_en = "It may happen, often said ironically about an undesirable outcome"
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Spesso usata da sola come «capace», con essere sottinteso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 14
+
+[[examples]]
+livornese = "Capace domani piove proprio mentre si parte."
+italian = "È possibile che domani piova proprio mentre si parte."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=69#lemma_384"
+url = "https://livornese.altervista.org/index.php?ascii=69#lemma_384"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=69#lemma_384"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

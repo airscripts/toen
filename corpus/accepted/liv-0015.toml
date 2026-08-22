@@ -1,0 +1,30 @@
+id = "liv-0015"
+canonical = "Amonìaca"
+lemma = "amonìaca"
+kind = "lexeme"
+gloss_it = "Ammoniaca"
+gloss_en = "Ammonia"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come endangered."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un annusà l'amonìaca senza aprì la finestra."
+italian = "Non annusare l’ammoniaca senza aprire la finestra."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_3"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_3"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_3"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

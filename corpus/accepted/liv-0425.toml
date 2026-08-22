@@ -1,0 +1,30 @@
+id = "liv-0425"
+canonical = "Smoccolà 1"
+lemma = "smoccolà"
+kind = "lexeme"
+gloss_it = "Rompere il muso, soprattutto il naso."
+gloss_en = "To smash someone’s face, especially the nose."
+register = "expressive"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["smoccolarsi", "smoccolassi"]
+usage_notes = "Il riflessivo smoccolarsi è pronunciato smoccolassi."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Se tocchi ancora la bici, ti smoccolo quel naso."
+italian = "Se tocchi ancora la bici, ti rompo quel naso."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_286"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_286"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_286"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

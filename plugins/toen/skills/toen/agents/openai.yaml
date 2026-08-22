@@ -1,0 +1,6 @@
+interface:
+  display_name: "Toen"
+  short_description: "Optional concise Livornese output"
+  default_prompt: "Use $toen ammodino to make this session concise and readable in contemporary Livornese."
+policy:
+  allow_implicit_invocation: false

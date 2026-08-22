@@ -1,0 +1,30 @@
+id = "liv-0270"
+canonical = "Marémma"
+lemma = "marémma"
+kind = "particle"
+gloss_it = "Sostituto attenuato di “Madonna” nelle bestemmie."
+gloss_en = "A softened substitute for “Madonna” in blasphemous exclamations."
+register = "expressive"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Usato per rendere l’espressione meno grave e più socialmente accettabile."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 8
+
+[[examples]]
+livornese = "Marémma cane, ho lasciato le chiavi dentro casa."
+italian = "Accidenti, ho lasciato le chiavi dentro casa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_507"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_507"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_507"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0368"
+canonical = "Rompì"
+lemma = "rompì"
+kind = "lexeme"
+gloss_it = "Rompere"
+gloss_en = "To break"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["rompire"]
+usage_notes = "Forma segnalata come a rischio d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 26
+
+[[examples]]
+livornese = "Un rompì quel bicchiere, trattalo piano."
+italian = "Non rompere quel bicchiere, trattalo con delicatezza."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_127"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_127"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_127"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

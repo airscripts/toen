@@ -1,0 +1,30 @@
+id = "liv-0366"
+canonical = "Robba da torta!"
+lemma = "robba da torta"
+kind = "idiom"
+gloss_it = "Esclamazione di disappunto per una situazione misera o desolante"
+gloss_en = "An exclamation of dismay at a miserable or sorry situation"
+register = "expressive"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = ["roba da torta (di ceci)"]
+usage_notes = "Si pronuncia con gli occhi socchiusi e scuotendo la testa; richiama la torta di ceci come pasto povero."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 12
+
+[[examples]]
+livornese = "Hanno annullato il concerto all'ultimo: robba da torta!"
+italian = "Hanno annullato il concerto all'ultimo momento: che disdetta!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_704"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_704"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_704"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

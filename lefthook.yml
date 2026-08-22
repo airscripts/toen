@@ -1,0 +1,14 @@
+output:
+  - execution
+  - failure
+
+pre-commit:
+  piped: true
+  follow: true
+
+  commands:
+    verify:
+      run: make verify
+
+    tests:
+      run: make test

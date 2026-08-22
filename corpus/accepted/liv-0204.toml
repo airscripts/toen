@@ -1,0 +1,30 @@
+id = "liv-0204"
+canonical = "Gavòcciolo"
+lemma = "gavòcciolo"
+kind = "lexeme"
+gloss_it = "Gonfiore o bubbone"
+gloss_en = "swelling or boil"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "M’è spuntato un gavòcciolo sul collo."
+italian = "Mi è spuntato un gonfiore sul collo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_34"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_34"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_34"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

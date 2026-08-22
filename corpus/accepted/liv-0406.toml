@@ -1,0 +1,30 @@
+id = "liv-0406"
+canonical = "Scurréggia"
+lemma = "scurréggia"
+kind = "lexeme"
+gloss_it = "Emette una flatulenza."
+gloss_en = "Farts."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un lo dì a nessuno, ma il cane scurréggia da stamani."
+italian = "Non dirlo a nessuno, ma il cane fa aria da stamattina."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_168"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_168"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_168"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0435"
+canonical = "Spicinìo"
+lemma = "spicinìo"
+kind = "lexeme"
+gloss_it = "massacro, sfacelo o consumo eccessivo"
+gloss_en = "wreckage, devastation, or excessive waste"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Può riferirsi sia alla distruzione sia allo sperpero."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dopo la festa c’era uno spicinìo di bicchieri e roba da buttà."
+italian = "Dopo la festa c’era un disastro di bicchieri e cose da buttare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_660"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_660"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_660"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

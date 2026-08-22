@@ -1,0 +1,30 @@
+id = "liv-0129"
+canonical = "Ciucciamèlo"
+lemma = "ciucciamèlo"
+kind = "lexeme"
+gloss_it = "Caramella con bastoncino"
+gloss_en = "A lollipop"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Dolciume tipicamente associato ai bambini."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Il bimbo s’è sporcato tutto col ciucciamèlo."
+italian = "Il bambino si è sporcato tutto con il lecca-lecca."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_26"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_26"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_26"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

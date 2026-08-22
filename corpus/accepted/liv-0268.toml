@@ -1,0 +1,30 @@
+id = "liv-0268"
+canonical = "Maolà"
+lemma = "maolà"
+kind = "lexeme"
+gloss_it = "Riempire di botte fino a lasciare lividi."
+gloss_en = "To beat someone severely enough to leave bruises."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["macolare"]
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Se lo ritrova, dice che lo maolà."
+italian = "Se lo ritrova, dice che lo riempie di botte."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_380"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_380"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_380"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

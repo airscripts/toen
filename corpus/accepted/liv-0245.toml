@@ -1,0 +1,30 @@
+id = "liv-0245"
+canonical = "Legonàta"
+lemma = "legonàta"
+kind = "lexeme"
+gloss_it = "tiro violentissimo"
+gloss_en = "blistering shot"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["ligonàta"]
+usage_notes = "È attestata anche la variante meno comune ligonàta; forma segnalata come in possibile declino."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ha tirato una legonàta e la palla s'è infilata all'incrocio."
+italian = "Ha tirato una bordata violentissima e la palla si è infilata all'incrocio."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=76#lemma_138"
+url = "https://livornese.altervista.org/index.php?ascii=76#lemma_138"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=76#lemma_138"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

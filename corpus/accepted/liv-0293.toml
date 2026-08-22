@@ -1,0 +1,30 @@
+id = "liv-0293"
+canonical = "Nocchìno"
+lemma = "nocchìno"
+kind = "lexeme"
+gloss_it = "Colpo dato sulla testa con le nocche."
+gloss_en = "A knock on the head with the knuckles."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Per scherzo gli ho dato un nocchìno."
+italian = "Per scherzo gli ho dato un colpetto in testa con le nocche."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=78#lemma_50"
+url = "https://livornese.altervista.org/index.php?ascii=78#lemma_50"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=78#lemma_50"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

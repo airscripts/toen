@@ -1,0 +1,30 @@
+id = "liv-0471"
+canonical = "Tòpa 3"
+lemma = "tòpa 3"
+kind = "lexeme"
+gloss_it = "Pane dolce allungato ripieno di zibibbo"
+gloss_en = "Long sweet bread filled with raisins"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Dolce tradizionale segnalato come in via d’estinzione; simile al buccellato."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "A merenda s’è tagliata una tòpa e s’è finita tutta."
+italian = "A merenda ha tagliato una tòpa e l’ha finita tutta."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_480"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_480"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_480"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0022"
+canonical = "Arrànda"
+lemma = "arrànda"
+kind = "idiom"
+gloss_it = "Al massimo della forza, della velocità o del volume"
+gloss_en = "At full power, speed, or volume"
+register = "colloquial"
+grammatical_role = "adverb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["a randa", "arranda"]
+usage_notes = "Forma livornese abbreviata della locuzione “a tutta randa”, pronunciata arranda."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 1
+
+[[examples]]
+livornese = "Metti la musica arrànda, che si balla!"
+italian = "Metti la musica al massimo, perché si balla!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_624"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_624"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_624"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

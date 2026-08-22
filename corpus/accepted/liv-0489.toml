@@ -1,0 +1,30 @@
+id = "liv-0489"
+canonical = "Vaìni"
+lemma = "vaìni"
+kind = "lexeme"
+gloss_it = "Denaro"
+gloss_en = "Money"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["quaini", "citti"]
+usage_notes = "La descrizione riporta quaini e citti come varianti o sinonimi."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 47
+
+[[examples]]
+livornese = "Un c’ho vaìni per offrì da bé a tutti."
+italian = "Non ho soldi per offrire da bere a tutti."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=86#lemma_185"
+url = "https://livornese.altervista.org/index.php?ascii=86#lemma_185"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=86#lemma_185"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

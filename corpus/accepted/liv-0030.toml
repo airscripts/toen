@@ -1,0 +1,30 @@
+id = "liv-0030"
+canonical = "Arrottadiòllo"
+lemma = "arrottadiòllo"
+kind = "idiom"
+gloss_it = "A velocità eccessiva, a rotta di collo"
+gloss_en = "At breakneck speed"
+register = "expressive"
+grammatical_role = "adverb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["a rotta di collo"]
+usage_notes = "Descrive un’andatura estremamente veloce."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "È passato arrottadiòllo e manco l'ho visto."
+italian = "È passato a velocità folle e non l’ho nemmeno visto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_270"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_270"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_270"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

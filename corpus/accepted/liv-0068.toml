@@ -1,0 +1,30 @@
+id = "liv-0068"
+canonical = "Bòzzo"
+lemma = "bòzzo"
+kind = "lexeme"
+gloss_it = "Pozza d’acqua piovana o sporca."
+gloss_en = "A puddle of rainwater or dirty water."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Salta quer bòzzo, sennò ti lavi le scarpe."
+italian = "Salta quella pozzanghera, altrimenti ti bagni le scarpe."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_12"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_12"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_12"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

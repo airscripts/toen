@@ -1,0 +1,30 @@
+id = "liv-0024"
+canonical = "Arriva ' pisani"
+lemma = "arriva ' pisani"
+kind = "idiom"
+gloss_it = "Sta arrivando il sonno"
+gloss_en = "Sleepiness is setting in"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["arrivano i pisani", "ecco ' pisani"]
+usage_notes = "Usata soprattutto la sera, spesso osservando un bambino che sbadiglia; l’articolo “i” non si pronuncia."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 18
+
+[[examples]]
+livornese = "Si sbadiglia? Arriva ' pisani: tutti a letto."
+italian = "Si sbadiglia? Sta arrivando il sonno: tutti a letto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_676"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_676"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_676"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0492"
+canonical = "Vàso"
+lemma = "vàso"
+kind = "lexeme"
+gloss_it = "Donna dall’aspetto orribile, eventualmente anche volgare"
+gloss_en = "Woman who is extremely ugly, possibly also vulgar"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Insulto generico; può indicare una donna brutta e, non necessariamente, anche tegame."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel vàso s’è messo a urlà in mezzo alla strada."
+italian = "Quella donna orribile si è messa a urlare in mezzo alla strada."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=86#lemma_302"
+url = "https://livornese.altervista.org/index.php?ascii=86#lemma_302"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=86#lemma_302"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

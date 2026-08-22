@@ -1,0 +1,30 @@
+id = "liv-0070"
+canonical = "Briàa"
+lemma = "briàa"
+kind = "lexeme"
+gloss_it = "Sbornia"
+gloss_en = "Drunken binge"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["briaca"]
+usage_notes = "Termine per la sbornia; il dizionario lo indica come equivalente di scimmia."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ieri sera ho preso una briàa da levàmmi di sentimento."
+italian = "Ieri sera ho preso una sbornia tale da perdere i sensi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_667"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_667"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_667"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

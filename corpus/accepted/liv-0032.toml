@@ -1,0 +1,30 @@
+id = "liv-0032"
+canonical = "Àrtro che"
+lemma = "àrtro che"
+kind = "idiom"
+gloss_it = "solo o soltanto"
+gloss_en = "only or merely"
+register = "everyday"
+grammatical_role = "adverb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["altro che", "artr'e"]
+usage_notes = "È attestata e molto usata anche la forma contratta artr'e."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 7
+
+[[examples]]
+livornese = "Un ho bevuto àrtro che un caffè."
+italian = "Ho bevuto soltanto un caffè."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_538"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_538"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_538"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0486"
+canonical = "Troiàio"
+lemma = "troiàio"
+kind = "lexeme"
+gloss_it = "luogo sporco e disordinato; persona moralmente spregevole"
+gloss_en = "filthy messy place; morally corrupt person"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Può riferirsi sia a un luogo sia, per insulto, a una persona."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quella stanza è un troiàio, un si trova nemmeno le scarpe."
+italian = "Quella stanza è un porcile, non si trovano nemmeno le scarpe."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_162"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_162"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_162"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

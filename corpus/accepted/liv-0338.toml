@@ -1,0 +1,30 @@
+id = "liv-0338"
+canonical = "Pucióso"
+lemma = "pucióso"
+kind = "lexeme"
+gloss_it = "Tirchio, poco disposto a spendere."
+gloss_en = "Stingy or tight-fisted."
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Insulto generico; forma segnalata come in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fa’ il pucióso, offri un gelato a tutti."
+italian = "Non fare il tirchio, offri un gelato a tutti."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_633"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_633"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_633"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

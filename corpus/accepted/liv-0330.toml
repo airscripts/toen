@@ -1,0 +1,30 @@
+id = "liv-0330"
+canonical = "Pòtta"
+lemma = "pòtta"
+kind = "lexeme"
+gloss_it = "volgare per organo genitale femminile; talvolta bella donna"
+gloss_en = "vulgar term for female genitals; sometimes an attractive woman"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Termine volgare, con possibile uso goliardico riferito a una bella donna."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quella battuta sulla pòtta è proprio da levassi di torno."
+italian = "Quella battuta volgare è proprio da evitare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_107"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_107"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_107"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

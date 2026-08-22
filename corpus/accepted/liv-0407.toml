@@ -1,0 +1,30 @@
+id = "liv-0407"
+canonical = "Segàta"
+lemma = "segàta"
+kind = "lexeme"
+gloss_it = "Cosa da poco, usata anche per sminuire un fatto."
+gloss_en = "A minor thing; also used to downplay an event."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Può ridimensionare un evento o ridurne l'importanza."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "È una segàta, domani questa storia manco te la ricordi."
+italian = "È una cosa da poco, domani questa storia non te la ricorderai nemmeno."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_272"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_272"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_272"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

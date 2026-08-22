@@ -1,0 +1,30 @@
+id = "liv-0483"
+canonical = "Tranà"
+lemma = "tranà"
+kind = "lexeme"
+gloss_it = "andarsene rapidamente"
+gloss_en = "to leave quickly"
+register = "expressive"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["tranare"]
+usage_notes = "Usato soprattutto all’imperativo tranà!, con valore minaccioso; voce segnalata come in declino."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Tranà da qui prima che mi faccia perde la pazienza!"
+italian = "Vattene da qui prima che io perda la pazienza!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_423"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_423"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_423"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

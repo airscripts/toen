@@ -1,0 +1,30 @@
+id = "liv-0174"
+canonical = "Fàva"
+lemma = "fàva"
+kind = "lexeme"
+gloss_it = "Organo genitale maschile; epiteto per una persona sciocca o incapace"
+gloss_en = "Male genitalia; an insult for a foolish or incompetent person"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Uso volgare; può funzionare anche come epiteto per chi si fa raggirare o non è capace."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sei proprio una fàva, t'hanno rifilato il resto sbagliato."
+italian = "Sei proprio un fesso, ti hanno dato il resto sbagliato."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_616"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_616"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_616"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

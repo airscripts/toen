@@ -1,0 +1,30 @@
+id = "liv-0379"
+canonical = "Salacchìno"
+lemma = "salacchìno"
+kind = "lexeme"
+gloss_it = "Schiaffetto di striscio dato sul sedere con indice e medio."
+gloss_en = "A light, irritating slap across someone's backside using the index and middle fingers."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d'estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Per quello scherzo m'ha mollato un salacchìno che bruciava."
+italian = "Per quello scherzo mi ha dato uno schiaffetto sul sedere che bruciava."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_205"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_205"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_205"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

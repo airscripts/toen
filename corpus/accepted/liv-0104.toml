@@ -1,0 +1,30 @@
+id = "liv-0104"
+canonical = "Cardàno"
+lemma = "cardàno"
+kind = "lexeme"
+gloss_it = "Antico contenitore per brace, usato figurativamente per la testa di chi dice sciocchezze."
+gloss_en = "An old brazier container, figuratively imagined in the head of someone talking nonsense."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["caldano"]
+usage_notes = "Voce attestata come endangered; l’uso contemporaneo è figurato e insultante."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "T'hai un cardàno ner capo se pensi che piova a giugno."
+italian = "Hai un caldano in testa se pensi che piova a giugno."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_212"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_212"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_212"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

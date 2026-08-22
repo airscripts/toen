@@ -1,0 +1,30 @@
+id = "liv-0326"
+canonical = "Pìppolo"
+lemma = "pìppolo"
+kind = "lexeme"
+gloss_it = "oggetto da premere, simile a un pulsante o interruttore; anche un neo"
+gloss_en = "thing to press, like a button or switch; also a mole"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Può indicare sia un comando da premere sia, per somiglianza, un neo sulla pelle."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Premi quel pìppolo rosso e parte la luce."
+italian = "Premi quel pulsante rosso e si accende la luce."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_484"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_484"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_484"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

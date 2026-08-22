@@ -1,0 +1,30 @@
+id = "liv-0128"
+canonical = "Cìtto"
+lemma = "cìtto"
+kind = "lexeme"
+gloss_it = "soldo, soldino nel linguaggio infantile"
+gloss_en = "coin or little bit of money in children's speech"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Uso infantile locale con il significato di soldo o soldino; voce indicata come in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Mi dai un cìtto pe' comprà la caramella?"
+italian = "Mi dai un soldino per comprare la caramella?"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_294"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_294"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_294"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

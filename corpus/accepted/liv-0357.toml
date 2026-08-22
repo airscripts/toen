@@ -1,0 +1,30 @@
+id = "liv-0357"
+canonical = "Rimpiattìno"
+lemma = "rimpiattìno"
+kind = "lexeme"
+gloss_it = "Gioco in cui ci si nasconde e ci si cerca"
+gloss_en = "Hide-and-seek, a game of hiding and searching"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Nome tradizionale del gioco da strada dei più giovani; forma segnalata come a rischio d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dopo merenda si fa un rimpiattìno in cortile."
+italian = "Dopo merenda facciamo a nascondino in cortile."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_687"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_687"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_687"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

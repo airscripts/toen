@@ -1,0 +1,30 @@
+id = "liv-0053"
+canonical = "Bellìo"
+lemma = "bellìo"
+kind = "lexeme"
+gloss_it = "ombelico"
+gloss_en = "belly button"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["bellìco"]
+usage_notes = "Forma abbreviata locale per ombelico."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dopo la doccia m'è rimasta la sabbia ner bellìo."
+italian = "Dopo la doccia mi è rimasta la sabbia nell'ombelico."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_157"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_157"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_157"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0408"
+canonical = "Séma"
+lemma = "séma"
+kind = "lexeme"
+gloss_it = "seme di zucca tostato e salato"
+gloss_en = "roasted salted pumpkin seed"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Femminile singolare: la séma; plurale: le seme."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Passami le seme, che mentre si guarda la partita si piluccano."
+italian = "Passami i semi di zucca, che mentre si guarda la partita si sgranocchiano."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_145"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_145"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_145"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

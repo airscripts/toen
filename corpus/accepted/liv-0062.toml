@@ -1,0 +1,30 @@
+id = "liv-0062"
+canonical = "Bòia!"
+lemma = "bòia"
+kind = "lexeme"
+gloss_it = "Esclamazione rozza di sorpresa o irritazione."
+gloss_en = "A coarse exclamation of surprise or annoyance."
+register = "colloquial"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Esclamazione corrente e colorita."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 7
+
+[[examples]]
+livornese = "Bòia, che vento c'è stamani!"
+italian = "Accidenti, che vento c’è stamattina!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_139"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_139"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_139"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

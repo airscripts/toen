@@ -1,0 +1,30 @@
+id = "liv-0198"
+canonical = "Gànzo 2"
+lemma = "gànzo"
+kind = "lexeme"
+gloss_it = "amante segreto"
+gloss_en = "secret lover"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Seconda accezione distinta di gànzo."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dice che va a lavorà, ma secondo me va dal gànzo."
+italian = "Dice che va a lavorare, ma secondo me va dal suo amante segreto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_470"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_470"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_470"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

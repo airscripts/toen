@@ -1,0 +1,30 @@
+id = "liv-0098"
+canonical = "Cannottièra"
+lemma = "cannottièra"
+kind = "lexeme"
+gloss_it = "Indumento senza maniche da portare sotto o da solo."
+gloss_en = "A sleeveless undershirt or vest."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Fa' caldo: mi metto la cannottièra."
+italian = "Fa caldo: mi metto la canottiera."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_269"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_269"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_269"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0488"
+canonical = "Una frana"
+lemma = "una frana"
+kind = "idiom"
+gloss_it = "Moltissimo"
+gloss_en = "A great deal; loads"
+register = "colloquial"
+grammatical_role = "adverb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione adverb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "M’è garbato una frana quel ponce."
+italian = "Mi è piaciuto moltissimo quel ponce."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=85#lemma_540"
+url = "https://livornese.altervista.org/index.php?ascii=85#lemma_540"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=85#lemma_540"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

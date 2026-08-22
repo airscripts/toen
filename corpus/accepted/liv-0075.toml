@@ -1,0 +1,30 @@
+id = "liv-0075"
+canonical = "Bròdo"
+lemma = "bròdo"
+kind = "lexeme"
+gloss_it = "Persona incapace e inconcludente"
+gloss_en = "Useless, inept person"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Insulto generico per una persona buona a nulla."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sei un bròdo, t'eri scordato pure le chiavi."
+italian = "Sei un buono a nulla, ti eri dimenticato persino le chiavi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_166"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_166"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_166"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

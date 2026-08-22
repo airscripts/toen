@@ -1,0 +1,30 @@
+id = "liv-0072"
+canonical = "Briao 'ome 'n tégolo"
+lemma = "briao 'ome 'n tégolo"
+kind = "idiom"
+gloss_it = "Completamente ubriaco"
+gloss_en = "Dead drunk"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["briaco come un tegolo", "briao tegolo", "briao fradicio", "briao mézzo", "briao di strizzo", "briao di 'olo"]
+usage_notes = "Espressione enfatica per indicare un’ubriachezza estrema."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dopo la festa era briao 'ome 'n tégolo e l'hanno riaccompagnato."
+italian = "Dopo la festa era completamente ubriaco e lo hanno riaccompagnato."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_537"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_537"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_537"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

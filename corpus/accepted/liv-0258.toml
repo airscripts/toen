@@ -1,0 +1,30 @@
+id = "liv-0258"
+canonical = "M'è venuto fatto"
+lemma = "m'è venuto fatto"
+kind = "idiom"
+gloss_it = "Mi è venuto spontaneo, d’istinto."
+gloss_en = "I did it instinctively; it came naturally to me."
+register = "everyday"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 16
+
+[[examples]]
+livornese = "Un volevo interrompello, m’è venuto fatto."
+italian = "Non volevo interromperlo, mi è venuto spontaneo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_196"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_196"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_196"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

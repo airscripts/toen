@@ -1,0 +1,30 @@
+id = "liv-0354"
+canonical = "Ridìolo"
+lemma = "ridìolo"
+kind = "lexeme"
+gloss_it = "Buffo e divertente, spesso detto con simpatia"
+gloss_en = "Funny or amusing, often said affectionately"
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = ["ridicolo"]
+usage_notes = "Come redìolo, a Livorno può esprimere simpatia più che derisione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sei proprio ridìolo co' quella camminata."
+italian = "Sei proprio buffo con quella camminata."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_61"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_61"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_61"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

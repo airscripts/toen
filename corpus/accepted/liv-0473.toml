@@ -1,0 +1,30 @@
+id = "liv-0473"
+canonical = "Toppóne 2"
+lemma = "toppóne"
+kind = "lexeme"
+gloss_it = "persona incapace e inconcludente"
+gloss_en = "useless, good-for-nothing person"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Numero della voce conservato nel campo canonical per distinguere l’accezione."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un gli affidà quel lavoro: è un toppóne e combina solo pasticci."
+italian = "Non affidargli quel lavoro: è un buono a nulla e combina solo pasticci."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_702"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_702"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_702"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0110"
+canonical = "Ceppióne"
+lemma = "ceppióne"
+kind = "lexeme"
+gloss_it = "Persona testarda e poco sveglia"
+gloss_en = "A stubborn, dim-witted person"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["ceppicone"]
+usage_notes = "Insulto generico per una persona dura di comprendonio; voce segnalata come in via d’estinzione."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sei un ceppióne, te l’ho spiegato tre vorte."
+italian = "Sei un testone, te l’ho spiegato tre volte."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_316"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_316"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_316"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

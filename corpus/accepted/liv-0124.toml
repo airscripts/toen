@@ -1,0 +1,30 @@
+id = "liv-0124"
+canonical = "Ciòttola"
+lemma = "ciòttola"
+kind = "lexeme"
+gloss_it = "Recipiente largo senza manico"
+gloss_en = "A wide handleless cup or bowl"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Indica una tazza larga priva di manico."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Versami il brodo nella ciòttola grande."
+italian = "Versami il brodo nella ciotola grande."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_379"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_379"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_379"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

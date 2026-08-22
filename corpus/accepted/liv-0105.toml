@@ -1,0 +1,30 @@
+id = "liv-0105"
+canonical = "Cariòla"
+lemma = "cariòla"
+kind = "lexeme"
+gloss_it = "Carriola per trasportare materiali."
+gloss_en = "A wheelbarrow used to carry materials."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce attestata come endangered."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Passami la cariòla, si porta la rena in fondo."
+italian = "Passami la carriola, portiamo la sabbia in fondo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_342"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_342"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_342"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0390"
+canonical = "Scammellare"
+lemma = "scammellare"
+kind = "lexeme"
+gloss_it = "Andarsene rapidamente e togliersi di torno."
+gloss_en = "To clear off and leave quickly."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "A Livorno ha questo significato locale; nei dizionari italiani può indicare prendere l'andatura del cammello."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 26
+
+[[examples]]
+livornese = "Quando arrivano i controlli, scammella subito."
+italian = "Quando arrivano i controlli, vattene subito."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_643"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_643"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_643"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

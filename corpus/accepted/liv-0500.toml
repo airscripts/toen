@@ -1,0 +1,30 @@
+id = "liv-0500"
+canonical = "Zòtta"
+lemma = "zòtta"
+kind = "lexeme"
+gloss_it = "Escremento, soprattutto trovato per strada"
+gloss_en = "Piece of shit, especially one found in the street"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Indica in particolare un escremento fastidioso da incontrare o calpestare."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Occhio alla zòtta sotto ar marciapiede!"
+italian = "Attento all’escremento sotto il marciapiede!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=90#lemma_136"
+url = "https://livornese.altervista.org/index.php?ascii=90#lemma_136"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=90#lemma_136"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0225"
+canonical = "Grèbano"
+lemma = "grèbano"
+kind = "lexeme"
+gloss_it = "Uomo rozzo e ignorante"
+gloss_en = "粗pe and ignorant man"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione; insulto generico."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fare il grèbano con gli ospiti."
+italian = "Non comportarti da uomo rozzo con gli ospiti."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_707"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_707"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_707"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

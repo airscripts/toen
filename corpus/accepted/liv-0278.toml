@@ -1,0 +1,30 @@
+id = "liv-0278"
+canonical = "Miparmigliànni"
+lemma = "miparmigliànni"
+kind = "idiom"
+gloss_it = "Non vedo l’ora; esprime desiderio o impazienza."
+gloss_en = "I can’t wait; it expresses eagerness or impatience."
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["mi pare mille anni"]
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 22
+
+[[examples]]
+livornese = "Miparmigliànni di rivedé i mi’ amici."
+italian = "Non vedo l’ora di rivedere i miei amici."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_275"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_275"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_275"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

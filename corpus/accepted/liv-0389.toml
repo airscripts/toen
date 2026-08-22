@@ -1,0 +1,30 @@
+id = "liv-0389"
+canonical = "Scagliòzzi"
+lemma = "scagliòzzi"
+kind = "lexeme"
+gloss_it = "Fette di polenta fritte."
+gloss_en = "Slices of fried polenta."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "A merenda ci siamo mangiati du' scagliòzzi belli caldi."
+italian = "A merenda abbiamo mangiato due fette di polenta fritta ben calde."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_67"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_67"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_67"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

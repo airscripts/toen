@@ -1,0 +1,30 @@
+id = "liv-0118"
+canonical = "Ciaccià"
+lemma = "ciaccià"
+kind = "lexeme"
+gloss_it = "Impicciarsi e ficcare il naso negli affari altrui"
+gloss_en = "To pry into other people’s business"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["ciacciare"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 40
+
+[[examples]]
+livornese = "Un ciaccià sempre, fatti i fatti tua."
+italian = "Non impicciarti sempre, fatti gli affari tuoi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_22"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_22"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_22"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

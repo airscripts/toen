@@ -1,0 +1,30 @@
+id = "liv-0226"
+canonical = "Gridà"
+lemma = "gridà"
+kind = "lexeme"
+gloss_it = "Sgridare o rimproverare qualcuno"
+gloss_en = "to scold or reprimand someone"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["gridare"]
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 24
+
+[[examples]]
+livornese = "Un mi gridà per una stupidaggine."
+italian = "Non sgridarmi per una sciocchezza."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_715"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_715"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_715"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0474"
+canonical = "Tornà"
+lemma = "tornà"
+kind = "lexeme"
+gloss_it = "trasferirsi in un’altra casa a Livorno o nei dintorni"
+gloss_en = "to move house within Livorno or nearby"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["tornare"]
+usage_notes = "Il significato locale vale per trasferimenti a Livorno o nei dintorni; fuori area può risultare ambiguo. Voce segnalata come in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 20
+
+[[examples]]
+livornese = "A settembre torno in via Grande, vicino ar mercato."
+italian = "A settembre mi trasferisco di nuovo in via Grande, vicino al mercato."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_234"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_234"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_234"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

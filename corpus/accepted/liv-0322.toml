@@ -1,0 +1,30 @@
+id = "liv-0322"
+canonical = "Pillaccheróne"
+lemma = "pillaccheróne"
+kind = "lexeme"
+gloss_it = "Persona molto chiacchierona, spesso maldicente."
+gloss_en = "A talkative person, often a gossip."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["spillaccherone"]
+usage_notes = "“Spillaccherone” è indicato come variante più rara."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un gli raccontà nulla, è un pillaccheróne."
+italian = "Non raccontargli niente, è un gran chiacchierone."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_198"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_198"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_198"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0281"
+canonical = "Morisse mi' ma'"
+lemma = "morisse mi' ma'"
+kind = "idiom"
+gloss_it = "Formula solenne per giurare che si dice la verità."
+gloss_en = "A solemn formula used to swear that one is telling the truth."
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["morisse mia madre"]
+usage_notes = "Giuramento tradizionale, oggi indicato come endangered."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Morisse mi' ma', un l'ho visto io quel casino."
+italian = "Lo giuro, non l'ho visto io quel casino."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_670"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_670"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_670"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

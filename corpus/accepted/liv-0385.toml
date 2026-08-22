@@ -1,0 +1,30 @@
+id = "liv-0385"
+canonical = "Sbraciolàssi"
+lemma = "sbraciolàssi"
+kind = "lexeme"
+gloss_it = "Farsi molto male cadendo o urtando un ostacolo."
+gloss_en = "To badly injure yourself in a fall or collision."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["sbraciolarsi"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "È inciampato sul marciapiede e s'è sbraciolato tutto."
+italian = "È inciampato sul marciapiede e si è fatto molto male."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_690"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_690"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_690"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0163"
+canonical = "Fare bòno"
+lemma = "fare bòno"
+kind = "idiom"
+gloss_it = "Fare bene alla salute o allo spirito"
+gloss_en = "To do someone good physically or spiritually"
+register = "everyday"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["fare buono"]
+usage_notes = "In questa locuzione bòno vale «bene»; l'uso è limitato a questa espressione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 37
+
+[[examples]]
+livornese = "Una passeggiata ar tramonto fa bòno all'anima."
+italian = "Una passeggiata al tramonto fa bene allo spirito."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_229"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_229"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_229"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

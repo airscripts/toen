@@ -1,0 +1,30 @@
+id = "liv-0458"
+canonical = "Tàsca"
+lemma = "tàsca"
+kind = "lexeme"
+gloss_it = "sostituto volgare di “culo” nell’imprecazione vaffantasca"
+gloss_en = "euphemistic substitute for “arse” in the curse vaffantasca"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Compare nella formula imprecativa vaffantasca; duomo, pronunciato dòmo, svolge la stessa funzione."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Se mi rompi ancora, vaffantasca e levati di torno."
+italian = "Se mi infastidisci ancora, va’ al diavolo e togliti di torno."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_499"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_499"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_499"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

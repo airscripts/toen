@@ -1,0 +1,30 @@
+id = "liv-0002"
+canonical = "Abbùo abbùo"
+lemma = "abbùo abbùo"
+kind = "idiom"
+gloss_it = "Per un pelo, appena in tempo"
+gloss_en = "By a hair; just barely in time"
+register = "everyday"
+grammatical_role = "adverb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["a buco a buco"]
+usage_notes = "Esprime una misura o un margine ridottissimo."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 17
+
+[[examples]]
+livornese = "S'è preso il treno abbùo abbùo."
+italian = "Ha preso il treno per un pelo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_631"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_631"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_631"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

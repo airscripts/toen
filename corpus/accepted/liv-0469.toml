@@ -1,0 +1,30 @@
+id = "liv-0469"
+canonical = "Tòpa"
+lemma = "tòpa"
+kind = "lexeme"
+gloss_it = "Organo genitale femminile; anche appellativo affettuoso volgare"
+gloss_en = "Female genitalia; also a mildly vulgar affectionate term"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["sorba"]
+usage_notes = "Volgare ma meno forte di potta; sorba è indicata come alternativa ormai in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un s’è mai sentito dì ‘bella potta’, ma ‘bella topa’ lo dicevano anche per celia."
+italian = "Non si è mai sentito dire “bella potta”, ma “bella topa” lo dicevano anche per scherzo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_129"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_129"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_129"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

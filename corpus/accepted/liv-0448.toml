@@ -1,0 +1,30 @@
+id = "liv-0448"
+canonical = "Stòrgere"
+lemma = "stòrgere"
+kind = "lexeme"
+gloss_it = "storcere o piegare"
+gloss_en = "to twist or bend"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un provà a stòrgere quer ferro, si rompe."
+italian = "Non provare a piegare quel ferro, si rompe."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_175"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_175"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_175"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

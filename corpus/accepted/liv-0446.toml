@@ -1,0 +1,30 @@
+id = "liv-0446"
+canonical = "Storciodiòllo"
+lemma = "storciodiòllo"
+kind = "lexeme"
+gloss_it = "scapaccione molto violento"
+gloss_en = "very hard slap on the back of the head"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso expressive con funzione noun."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Se continui a fa’ casino ti parte uno storciodiòllo."
+italian = "Se continui a fare confusione ti arriva uno schiaffone."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_76"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_76"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_76"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

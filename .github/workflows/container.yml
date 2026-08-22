@@ -1,0 +1,23 @@
+name: Container
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  disposable:
+    name: Disposable Container
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v7
+        name: Checkout Code
+
+      - run: docker build --pull --file Containerfile --tag toen-ci:${{ github.sha }} .
+        name: Build Container Image
+
+      - run: docker run --rm --name toen-ci-${{ github.run_id }} toen-ci:${{ github.sha }}
+        name: Run Verification In Disposable Container

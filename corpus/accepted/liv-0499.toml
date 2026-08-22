@@ -1,0 +1,30 @@
+id = "liv-0499"
+canonical = "Zombà"
+lemma = "zombà"
+kind = "lexeme"
+gloss_it = "Picchiare o malmenare"
+gloss_en = "To beat up; to assault"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Se lo riprendi in giro, quello ti zomberà."
+italian = "Se continui a prenderlo in giro, quello ti picchierà."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=90#lemma_84"
+url = "https://livornese.altervista.org/index.php?ascii=90#lemma_84"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=90#lemma_84"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

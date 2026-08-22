@@ -1,0 +1,30 @@
+id = "liv-0052"
+canonical = "Belà"
+lemma = "belà"
+kind = "lexeme"
+gloss_it = "frignare e lamentarsi piagnucolando"
+gloss_en = "to whine and complain"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["belare"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un belà per ogni cosa, rimboccati le maniche."
+italian = "Non frignare per ogni cosa, rimboccati le maniche."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_554"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_554"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_554"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

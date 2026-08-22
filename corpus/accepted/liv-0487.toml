@@ -1,0 +1,30 @@
+id = "liv-0487"
+canonical = "Un"
+lemma = "un"
+kind = "particle"
+gloss_it = "Negazione, equivalente a non"
+gloss_en = "Negation particle equivalent to “not”"
+register = "everyday"
+grammatical_role = "adverb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["nun"]
+usage_notes = "Uso toscano della negazione; la descrizione riporta la derivazione non → nun → un."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 4
+
+[[examples]]
+livornese = "Un ci vò a lavorà domani."
+italian = "Domani non vado a lavorare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=85#lemma_135"
+url = "https://livornese.altervista.org/index.php?ascii=85#lemma_135"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=85#lemma_135"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

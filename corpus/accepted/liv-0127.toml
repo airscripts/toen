@@ -1,0 +1,30 @@
+id = "liv-0127"
+canonical = "Città"
+lemma = "città"
+kind = "lexeme"
+gloss_it = "Centro della città"
+gloss_en = "The city centre"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Nel parlare livornese indica specificamente il pieno centro urbano."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 48
+
+[[examples]]
+livornese = "Vo in città a comprà du’ cose e torno subito."
+italian = "Vado in centro a comprare due cose e torno subito."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_25"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_25"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_25"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

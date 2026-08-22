@@ -1,0 +1,30 @@
+id = "liv-0040"
+canonical = "Bagìtto"
+lemma = "bagìtto"
+kind = "lexeme"
+gloss_it = "lingua degli ebrei livornesi"
+gloss_en = "language of Livorno's Jewish community"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Riferimento culturale e linguistico specifico della comunità ebraica livornese."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Il nonno mi raccontava parole di Bagìtto imparate da ragazzo."
+italian = "Il nonno mi raccontava parole di bagitto imparate da ragazzo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_386"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_386"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_386"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

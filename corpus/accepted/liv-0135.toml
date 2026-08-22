@@ -1,0 +1,30 @@
+id = "liv-0135"
+canonical = "Corbèllo"
+lemma = "corbèllo"
+kind = "lexeme"
+gloss_it = "gran quantità, moltitudine"
+gloss_en = "a large crowd or huge amount"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Uso locale per indicare una moltitudine, spesso riferita a persone o cose."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "C'era un corbèllo di gente ar mercato."
+italian = "C'era una marea di gente al mercato."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_668"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_668"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_668"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

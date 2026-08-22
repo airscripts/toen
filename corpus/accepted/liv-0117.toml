@@ -1,0 +1,30 @@
+id = "liv-0117"
+canonical = "Chiriétto"
+lemma = "chiriétto"
+kind = "lexeme"
+gloss_it = "Bambino che serve durante la messa"
+gloss_en = "An altar server"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["chirichetto"]
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Da piccolo facevo il chiriétto nella chiesa del rione."
+italian = "Da piccolo facevo il chierichetto nella chiesa del quartiere."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_28"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_28"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_28"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

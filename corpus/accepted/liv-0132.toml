@@ -1,0 +1,30 @@
+id = "liv-0132"
+canonical = "Ciuìnga"
+lemma = "ciuìnga"
+kind = "lexeme"
+gloss_it = "Gomma da masticare"
+gloss_en = "Chewing gum"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Pronuncia livornese vicina all’inglese di origine, con successiva italianizzazione locale."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un attaccà la ciuìnga sotto il tavolo."
+italian = "Non attaccare la gomma da masticare sotto il tavolo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_183"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_183"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_183"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

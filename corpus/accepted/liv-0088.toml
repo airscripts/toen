@@ -1,0 +1,30 @@
+id = "liv-0088"
+canonical = "Caaprànzi"
+lemma = "caaprànzi"
+kind = "lexeme"
+gloss_it = "Orifizio anale, detto in modo volgare e colorito."
+gloss_en = "The anal opening, expressed in a crude and highly colourful way."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["caca pranzi"]
+usage_notes = "Volgare ma non riferito a una classe protetta."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quella battuta sul caaprànzi era proprio di cattivo gusto."
+italian = "Quella battuta sull’ano era proprio di cattivo gusto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_477"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_477"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_477"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

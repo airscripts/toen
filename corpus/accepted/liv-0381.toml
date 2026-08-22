@@ -1,0 +1,30 @@
+id = "liv-0381"
+canonical = "Sbarroccià"
+lemma = "sbarroccià"
+kind = "lexeme"
+gloss_it = "Perdere il controllo, esagerare o sbagliare grossolanamente."
+gloss_en = "To lose control, go overboard, or make a blunder."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["sbarrocciare"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 27
+
+[[examples]]
+livornese = "A forza di improvvisà ha sbarrocciato tutto il discorso."
+italian = "A forza di improvvisare ha mandato completamente fuori strada il discorso."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_420"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_420"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_420"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0297"
+canonical = "Ottàvo"
+lemma = "ottàvo"
+kind = "lexeme"
+gloss_it = "Manicomio, in senso colloquiale."
+gloss_en = "An asylum or psychiatric hospital, colloquially."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Uso colloquiale potenzialmente offensivo verso le persone con disturbi mentali; non è un insulto riferito a una classe protetta."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Questa casa pare l'Ottàvo oggi."
+italian = "Questa casa oggi sembra un manicomio."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=79#lemma_288"
+url = "https://livornese.altervista.org/index.php?ascii=79#lemma_288"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=79#lemma_288"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

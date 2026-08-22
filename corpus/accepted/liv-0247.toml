@@ -1,0 +1,30 @@
+id = "liv-0247"
+canonical = "Letióne"
+lemma = "letióne"
+kind = "lexeme"
+gloss_it = "incline a litigare"
+gloss_en = "prone to picking fights"
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = ["leticone"]
+usage_notes = "Descrive una persona fortemente incline ai litigi."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Con lui si fa presto a discutere: è proprio un letióne."
+italian = "Con lui si fa presto a discutere: è proprio un litigioso."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=76#lemma_552"
+url = "https://livornese.altervista.org/index.php?ascii=76#lemma_552"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=76#lemma_552"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0355"
+canonical = "Rifinìto"
+lemma = "rifinìto"
+kind = "lexeme"
+gloss_it = "Molto magro, ridotto pelle e ossa"
+gloss_en = "Extremely thin, reduced to skin and bones"
+register = "everyday"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione adjective."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dopo quella malattia era rimasto rifinìto."
+italian = "Dopo quella malattia era rimasto pelle e ossa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_257"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_257"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_257"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

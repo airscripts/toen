@@ -1,0 +1,30 @@
+id = "liv-0491"
+canonical = "Vaporìno"
+lemma = "vaporìno"
+kind = "idiom"
+gloss_it = "Voce usata solo nella locuzione fare ’r vaporino"
+gloss_en = "Word used only in the expression fare ’r vaporino"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "La descrizione non specifica il significato della locuzione; uso segnalato come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Da ragazzo sentivo sempre dì fare ’r vaporino."
+italian = "Da ragazzo sentivo sempre dire fare ’r vaporino."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=86#lemma_83"
+url = "https://livornese.altervista.org/index.php?ascii=86#lemma_83"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=86#lemma_83"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

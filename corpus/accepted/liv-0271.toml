@@ -1,0 +1,30 @@
+id = "liv-0271"
+canonical = "Margherìta"
+lemma = "margherìta"
+kind = "lexeme"
+gloss_it = "Granchio commestibile di grandi dimensioni, con zampe e chele sottili."
+gloss_en = "A large edible crab with slender legs and claws."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["gransèola", "grancèvola", "grancèola"]
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Al mercato c’era una margherìta bella piena."
+italian = "Al mercato c’era un bel granchio pieno di polpa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_247"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_247"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_247"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

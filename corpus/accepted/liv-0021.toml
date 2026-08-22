@@ -1,0 +1,30 @@
+id = "liv-0021"
+canonical = "Ariècco"
+lemma = "ariècco"
+kind = "particle"
+gloss_it = "Ecco di nuovo, riecco"
+gloss_en = "There it is again; here it comes back"
+register = "colloquial"
+grammatical_role = "discourse"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Segnala la ricomparsa o il ripresentarsi di qualcuno o qualcosa."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 5
+
+[[examples]]
+livornese = "Ariècco il mi' fratello co' le solite storie."
+italian = "Ecco di nuovo mio fratello con le solite storie."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_121"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_121"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_121"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

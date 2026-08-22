@@ -1,0 +1,30 @@
+id = "liv-0025"
+canonical = "Arrivà dopo la porvere"
+lemma = "arrivà dopo la porvere"
+kind = "idiom"
+gloss_it = "Arrivare ultimi o con grande ritardo"
+gloss_en = "To arrive last or very late"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["arrivare dopo la polvere"]
+usage_notes = "Immagine di chi arriva quando la polvere sollevata dagli altri è già ricaduta."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "S'è mosso ora: arriva dopo la porvere."
+italian = "Si è mosso solo adesso: arriverà ultimo e in ritardo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_630"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_630"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_630"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

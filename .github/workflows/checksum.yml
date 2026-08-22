@@ -1,0 +1,49 @@
+name: Check Release Checksums
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    name: Checksum
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/download-artifact@v8
+        name: Download Release Archives
+
+        with:
+          name: toen-v${{ inputs.version }}-archives
+          path: dist
+
+      - run: |
+          set -euo pipefail
+
+          cd dist
+
+          mapfile -t release_files < <(find . -maxdepth 1 -type f | sort)
+          if [[ "${#release_files[@]}" -ne 5 ]]; then
+            echo "expected exactly five release files" >&2
+            printf '%s\n' "${release_files[@]}" >&2
+            exit 1
+          fi
+
+          sha256sum --check "toen-v${RELEASE_VERSION}-checksums.txt"
+
+          test -f "toen-plugin-v${RELEASE_VERSION}.zip"
+          test -f "toen-skill-v${RELEASE_VERSION}.zip"
+          test -f "toen-benchmark-evidence-v${RELEASE_VERSION}.zip"
+          test -f "toen-benchmark-report-v${RELEASE_VERSION}.md"
+
+        name: Verify Release Checksums
+
+        env:
+          RELEASE_VERSION: ${{ inputs.version }}

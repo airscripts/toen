@@ -1,0 +1,30 @@
+id = "liv-0277"
+canonical = "Mi sente"
+lemma = "mi sente"
+kind = "idiom"
+gloss_it = "Mi fa male, mi duole."
+gloss_en = "It hurts me; I feel pain there."
+register = "everyday"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 17
+
+[[examples]]
+livornese = "Quando cambia il tempo, mi sente il ginocchio."
+italian = "Quando cambia il tempo, mi fa male il ginocchio."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_158"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_158"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_158"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

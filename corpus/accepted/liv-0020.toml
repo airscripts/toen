@@ -1,0 +1,30 @@
+id = "liv-0020"
+canonical = "Aridàgnene!"
+lemma = "aridàgnene"
+kind = "particle"
+gloss_it = "Esclamazione di disappunto per qualcosa di sgradevole che si ripete"
+gloss_en = "An exclamation of annoyance when something unpleasant happens again"
+register = "expressive"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = ["arida nn iene", "arida nn ene"]
+usage_notes = "Pronunciabile anche nelle varianti indicate; equivale a “Oh no, di nuovo?”."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 4
+
+[[examples]]
+livornese = "Aridàgnene, s'è ribloccato l'ascensore!"
+italian = "Oh no, si è bloccato di nuovo l’ascensore!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_652"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_652"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_652"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

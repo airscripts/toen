@@ -1,0 +1,30 @@
+id = "liv-0161"
+canonical = "Fare 'r vaporino"
+lemma = "fare 'r vaporino"
+kind = "idiom"
+gloss_it = "Non presentarsi a un appuntamento"
+gloss_en = "To stand someone up by missing an appointment"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["fare il vaporino"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "M'ha fatto 'r vaporino e sono rimasto mezz'ora ar bar."
+italian = "Mi ha dato buca e sono rimasto mezz'ora al bar."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_599"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_599"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_599"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

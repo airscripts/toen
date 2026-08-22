@@ -1,0 +1,30 @@
+id = "liv-0035"
+canonical = "Avécci 'r culo sudicio"
+lemma = "avécci 'r culo sudicio"
+kind = "idiom"
+gloss_it = "avere la coscienza sporca"
+gloss_en = "to have a guilty conscience"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["averci il culo sudicio"]
+usage_notes = "Espressione volgare riferita a una colpa o a qualcosa da nascondere."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Se svicoli così, vuol dì che c'hai 'r culo sudicio."
+italian = "Se svicoli così, vuol dire che hai la coscienza sporca."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_619"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_619"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_619"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

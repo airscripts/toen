@@ -1,0 +1,30 @@
+id = "liv-0418"
+canonical = "Sgranà"
+lemma = "sgranà"
+kind = "lexeme"
+gloss_it = "Mangiare molto e con gusto."
+gloss_en = "To eat heartily."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["sgranare"]
+usage_notes = "Attestato come termine in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "A tavola sgranàno tutti senza lascià nemmeno una briciola."
+italian = "A tavola mangiano tutti di gusto senza lasciare nemmeno una briciola."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_218"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_218"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_218"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

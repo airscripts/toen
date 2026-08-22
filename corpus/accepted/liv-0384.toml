@@ -1,0 +1,30 @@
+id = "liv-0384"
+canonical = "Sbombolà"
+lemma = "sbombolà"
+kind = "lexeme"
+gloss_it = "Rompere, picchiare duramente oppure infastidire insistentemente."
+gloss_en = "To smash, beat someone up, or pester someone repeatedly."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["sbombolare"]
+usage_notes = "Ha più significati distinti: danneggiare oggetti, malmenare persone e assillare."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un mi sbombolà co' le solite storie."
+italian = "Non assillarmi con le solite storie."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_478"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_478"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_478"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

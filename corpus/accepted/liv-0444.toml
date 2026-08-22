@@ -1,0 +1,30 @@
+id = "liv-0444"
+canonical = "Stioccà"
+lemma = "stioccà"
+kind = "lexeme"
+gloss_it = "buttare, infilare o dare un colpo, secondo il contesto"
+gloss_en = "to throw, put in, or deliver a blow, depending on context"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["stioccare"]
+usage_notes = "Verbo polisemico e intensivo; il significato preciso dipende dall’oggetto e dalla costruzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Stioccà la borsa in macchina e si parte."
+italian = "Butta la borsa in macchina e partiamo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_231"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_231"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_231"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

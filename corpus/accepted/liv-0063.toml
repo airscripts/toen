@@ -1,0 +1,30 @@
+id = "liv-0063"
+canonical = "Bómbo"
+lemma = "bómbo"
+kind = "lexeme"
+gloss_it = "Modo infantile per indicare il bere."
+gloss_en = "A childish word for drinking or a drink."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Usato dai bambini o rivolgendosi ai bambini."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dopo la pappa vòi un po' di bómbo?"
+italian = "Dopo la pappa vuoi un po’ da bere?"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_248"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_248"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_248"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

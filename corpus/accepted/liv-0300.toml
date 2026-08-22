@@ -1,0 +1,30 @@
+id = "liv-0300"
+canonical = "Pàlle"
+lemma = "pàlle"
+kind = "lexeme"
+gloss_it = "nomignolo affettuoso per un ragazzino"
+gloss_en = "affectionate nickname for a young boy"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come endangered."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Vieni qui, Pàlle, che t’ho portato un gelato."
+italian = "Vieni qui, ragazzino, che ti ho portato un gelato."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_412"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_412"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_412"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

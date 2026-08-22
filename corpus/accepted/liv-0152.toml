@@ -1,0 +1,30 @@
+id = "liv-0152"
+canonical = "Esageràto"
+lemma = "esageràto"
+kind = "lexeme"
+gloss_it = "buonissimo o bellissimo oltre ogni misura"
+gloss_en = "exceptionally delicious or beautiful"
+register = "expressive"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Uso elogiativo e intensivo, riferito soprattutto a bontà o bellezza."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Questo ponce è esageràto!"
+italian = "Questo ponce è buonissimo!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=69#lemma_188"
+url = "https://livornese.altervista.org/index.php?ascii=69#lemma_188"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=69#lemma_188"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

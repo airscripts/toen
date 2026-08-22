@@ -1,0 +1,30 @@
+id = "liv-0147"
+canonical = "Dòmo"
+lemma = "dòmo"
+kind = "lexeme"
+gloss_it = "elemento usato in Vaffandomo"
+gloss_en = "substitute element in the exclamation Vaffandomo"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Compare soprattutto nella bestemmia attenuata Vaffandomo, dove sostituisce culo in vaffanculo."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Vaffandomo, levati di torno!"
+italian = "Va' al diavolo, togliti di torno!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=68#lemma_359"
+url = "https://livornese.altervista.org/index.php?ascii=68#lemma_359"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=68#lemma_359"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

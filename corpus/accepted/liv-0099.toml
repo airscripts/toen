@@ -1,0 +1,30 @@
+id = "liv-0099"
+canonical = "Càntera"
+lemma = "càntera"
+kind = "lexeme"
+gloss_it = "cassetto, soprattutto del canterale"
+gloss_en = "drawer, especially one in a chest of drawers"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Le chiavi sonne nella càntera der canterale."
+italian = "Le chiavi sono nel cassetto del canterale."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_19"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_19"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_19"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

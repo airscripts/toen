@@ -1,0 +1,30 @@
+id = "liv-0433"
+canonical = "Spetézza"
+lemma = "spetézza"
+kind = "lexeme"
+gloss_it = "bambina curiosa, vivace e chiacchierona"
+gloss_en = "curious, lively, talkative girl"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il corrispondente maschile spetezzo è indicato come inesistente."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quella spetézza n’ha già fatto ride tutta la tavola."
+italian = "Quella ragazzina vivace ha già fatto ridere tutta la tavolata."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_280"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_280"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_280"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

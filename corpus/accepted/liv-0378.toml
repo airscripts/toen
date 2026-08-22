@@ -1,0 +1,30 @@
+id = "liv-0378"
+canonical = "S'è avuta"
+lemma = "s'è avuta"
+kind = "idiom"
+gloss_it = "Espressione per dire che siamo nei guai e abbiamo perso."
+gloss_en = "An expression meaning that we are screwed or beaten."
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Locuzione idiomatica dal significato figurato."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 11
+
+[[examples]]
+livornese = "Se si rompe anche il furgone, s'è avuta."
+italian = "Se si rompe anche il furgone, siamo fregati."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_626"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_626"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_626"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

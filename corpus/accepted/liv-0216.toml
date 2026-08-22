@@ -1,0 +1,30 @@
+id = "liv-0216"
+canonical = "Gòbbo"
+lemma = "gòbbo"
+kind = "lexeme"
+gloss_it = "carta del fante"
+gloss_en = "jack playing card"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ho pescato il gòbbo e adesso tocca a te."
+italian = "Ho pescato il fante e adesso tocca a te."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_683"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_683"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_683"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0096"
+canonical = "Canàio"
+lemma = "canàio"
+kind = "lexeme"
+gloss_it = "Disordine, confusione e forte baccano."
+gloss_en = "Disorder, confusion, and a great racket."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Usato a Livorno e in larga parte della Toscana."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "In cucina c'è un canàio che un si capisce più nulla."
+italian = "In cucina c’è un tale caos che non si capisce più niente."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_709"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_709"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_709"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

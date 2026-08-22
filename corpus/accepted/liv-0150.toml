@@ -1,0 +1,30 @@
+id = "liv-0150"
+canonical = "E ìsati"
+lemma = "e ìsati"
+kind = "idiom"
+gloss_it = "espressione per dire che ci si è tolti un'azione o una complicazione"
+gloss_en = "an expression meaning the task has been simplified or avoided"
+register = "colloquial"
+grammatical_role = "discourse"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "La locuzione può avere il senso letterale di e alzati, ma nell'uso comune segnala una semplificazione pratica."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un c'è bisogno d'andà: e ìsati, si fa tutto da qui."
+italian = "Non c'è bisogno di andare: ecco fatto, si fa tutto da qui."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=69#lemma_509"
+url = "https://livornese.altervista.org/index.php?ascii=69#lemma_509"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=69#lemma_509"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0272"
+canonical = "Marrocchìno"
+lemma = "marrocchìno"
+kind = "lexeme"
+gloss_it = "Marocchino; anche persona molto scura di pelle o abbronzata."
+gloss_en = "Moroccan; also a very dark-skinned or deeply tanned man."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il secondo uso può risultare offensivo secondo il contesto."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Al bar s’è ordinato un marrocchìno e poi è corso al lavoro."
+italian = "Al bar ha ordinato un marocchino e poi è corso al lavoro."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_100"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_100"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_100"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

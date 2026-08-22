@@ -1,0 +1,30 @@
+id = "liv-0180"
+canonical = "Filobùsse"
+lemma = "filobùsse"
+kind = "lexeme"
+gloss_it = "Filobus, e per estensione autobus urbano"
+gloss_en = "Trolleybus, also used for a city bus"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["filibusse"]
+usage_notes = "Uso esteso all'autobus dopo la scomparsa del filobus; locuzione indicata come in via d'estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Prendo er filobùsse fino in centro."
+italian = "Prendo l'autobus fino in centro."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_189"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_189"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_189"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,71 @@
+[[rule]]
+id = "rule-01"
+modes = ["ammodino", "arranda"]
+text = "`dé` is the interjection; `de` is status-command only."
+source_ids = ["livornotoday-de", "catarsi"]
+
+[[rule]]
+id = "rule-02"
+modes = ["ammodino", "arranda"]
+text = "`un` before verbs means `non`; no apostrophe."
+source_ids = ["catarsi"]
+
+[[rule]]
+id = "rule-03"
+modes = ["ammodino", "arranda"]
+text = "Truncate only listed infinitives; retain the final accent."
+source_ids = ["catarsi"]
+
+[[rule]]
+id = "rule-04"
+modes = ["ammodino"]
+text = "Ammodino: short clear clauses; light elision."
+source_ids = ["catarsi"]
+
+[[rule]]
+id = "rule-05"
+modes = ["arranda"]
+text = "Arranda: may stack approved elisions/particles if clear."
+source_ids = ["catarsi"]
+
+[[rule]]
+id = "rule-06"
+modes = ["ammodino", "arranda"]
+text = "Use `'r`, `ar`, `der`, `ner`, `sur` only idiomatically."
+source_ids = ["catarsi"]
+
+[[rule]]
+id = "rule-07"
+modes = ["ammodino", "arranda"]
+text = "Keep apostrophes in `c'ho`/`c'ha`; elide `mi'` only idiomatically."
+source_ids = ["catarsi"]
+
+[[rule]]
+id = "rule-08"
+modes = ["ammodino", "arranda"]
+text = "Use `chìe` only isolated/question-final."
+source_ids = ["catarsi"]
+
+[[rule]]
+id = "rule-09"
+modes = ["ammodino", "arranda"]
+text = "Use `nì` for `gli`/`le`/`loro` only with clear referent."
+source_ids = ["catarsi"]
+
+[[rule]]
+id = "rule-10"
+modes = ["ammodino", "arranda"]
+text = "Preserve canonical core accents/consonants."
+source_ids = ["catarsi"]
+
+[[rule]]
+id = "rule-11"
+modes = ["ammodino", "arranda"]
+text = "Variants are input-only; output canonical forms."
+source_ids = ["catarsi"]
+
+[[rule]]
+id = "rule-12"
+modes = ["ammodino", "arranda"]
+text = "Never extend patterns to unlisted forms/idioms."
+source_ids = ["catarsi"]

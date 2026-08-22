@@ -1,0 +1,30 @@
+id = "liv-0388"
+canonical = "Scàcio"
+lemma = "scàcio"
+kind = "lexeme"
+gloss_it = "Forma abbreviata di scaciato."
+gloss_en = "Short form of scaciato."
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "È indicato come forma abbreviata di scaciato."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fa' lo scàcio, vieni a darci una mano."
+italian = "Non fare lo svogliato, vieni a darci una mano."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_686"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_686"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_686"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

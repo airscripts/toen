@@ -1,0 +1,30 @@
+id = "liv-0151"
+canonical = "È un lavoróne"
+lemma = "è un lavoróne"
+kind = "idiom"
+gloss_it = "È un grosso guaio difficile da risolvere"
+gloss_en = "It is a major mess that is difficult to sort out"
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Locuzione indicata come in via d'estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 15
+
+[[examples]]
+livornese = "S'è rotto tutto l'impianto: è un lavoróne."
+italian = "Si è rotto tutto l'impianto: è un grosso guaio."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=69#lemma_728"
+url = "https://livornese.altervista.org/index.php?ascii=69#lemma_728"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=69#lemma_728"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

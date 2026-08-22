@@ -1,0 +1,30 @@
+id = "liv-0081"
+canonical = "Bùo punzóni"
+lemma = "bùo punzóni"
+kind = "idiom"
+gloss_it = "Posizione del corpo piegato ad angolo retto, in modo volgare e scherzoso."
+gloss_en = "A body position bent at a right angle, expressed crudely and jokingly."
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["buco punzoni"]
+usage_notes = "Locuzione volgare ma scherzosa."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "S'è chinato ner bùo punzóni per raccattà la chiave."
+italian = "Si è piegato ad angolo retto per raccogliere la chiave."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_310"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_310"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_310"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

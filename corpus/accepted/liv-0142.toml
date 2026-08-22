@@ -1,0 +1,30 @@
+id = "liv-0142"
+canonical = "Di 'olo"
+lemma = "di 'olo"
+kind = "idiom"
+gloss_it = "ubriaco fradicio"
+gloss_en = "dead drunk"
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = ["di colo"]
+usage_notes = "La descrizione segnala la variante esplicita di colo."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dopo tre ponci era di 'olo e un reggeva più."
+italian = "Dopo tre ponce era ubriaco fradicio e non si reggeva più."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=68#lemma_612"
+url = "https://livornese.altervista.org/index.php?ascii=68#lemma_612"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=68#lemma_612"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

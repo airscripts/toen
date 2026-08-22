@@ -1,0 +1,30 @@
+id = "liv-0100"
+canonical = "Cantera di cima"
+lemma = "cantera di cima"
+kind = "idiom"
+gloss_it = "Cassetto più alto e importante del canterale."
+gloss_en = "The highest and most important drawer of a chest of drawers."
+register = "everyday"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Indica il cassetto destinato agli oggetti più preziosi della casa."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Le foto vecchie son tutte ner cantera di cima."
+italian = "Le vecchie fotografie sono tutte nel cassetto più alto del canterale."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_392"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_392"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_392"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

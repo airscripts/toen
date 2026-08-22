@@ -1,0 +1,30 @@
+id = "liv-0196"
+canonical = "Gangìllo"
+lemma = "gangìllo"
+kind = "lexeme"
+gloss_it = "Piccola chiocciola di mare"
+gloss_en = "Small sea snail"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["cangillo"]
+usage_notes = "Cangillo è indicato come variante più rara."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sulla scogliera abbiamo trovato un gangìllo vuoto."
+italian = "Sugli scogli abbiamo trovato una chiocciolina di mare vuota."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_267"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_267"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_267"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

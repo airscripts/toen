@@ -1,0 +1,30 @@
+id = "liv-0467"
+canonical = "Tónfa!"
+lemma = "tónfa"
+kind = "idiom"
+gloss_it = "Esortazione a colpire o tirare con tutta la forza"
+gloss_en = "Go on, hit or throw it with all your might"
+register = "expressive"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Esclamazione energica riferita a un’azione improvvisa e potente."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Tónfa! Dagli una pedata e falla volà lontano!"
+italian = "Forza! Dalle un calcio e falla volare lontano!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_696"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_696"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_696"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

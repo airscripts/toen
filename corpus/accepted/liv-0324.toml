@@ -1,0 +1,30 @@
+id = "liv-0324"
+canonical = "Pingózzo"
+lemma = "pingózzo"
+kind = "lexeme"
+gloss_it = "Gioco con palline mosse da un biscotto."
+gloss_en = "A game in which balls are moved with a biscuit."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Gioco segnalato come forma in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Da piccini si giocava a pingózzo sul tavolo."
+italian = "Da piccoli si giocava a pingózzo sul tavolo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_206"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_206"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_206"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

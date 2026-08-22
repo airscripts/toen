@@ -1,0 +1,30 @@
+id = "liv-0233"
+canonical = "Imbarazzà"
+lemma = "imbarazzà"
+kind = "lexeme"
+gloss_it = "mettere in disordine un luogo"
+gloss_en = "to clutter or disorder a place"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["imbarazzare"]
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un v'imbarażzà la sala prima che arrivino gli ospiti."
+italian = "Non mettete in disordine la sala prima che arrivino gli ospiti."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=73#lemma_583"
+url = "https://livornese.altervista.org/index.php?ascii=73#lemma_583"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=73#lemma_583"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

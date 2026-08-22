@@ -1,0 +1,30 @@
+id = "liv-0231"
+canonical = "Guàsi"
+lemma = "guàsi"
+kind = "lexeme"
+gloss_it = "quasi"
+gloss_en = "almost"
+register = "everyday"
+grammatical_role = "adverb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Forma attestata a Livorno; segnalata come in possibile declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 12
+
+[[examples]]
+livornese = "Guàsi arrivavo in tempo, ma ho perso l'autobus."
+italian = "Quasi arrivavo in tempo, ma ho perso l'autobus."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_35"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_35"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_35"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0112"
+canonical = "Chiccàio"
+lemma = "chiccàio"
+kind = "lexeme"
+gloss_it = "Persona che produce e vende chicchi"
+gloss_en = "Someone who produces and sells grains or kernels"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Il chiccàio del mercato oggi c’ha i ceci belli freschi."
+italian = "Il venditore di chicchi al mercato oggi ha ceci molto freschi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_608"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_608"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_608"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

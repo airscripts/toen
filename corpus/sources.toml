@@ -1,0 +1,54 @@
+[[source]]
+id = "catarsi"
+name = "Dizionario del vernacolo livornese di Marco Catarsi"
+url = "https://livornese.altervista.org/"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/"
+local_attestation = true
+
+[[source]]
+id = "vernacoliere"
+name = "Il Vernacoliere, Con rispetto parlando"
+url = "https://vernacoliere.com/con-rispetto-parlando/"
+archive_url = "https://web.archive.org/web/20260814/https://vernacoliere.com/con-rispetto-parlando/"
+local_attestation = true
+
+[[source]]
+id = "livornotoday-de"
+name = "LivornoToday, dé: significato, origine e funzioni"
+url = "https://www.livornotoday.it/social/de-livornese-significato-origine-funzioni.html"
+archive_url = "https://web.archive.org/web/20260814/https://www.livornotoday.it/social/de-livornese-significato-origine-funzioni.html"
+local_attestation = true
+
+[[source]]
+id = "crusca-spengere"
+name = "Accademia della Crusca, spegnere o spengere"
+url = "https://accademiadellacrusca.it/it/consulenza/spegnere-o-spengere/220"
+archive_url = "https://web.archive.org/web/20260814/https://accademiadellacrusca.it/it/consulenza/spegnere-o-spengere/220"
+local_attestation = false
+
+[[source]]
+id = "geostogrammit"
+name = "Percorso pisano-livornese"
+url = "https://geostogrammit.it/page/percorso-pisano-livornese"
+archive_url = "https://web.archive.org/web/20260814/https://geostogrammit.it/page/percorso-pisano-livornese"
+local_attestation = true
+
+[[source]]
+id = "comune-livorno-ammodino"
+name = "Comune di Livorno, #fateammodino"
+url = "https://www.comune.livorno.it/it/news/133618/fateammodino-campagna-di-sensibilizzazione-contro-i-comportamenti-barriera"
+local_attestation = true
+
+[[source]]
+id = "crusca-ammodino"
+name = "Vocabolario Fiorentino, ammodino"
+url = "https://www.vocabolariofiorentino.it/lemma/ammodino/2808"
+archive_url = "https://web.archive.org/web/20260814/https://www.vocabolariofiorentino.it/lemma/ammodino/2808"
+local_attestation = false
+
+[[source]]
+id = "repubblica-bottai-spengi"
+name = "la Repubblica Firenze, intervista al livornese Lenny Bottai"
+url = "https://firenze.repubblica.it/cronaca/2015/05/22/news/il_pugno_di_lenny_io_non_cambio_idee_-115001338/"
+archive_url = "https://web.archive.org/web/20260814/https://firenze.repubblica.it/cronaca/2015/05/22/news/il_pugno_di_lenny_io_non_cambio_idee_-115001338/"
+local_attestation = true

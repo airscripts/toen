@@ -1,0 +1,30 @@
+id = "liv-0340"
+canonical = "Puntaròlo"
+lemma = "puntaròlo"
+kind = "lexeme"
+gloss_it = "piccolo utensile appuntito con manico per fare o allargare fori"
+gloss_en = "small pointed hand tool for making or enlarging holes"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Passami il puntaròlo, che fo un foro ’n der legno."
+italian = "Passami il punteruolo, che faccio un foro nel legno."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_276"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_276"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_276"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

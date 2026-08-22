@@ -1,0 +1,30 @@
+id = "liv-0197"
+canonical = "Gànzo"
+lemma = "gànzo"
+kind = "lexeme"
+gloss_it = "persona furba o capace; oggetto originale e ingegnoso"
+gloss_en = "clever or capable person; original, ingenious object"
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Può riferirsi sia a una persona sia, in senso figurato, a un oggetto."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 34
+
+[[examples]]
+livornese = "Sei proprio gànzo: hai aggiustato la bici in cinque minuti."
+italian = "Sei davvero abile: hai aggiustato la bici in cinque minuti."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_187"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_187"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_187"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0387"
+canonical = "Scaciàto"
+lemma = "scaciàto"
+kind = "lexeme"
+gloss_it = "Trascurato, malridotto o cadente; detto di luoghi o persone."
+gloss_en = "Run-down, neglected, or scruffy; said of places or people."
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione adjective."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel palazzo è scaciàto da fa paura."
+italian = "Quel palazzo è così malridotto da fare paura."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_421"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_421"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_421"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

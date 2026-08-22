@@ -1,0 +1,30 @@
+id = "liv-0392"
+canonical = "Scazzà"
+lemma = "scazzà"
+kind = "lexeme"
+gloss_it = "Dire o fare qualcosa a caso, oppure indovinare per fortuna."
+gloss_en = "To guess or say something at random, or get it right by sheer luck."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["scazzare"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 28
+
+[[examples]]
+livornese = "Un lo sapevi davvero: hai scazzato la risposta."
+italian = "Non lo sapevi davvero: hai indovinato la risposta per caso."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_170"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_170"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_170"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0055"
+canonical = "Bìmbo"
+lemma = "bìmbo"
+kind = "lexeme"
+gloss_it = "Bambino, figlio o ragazzo"
+gloss_en = "Child, son, or boy"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Nel livornese tradizionale era la forma consueta, con bimbo e le relative forme flesse al posto di bambino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 44
+
+[[examples]]
+livornese = "Il mi' bìmbo oggi gioca ner cortile."
+italian = "Mio figlio oggi gioca in cortile."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_560"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_560"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_560"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

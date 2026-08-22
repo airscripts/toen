@@ -1,0 +1,30 @@
+id = "liv-0456"
+canonical = "Svòrta"
+lemma = "svòrta"
+kind = "lexeme"
+gloss_it = "curva della strada"
+gloss_en = "bend in the road"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["svolta"]
+usage_notes = "Voce segnalata come in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Alla prossima svòrta piglia a destra."
+italian = "Alla prossima curva prendi a destra."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_142"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_142"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_142"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

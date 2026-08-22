@@ -1,0 +1,30 @@
+id = "liv-0111"
+canonical = "Chiaccherà"
+lemma = "chiaccherà"
+kind = "lexeme"
+gloss_it = "Parlare a lungo e informalmente"
+gloss_en = "To chat or talk at length"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["chiaccherare"]
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 22
+
+[[examples]]
+livornese = "Si mettano a chiaccherà e un li levi più nessuno."
+italian = "Si mettono a chiacchierare e non li ferma più nessuno."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_221"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_221"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_221"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

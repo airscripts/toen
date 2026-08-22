@@ -1,0 +1,30 @@
+id = "liv-0466"
+canonical = "Tonfà"
+lemma = "tonfà"
+kind = "lexeme"
+gloss_it = "picchiare con violenza"
+gloss_en = "to beat up"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["tonfare"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un lo tonfà, parlaci piano e si sistema tutto."
+italian = "Non picchiarlo, parlaci con calma e si sistemerà tutto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_695"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_695"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_695"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

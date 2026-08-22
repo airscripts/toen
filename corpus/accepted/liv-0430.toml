@@ -1,0 +1,30 @@
+id = "liv-0430"
+canonical = "Spardégne"
+lemma = "spardégne"
+kind = "lexeme"
+gloss_it = "calzature estive di tela con suola di corda"
+gloss_en = "canvas espadrilles with braided rope soles"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Uso locale livornese per indicare le espadrillas."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Mettiti le spardégne, che oggi si more dal cardo."
+italian = "Mettiti le espadrillas, perché oggi si muore dal caldo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_471"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_471"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_471"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

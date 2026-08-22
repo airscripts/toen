@@ -1,0 +1,30 @@
+id = "liv-0402"
+canonical = "Scoprì 'r bùo alla 'onca"
+lemma = "scoprì 'r bùo alla 'onca"
+kind = "idiom"
+gloss_it = "Presentare come nuova una cosa già ovvia e conosciuta."
+gloss_en = "To act as if one has discovered something obvious and well known."
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["scoprire il buco alla conca"]
+usage_notes = "Locuzione ironica; corrisponde a scoprire l'acqua calda. Voce segnalata come in via d'estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Con quel consiglio pare tu abbia scoperto 'r bùo alla 'onca."
+italian = "Con quel consiglio sembra che tu abbia scoperto l'acqua calda."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_505"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_505"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_505"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

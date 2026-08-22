@@ -1,0 +1,30 @@
+id = "liv-0008"
+canonical = "Aibò"
+lemma = "aibò"
+kind = "particle"
+gloss_it = "Interiezione di disgusto"
+gloss_en = "An exclamation showing disgust"
+register = "expressive"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Usata per manifestare repulsione o disgusto."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 2
+
+[[examples]]
+livornese = "Aibò, leva via codesta roba da tavola!"
+italian = "Che schifo, togli quella roba dalla tavola!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_253"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_253"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_253"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0493"
+canonical = "Voglia der ciùo"
+lemma = "voglia der ciùo"
+kind = "idiom"
+gloss_it = "Avere un pene enorme"
+gloss_en = "To have a huge penis"
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["voglia del ciuco"]
+usage_notes = "Locuzione usata con il verbo avere; descrizione segnalata come in via d’estinzione."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quello lì va sempre a vantassi d’avé la voglia der ciùo."
+italian = "Quello lì si vanta sempre di avere un pene enorme."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=86#lemma_444"
+url = "https://livornese.altervista.org/index.php?ascii=86#lemma_444"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=86#lemma_444"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

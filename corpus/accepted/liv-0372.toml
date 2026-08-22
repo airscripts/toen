@@ -1,0 +1,30 @@
+id = "liv-0372"
+canonical = "Rufolà"
+lemma = "rufolà"
+kind = "lexeme"
+gloss_it = "Cercare rovistando qua e là"
+gloss_en = "To rummage around"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["rufolare"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Smetti di rufolà nei cassetti e chiedimi prima."
+italian = "Smetti di rovistare nei cassetti e chiedimi prima."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_124"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_124"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_124"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

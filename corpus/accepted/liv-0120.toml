@@ -1,0 +1,30 @@
+id = "liv-0120"
+canonical = "Ciaffóne"
+lemma = "ciaffóne"
+kind = "lexeme"
+gloss_it = "Schiaffo dato con la mano aperta"
+gloss_en = "A slap delivered with an open hand"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Voce colloquiale per ceffone."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Se continui a fa’ casino ti parte un ciaffóne."
+italian = "Se continui a fare confusione ti arriva uno schiaffo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_271"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_271"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_271"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

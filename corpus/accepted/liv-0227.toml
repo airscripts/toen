@@ -1,0 +1,30 @@
+id = "liv-0227"
+canonical = "Grogiolà"
+lemma = "grogiolà"
+kind = "lexeme"
+gloss_it = "Cuocere lentamente; stare a crogiolarsi"
+gloss_en = "to simmer; to bask"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["grogiolare", "grogiolarsi", "grogiolassi"]
+usage_notes = "Nel riflessivo la pronuncia indicata è grogiolassi; voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Lascia grogiolà il sugo piano piano."
+italian = "Lascia cuocere lentamente il sugo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_331"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_331"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_331"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

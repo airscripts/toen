@@ -1,0 +1,30 @@
+id = "liv-0145"
+canonical = "Disfattùra"
+lemma = "disfattùra"
+kind = "lexeme"
+gloss_it = "autodemolizione, sfasciacarrozze"
+gloss_en = "vehicle scrapyard"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "La macchina vecchia l'abbiamo portata in disfattùra."
+italian = "Abbiamo portato la macchina vecchia allo sfasciacarrozze."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=68#lemma_584"
+url = "https://livornese.altervista.org/index.php?ascii=68#lemma_584"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=68#lemma_584"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

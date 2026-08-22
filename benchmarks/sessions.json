@@ -1,0 +1,104 @@
+[
+  {
+    "id": "session-001",
+    "language": "english",
+    "kind": "diagnosis",
+    "turns": [
+      {"prompt": "A Rust release job fails only with `cargo test --locked`; ask for the minimum evidence you need.", "protected": ["cargo test --locked"]},
+      {"prompt": "The log says Cargo.lock needs to be updated, while local tests pass without `--locked`. Diagnose it.", "protected": ["--locked"]},
+      {"prompt": "Give the smallest safe fix; do not suggest deleting Cargo.lock.", "protected": ["Cargo.lock"]},
+      {"prompt": "Now the Linux job passes but Windows reports `C:\\work\\toen\\Cargo.lock` missing. Explain the likely fixture mistake.", "protected": ["C:\\work\\toen\\Cargo.lock"]},
+      {"prompt": "Propose one cross-platform assertion for that path.", "protected": []},
+      {"prompt": "The archive checksum also differs between two runs. Name the first metadata field to inspect.", "protected": []},
+      {"prompt": "Assume ZIP timestamps differ. State the deterministic remedy.", "protected": []},
+      {"prompt": "Summarize the two independent root causes in two items.", "protected": []},
+      {"prompt": "Which checks belong in CI, and which should remain a manual live benchmark?", "protected": []},
+      {"prompt": "Give a final five-line handoff preserving `cargo test --locked` exactly.", "protected": ["cargo test --locked"]}
+    ]
+  },
+  {
+    "id": "session-002",
+    "language": "english",
+    "kind": "planning",
+    "turns": [
+      {"prompt": "Plan a source review for 500 Livornese TOML records without copying source pages.", "protected": ["500", "TOML"]},
+      {"prompt": "Add an exact 80-record runtime-core gate split 50/30.", "protected": ["80", "50/30"]},
+      {"prompt": "How should disputed and historical entries be separated?", "protected": []},
+      {"prompt": "Add a rule that general Tuscan evidence cannot qualify a record alone.", "protected": []},
+      {"prompt": "Define the minimum evidence locator fields.", "protected": []},
+      {"prompt": "Include reviewer identity and review date.", "protected": []},
+      {"prompt": "Add deterministic generation and a 750-token gate.", "protected": ["750"]},
+      {"prompt": "Add a check for ASCII `de` versus prose `dé`.", "protected": ["de", "dé"]},
+      {"prompt": "Reduce the plan to release-blocking checks only.", "protected": []},
+      {"prompt": "Return a final ordered checklist with no introduction.", "protected": []}
+    ]
+  },
+  {
+    "id": "session-003",
+    "language": "italian",
+    "kind": "review",
+    "turns": [
+      {"prompt": "Rivedi una pipeline che pubblica una release prima di verificare `sha256sum --check`.", "protected": ["sha256sum --check"]},
+      {"prompt": "La job di pubblicazione ha `contents: write` a livello globale. Indica il rischio.", "protected": ["contents: write"]},
+      {"prompt": "Proponi la permessione minima per le job non pubblicanti.", "protected": []},
+      {"prompt": "La pipeline accetta tag `v*` senza confrontarlo con VERSION. Trova il difetto.", "protected": ["v*", "VERSION"]},
+      {"prompt": "Aggiungi il controllo della voce corrispondente in CHANGELOG.md.", "protected": ["CHANGELOG.md"]},
+      {"prompt": "Il pacchetto skill omette `agents/openai.yaml`. Spiega l'impatto.", "protected": ["agents/openai.yaml"]},
+      {"prompt": "Ora includi il report benchmark e l'archivio delle evidenze.", "protected": []},
+      {"prompt": "Come impedisci la pubblicazione se i gate statistici falliscono?", "protected": []},
+      {"prompt": "Separa finding bloccanti e miglioramenti.", "protected": []},
+      {"prompt": "Chiudi con una decisione netta: approvata o no, e perché.", "protected": []}
+    ]
+  },
+  {
+    "id": "session-004",
+    "language": "italian",
+    "kind": "testing",
+    "turns": [
+      {"prompt": "Definisci test per `$toen`, `$toen de` e `$toen spengi`.", "protected": ["$toen", "$toen de", "$toen spengi"]},
+      {"prompt": "Aggiungi attivazione Ammodino e Arranda.", "protected": []},
+      {"prompt": "Aggiungi task inline dopo il cambio modalità.", "protected": []},
+      {"prompt": "Verifica che un argomento sconosciuto non cambi stato.", "protected": []},
+      {"prompt": "Verifica il reset in una nuova sessione.", "protected": []},
+      {"prompt": "Verifica la persistenza con resume.", "protected": []},
+      {"prompt": "Verifica la persistenza dopo compaction.", "protected": []},
+      {"prompt": "Aggiungi casi per input inglese, italiano e livornese.", "protected": []},
+      {"prompt": "Aggiungi preservazione esatta di `/tmp/a`, `v0.1.0` e `https://example.com/x`.", "protected": ["/tmp/a", "v0.1.0", "https://example.com/x"]},
+      {"prompt": "Restituisci una matrice compatta caso/aspettativa.", "protected": []}
+    ]
+  },
+  {
+    "id": "session-005",
+    "language": "livornese",
+    "kind": "diagnosis",
+    "turns": [
+      {"prompt": "Dé, `toenctl generate --check` dice che SKILL.md è vecchio: dimmi da dove parti.", "protected": ["toenctl generate --check", "SKILL.md"]},
+      {"prompt": "Il file generato c'ha 751 token, limite 750. Diagnosi secca.", "protected": ["751", "750"]},
+      {"prompt": "Un mi levà regole di sicurezza: proponi un taglio che un cambi il senso.", "protected": []},
+      {"prompt": "Ora siamo a 700 token. Icché va registrato ner manifest?", "protected": ["700"]},
+      {"prompt": "L'hash ner manifest un torna. Qual è la causa più probabile?", "protected": []},
+      {"prompt": "Il generatore usa CRLF su Windows. Dammi la correzione deterministica.", "protected": ["CRLF"]},
+      {"prompt": "Aggiungi un test che fallisca se cambia anche solo un byte.", "protected": []},
+      {"prompt": "E il conteggio parole con `wc -w` basta?", "protected": ["wc -w"]},
+      {"prompt": "Spiega perché serve il tokenizer vero in una frase.", "protected": []},
+      {"prompt": "Bòna: fammi il riepilogo finale in quattro righe.", "protected": []}
+    ]
+  },
+  {
+    "id": "session-006",
+    "language": "livornese",
+    "kind": "planning",
+    "turns": [
+      {"prompt": "Dé, pianifica 'na campagna con 54 scenari e 6 sessioni da dieci turni.", "protected": ["54", "6"]},
+      {"prompt": "Ci voglio quattro condizioni: italiano, italiano terso, Ammodino e Arranda.", "protected": []},
+      {"prompt": "Falla su `gpt-5.6-sol` e `gpt-5.6-luna`, reasoning medium.", "protected": ["gpt-5.6-sol", "gpt-5.6-luna"]},
+      {"prompt": "Tre ripetizioni, e salva l'uso token der provider.", "protected": []},
+      {"prompt": "Le prove d'implementazione le voglio in repo-fixture freschi e senza rete.", "protected": []},
+      {"prompt": "Aggiungi resume senza rifà i run già completi.", "protected": []},
+      {"prompt": "Randomizza alla cieca i confronti per il giudice.", "protected": []},
+      {"prompt": "Metti bootstrap 95% e margine -0.2.", "protected": ["95%", "-0.2"]},
+      {"prompt": "La CI un deve spende token: icché controlla allora?", "protected": []},
+      {"prompt": "Stringi tutto in una checklist operativa.", "protected": []}
+    ]
+  }
+]

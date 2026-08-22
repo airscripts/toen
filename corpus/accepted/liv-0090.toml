@@ -1,0 +1,30 @@
+id = "liv-0090"
+canonical = "Caarèllo"
+lemma = "caarèllo"
+kind = "lexeme"
+gloss_it = "Persona pavida che si spaventa facilmente."
+gloss_en = "A cowardly person who scares easily."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["cacarello"]
+usage_notes = "Insulto generico riferito alla viltà."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fa' 'r caarèllo: vieni co' noi."
+italian = "Non fare il fifone: vieni con noi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_15"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_15"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_15"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

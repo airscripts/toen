@@ -1,0 +1,30 @@
+id = "liv-0427"
+canonical = "Smusà"
+lemma = "smusà"
+kind = "lexeme"
+gloss_it = "Rompere il muso; anche sghignare."
+gloss_en = "To smash someone’s face; also to beat someone up."
+register = "expressive"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["smusare", "smusarsi", "smusassi"]
+usage_notes = "Il riflessivo smusarsi è pronunciato smusassi."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un lo smusà per una battuta, si scherzava."
+italian = "Non rompergli la faccia per una battuta, si stava scherzando."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_88"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_88"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_88"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

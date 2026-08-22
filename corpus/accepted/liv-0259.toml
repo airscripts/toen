@@ -1,0 +1,30 @@
+id = "liv-0259"
+canonical = "Ma fai 'na bullétta?"
+lemma = "ma fai 'na bullétta?"
+kind = "idiom"
+gloss_it = "Stai scherzando? Sei così sciocco da farlo?"
+gloss_en = "Are you kidding? Are you foolish enough to do that?"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["ma fai una burletta?", "Ma fai la bulletta?"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 14
+
+[[examples]]
+livornese = "Ma fai ’na bullétta? Vuoi uscire senza ombrello con questo tempo?"
+italian = "Stai scherzando? Vuoi uscire senza ombrello con questo tempo?"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_493"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_493"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_493"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

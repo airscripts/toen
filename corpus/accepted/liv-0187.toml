@@ -1,0 +1,30 @@
+id = "liv-0187"
+canonical = "Fruffrù"
+lemma = "fruffrù"
+kind = "lexeme"
+gloss_it = "Biscotto leggero formato da due cialde con crema"
+gloss_en = "A light wafer biscuit made of two wafers filled with cream"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["fru-fru"]
+usage_notes = "Voce segnalata come in pericolo d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "A merenda mi prendo un fruffrù al cioccolato."
+italian = "A merenda prendo un biscotto fru-fru al cioccolato."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_299"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_299"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_299"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0017"
+canonical = "Antùa"
+lemma = "antùa"
+kind = "lexeme"
+gloss_it = "Fastidio, noia o senso di uggia"
+gloss_en = "Irritation, boredom, or a feeling of dreariness"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Indica una sensazione persistente di tedio o fastidio."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Che antùa aspettà sempre il mi' turno."
+italian = "Che noia aspettare sempre il mio turno."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_306"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_306"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_306"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

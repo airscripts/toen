@@ -1,0 +1,30 @@
+id = "liv-0177"
+canonical = "Figùra"
+lemma = "figùra"
+kind = "lexeme"
+gloss_it = "Persona simpatica e generalmente benvoluta"
+gloss_en = "A person who is likable and popular with most people"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 38
+
+[[examples]]
+livornese = "Tuo fratello è proprio una figùra."
+italian = "Tuo fratello è davvero una persona simpatica."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_402"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_402"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_402"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

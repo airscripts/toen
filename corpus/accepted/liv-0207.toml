@@ -1,0 +1,30 @@
+id = "liv-0207"
+canonical = "Ghìgna"
+lemma = "ghìgna"
+kind = "lexeme"
+gloss_it = "Viso o faccia, spesso in senso positivo"
+gloss_en = "face, often affectionately"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "A Livorno non implica necessariamente un’espressione arcigna; può essere un complimento, soprattutto rivolto a un bambino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Che bella ghìgna c’hai stamani!"
+italian = "Che bella faccia hai stamattina!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_115"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_115"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_115"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

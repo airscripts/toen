@@ -1,0 +1,30 @@
+id = "liv-0095"
+canonical = "Caminà"
+lemma = "caminà"
+kind = "lexeme"
+gloss_it = "Camminare, spostarsi a piedi."
+gloss_en = "To walk or move on foot."
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["caminare"]
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 21
+
+[[examples]]
+livornese = "Caminà fino ar porto ci vole dieci minuti."
+italian = "Per camminare fino al porto ci vogliono dieci minuti."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_18"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_18"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_18"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

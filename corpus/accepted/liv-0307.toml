@@ -1,0 +1,30 @@
+id = "liv-0307"
+canonical = "Patàna"
+lemma = "patàna"
+kind = "lexeme"
+gloss_it = "Giornata di bonaccia completa."
+gloss_en = "A windless day at sea."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Riferita alla totale assenza di vento e alla calma del mare."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Oggi è una patàna, un si move nemmeno una vela."
+italian = "Oggi c’è bonaccia, non si muove nemmeno una vela."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_521"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_521"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_521"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

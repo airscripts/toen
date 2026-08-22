@@ -1,0 +1,30 @@
+id = "liv-0181"
+canonical = "Fióso"
+lemma = "fióso"
+kind = "lexeme"
+gloss_it = "Persona che teme troppo il dolore e si lamenta facilmente"
+gloss_en = "Someone who is overly afraid of pain and complains easily"
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = ["ficoso"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione adjective."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fa' il fióso, è solo una puntura."
+italian = "Non fare il fifone, è solo una puntura."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_241"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_241"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_241"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

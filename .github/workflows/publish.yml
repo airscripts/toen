@@ -1,0 +1,53 @@
+name: Publish Release
+
+on:
+  workflow_call:
+    inputs:
+      tag:
+        required: true
+        type: string
+
+      version:
+        required: true
+        type: string
+
+      prerelease:
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/download-artifact@v8
+        name: Download Release Notes
+
+        with:
+          name: toen-release-notes-${{ inputs.version }}
+          path: release
+
+      - uses: actions/download-artifact@v8
+        name: Download Release Archives
+
+        with:
+          name: toen-v${{ inputs.version }}-archives
+          path: release/assets
+
+      - run: find release/assets -maxdepth 1 -type f | sort
+        name: List Release Assets
+
+      - uses: softprops/action-gh-release@v3
+        name: Publish GitHub Release
+
+        with:
+          tag_name: ${{ inputs.tag }}
+          name: Toen ${{ inputs.tag }}
+          body_path: release/release-notes.md
+          prerelease: ${{ inputs.prerelease }}
+          files: release/assets/*

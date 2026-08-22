@@ -1,0 +1,30 @@
+id = "liv-0244"
+canonical = "Lécca"
+lemma = "lécca"
+kind = "lexeme"
+gloss_it = "Tiro estremamente forte, sventola, bordata."
+gloss_en = "A very powerful shot or smash."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["lécche"]
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Gli ha tirato una lécca che il portiere l’ha vista dopo."
+italian = "Ha tirato una bordata che il portiere l’ha vista dopo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=76#lemma_37"
+url = "https://livornese.altervista.org/index.php?ascii=76#lemma_37"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=76#lemma_37"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0033"
+canonical = "Asservà"
+lemma = "asservà"
+kind = "lexeme"
+gloss_it = "conservare qualcosa per affetto o per il futuro"
+gloss_en = "to save something because it is dear or for later use"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["asservare"]
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 28
+
+[[examples]]
+livornese = "Asservà quel biglietto, che magari ci servirà."
+italian = "Conserva quel biglietto, che magari ci servirà."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_130"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_130"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_130"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

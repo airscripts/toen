@@ -1,0 +1,30 @@
+id = "liv-0266"
+canonical = "Mànfano"
+lemma = "mànfano"
+kind = "lexeme"
+gloss_it = "Organo genitale maschile; anche uomo rozzo e maleducato."
+gloss_en = "Male genital organ; also a crude, ill-mannered man."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come endangered; il secondo uso è insultante ma generico."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel mànfano ha lasciato tutto zozzo sul tavolo."
+italian = "Quello zotico ha lasciato tutto sporco sul tavolo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_615"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_615"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_615"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

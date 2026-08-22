@@ -1,0 +1,30 @@
+id = "liv-0470"
+canonical = "Tòpa 2"
+lemma = "tòpa 2"
+kind = "lexeme"
+gloss_it = "Copricapo di pelliccia simile al colbacco"
+gloss_en = "Fur hat resembling a papakha"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Mettiti la tòpa, fòri tira un vento cane."
+italian = "Mettiti il copricapo di pelliccia, fuori tira un vento terribile."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_483"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_483"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_483"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

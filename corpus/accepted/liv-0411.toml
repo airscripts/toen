@@ -1,0 +1,30 @@
+id = "liv-0411"
+canonical = "Sfavàto"
+lemma = "sfavàto"
+kind = "lexeme"
+gloss_it = "Annoiato e scoglionato."
+gloss_en = "Bored and fed up."
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione adjective."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sono sfavàto, qui un succede mai nulla."
+italian = "Sono annoiato, qui non succede mai niente."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_282"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_282"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_282"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

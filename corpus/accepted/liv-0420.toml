@@ -1,0 +1,30 @@
+id = "liv-0420"
+canonical = "Sgroppà"
+lemma = "sgroppà"
+kind = "lexeme"
+gloss_it = "Faticare molto, studiando o lavorando sodo."
+gloss_en = "To work or study very hard."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["sgroppare"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 25
+
+[[examples]]
+livornese = "Ho sgroppato tutta la settimana per finì il progetto."
+italian = "Ho faticato tutta la settimana per finire il progetto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_692"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_692"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_692"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

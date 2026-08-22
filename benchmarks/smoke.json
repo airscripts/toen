@@ -1,0 +1,18 @@
+{
+  "adapter": "codex",
+  "campaign": "smoke",
+  "ci_mode": "check-only",
+  "conditions": [
+    "italian",
+    "terse_italian",
+    "ammodino",
+    "arranda"
+  ],
+  "model": "gpt-5.6-luna",
+  "reasoning": "medium",
+  "repetitions": 1,
+  "scenarios": 12,
+  "schema_version": 1,
+  "source_scenarios": 54,
+  "source_sessions": 6
+}

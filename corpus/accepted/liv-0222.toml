@@ -1,0 +1,30 @@
+id = "liv-0222"
+canonical = "Gozzóne"
+lemma = "gozzóne"
+kind = "lexeme"
+gloss_it = "Forte colpo dato alla gola con la mano"
+gloss_en = "hard hand strike to the throat"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Gli ha mollato un gozzóne e s’è zittito."
+italian = "Gli ha dato un forte colpo alla gola e si è zittito."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_291"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_291"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_291"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

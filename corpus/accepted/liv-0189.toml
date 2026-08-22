@@ -1,0 +1,30 @@
+id = "liv-0189"
+canonical = "Fumàcchi"
+lemma = "fumàcchi"
+kind = "lexeme"
+gloss_it = "Inalazioni di vapore caldo, suffumigi"
+gloss_en = "Hot-steam inhalations or steam treatments"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in pericolo d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "La nonna s'è fatta i fumàcchi col catino d'acqua calda."
+italian = "La nonna ha fatto i suffumigi con una bacinella d'acqua calda."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_568"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_568"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_568"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

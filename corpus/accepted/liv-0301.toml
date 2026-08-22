@@ -1,0 +1,30 @@
+id = "liv-0301"
+canonical = "Pallétio"
+lemma = "pallétio"
+kind = "lexeme"
+gloss_it = "Tremore involontario o fastidio insistente."
+gloss_en = "An involuntary tremor or persistent annoyance."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["palletico"]
+usage_notes = "Può indicare sia un movimento nervoso sia noia o fastidio."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un mi passà il pallétio alla gamba da stamani."
+italian = "Non mi passa il tremore alla gamba da stamattina."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_476"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_476"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_476"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

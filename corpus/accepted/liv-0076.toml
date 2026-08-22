@@ -1,0 +1,30 @@
+id = "liv-0076"
+canonical = "Brùcia"
+lemma = "brùcia"
+kind = "idiom"
+gloss_it = "Voce usata soltanto nell’espressione fare brucia"
+gloss_en = "Word used only in the expression fare brucia"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Non è attestata autonomamente: compare solo nella locuzione fare brucia."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fare brùcia co' codesti discorsi."
+italian = "Non fare il gradasso con questi discorsi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_13"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_13"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_13"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

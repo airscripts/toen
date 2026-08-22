@@ -1,0 +1,30 @@
+id = "liv-0332"
+canonical = "Pottàta"
+lemma = "pottàta"
+kind = "lexeme"
+gloss_it = "Eccesso vistoso, lussuoso o spettacolare; anche cosa ammirevole."
+gloss_en = "A flashy, extravagant or spectacular display; sometimes an object of admiration."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il significato varia secondo il contesto e può essere negativo o ammirativo."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Boia, che pottàta quella macchina nuova!"
+italian = "Accidenti, che macchina nuova esagerata e spettacolare!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_623"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_623"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_623"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

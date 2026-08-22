@@ -1,0 +1,30 @@
+id = "liv-0211"
+canonical = "Giacchettàta"
+lemma = "giacchettàta"
+kind = "lexeme"
+gloss_it = "Cosa facile o di poco conto"
+gloss_en = "easy task or trivial matter"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sistemà quella mensola è una giacchettàta."
+italian = "Sistemare quella mensola è una cosa da poco."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_565"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_565"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_565"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

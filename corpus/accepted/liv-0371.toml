@@ -1,0 +1,30 @@
+id = "liv-0371"
+canonical = "Rufiàno"
+lemma = "rufiàno"
+kind = "lexeme"
+gloss_it = "Persona che cerca il favore altrui con adulazioni"
+gloss_en = "A sycophant who seeks favor through flattery"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Forma segnalata come a rischio d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel rufiàno fa i complimenti solo quando gli serve qualcosa."
+italian = "Quel ruffiano fa complimenti solo quando gli serve qualcosa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_63"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_63"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_63"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

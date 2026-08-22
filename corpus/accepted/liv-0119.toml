@@ -1,0 +1,30 @@
+id = "liv-0119"
+canonical = "Ciaccióne"
+lemma = "ciaccióne"
+kind = "lexeme"
+gloss_it = "Persona ficcanaso che si impiccia degli affari altrui"
+gloss_en = "A nosy person who meddles in others’ affairs"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["ciaccino"]
+usage_notes = "Indica chi non si fa mai gli affari propri."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel ciaccióne sa già tutto prima di noi."
+italian = "Quel ficcanaso sa già tutto prima di noi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_23"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_23"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_23"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

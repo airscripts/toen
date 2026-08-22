@@ -1,0 +1,132 @@
+name: Test
+
+on:
+  workflow_call:
+    inputs:
+      ref:
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  installation:
+    name: Clean Plugin Installation
+    runs-on: ubuntu-latest
+    container:
+      image: rust:1.89-bookworm@sha256:948f9b08a66e7fe01b03a98ef1c7568292e07ec2e4fe90d88c07bb14563c84ff
+      options: --user root
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v7
+        name: Checkout Code
+
+        with:
+          ref: ${{ inputs.ref || github.ref }}
+
+      - uses: actions/setup-node@v7
+        name: Install Node.js
+
+        with:
+          node-version: "24"
+
+      - run: npm install --global @openai/codex@0.147.0
+        name: Install Pinned Codex CLI
+
+      - run: mkdir --parents "$CODEX_HOME"
+        name: Create Isolated Codex Home
+
+        env:
+          CODEX_HOME: ${{ runner.temp }}/toen-codex-home
+
+      - run: codex plugin marketplace add "$GITHUB_WORKSPACE" --json
+        name: Add Local Marketplace
+
+        env:
+          CODEX_HOME: ${{ runner.temp }}/toen-codex-home
+
+      - run: codex plugin add toen --marketplace toen
+        name: Install Toen
+
+        env:
+          CODEX_HOME: ${{ runner.temp }}/toen-codex-home
+
+      - run: codex plugin list --json
+        name: Inspect Installed Plugin
+
+        env:
+          CODEX_HOME: ${{ runner.temp }}/toen-codex-home
+
+  linux-container:
+    name: Linux Container
+    runs-on: ubuntu-latest
+    container:
+      image: rust:1.89-bookworm@sha256:948f9b08a66e7fe01b03a98ef1c7568292e07ec2e4fe90d88c07bb14563c84ff
+      options: --user root
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v7
+        name: Checkout Code
+
+        with:
+          ref: ${{ inputs.ref || github.ref }}
+
+      - run: |
+          apt-get update
+          apt-get install --yes --no-install-recommends ca-certificates curl make python3 unzip
+          rustup component add llvm-tools-preview
+          rm -rf /var/lib/apt/lists/*
+        name: Prepare Container Runtime
+
+      - run: cargo install cargo-llvm-cov --version 0.8.7 --locked
+        name: Install Coverage Tool
+
+      - run: cargo llvm-cov --fail-under-lines 81 --workspace --all-targets --locked --html
+        name: Run Tests and Coverage
+        env:
+          CARGO_BUILD_JOBS: 4
+
+      - uses: actions/upload-artifact@v7
+        name: Upload Coverage Report
+
+        with:
+          name: toen-coverage-${{ github.run_id }}
+          path: target/llvm-cov/
+
+      - run: cargo run --release --locked --bin toenctl -- bench smoke --check
+        name: Check Smoke Manifest
+
+  native:
+    name: Native
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v7
+        name: Checkout Code
+
+        with:
+          ref: ${{ inputs.ref || github.ref }}
+
+      - uses: dtolnay/rust-toolchain@1.89
+        name: Install Rust Toolchain
+
+      - uses: Swatinem/rust-cache@v2
+        name: Cache Cargo
+
+      - run: cargo test --workspace --all-targets --locked
+        name: Run Tests
+
+        env:
+          CARGO_BUILD_JOBS: 4
+
+      - run: cargo run --release --locked --bin toenctl -- bench smoke --check
+        name: Check Smoke Manifest

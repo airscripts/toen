@@ -1,0 +1,30 @@
+id = "liv-0451"
+canonical = "Strónzolo"
+lemma = "strónzolo"
+kind = "lexeme"
+gloss_it = "persona spregevole, più incisivo di stronzo"
+gloss_en = "detestable person, more forceful than “asshole”"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Insulto vivo e ancora usato; non è considerato una voce desueta."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel strónzolo m’ha lasciato tutto er lavoro da fa’."
+italian = "Quello stronzo mi ha lasciato tutto il lavoro da fare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_78"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_78"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_78"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

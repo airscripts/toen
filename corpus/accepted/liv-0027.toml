@@ -1,0 +1,30 @@
+id = "liv-0027"
+canonical = "Arrocchettà"
+lemma = "arrocchettà"
+kind = "lexeme"
+gloss_it = "Avere disagio fisico per il freddo"
+gloss_en = "To feel physically uncomfortable because of the cold"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["arrocchettare"]
+usage_notes = "Sinonimo di zizzolà; descrive il disagio provocato dal freddo."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Arrocchetto da morì, chiudi codesta finestra!"
+italian = "Sto gelando, chiudi quella finestra!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_365"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_365"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_365"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0102"
+canonical = "Caóne"
+lemma = "caóne"
+kind = "lexeme"
+gloss_it = "Sgradevole nell’aspetto o nel sapore"
+gloss_en = "Unpleasant-looking or bad-tasting"
+register = "expressive"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = ["cacone"]
+usage_notes = "Può descrivere sia l’aspetto sia il gusto di qualcosa."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Questo sugo è proprio caóne, lascialo perde."
+italian = "Questo sugo è davvero sgradevole, lascia perdere."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_601"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_601"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_601"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

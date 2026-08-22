@@ -1,0 +1,30 @@
+id = "liv-0309"
+canonical = "Pattóne"
+lemma = "pattóne"
+kind = "lexeme"
+gloss_it = "Accrescitivo maschile di “patta”."
+gloss_en = "The masculine augmentative form of “patta”."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "La forma è maschile; la descrizione esclude “pattona”."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Guarda che pattóne tu c’hai combinato!"
+italian = "Guarda che gran pasticcio hai combinato!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_180"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_180"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_180"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0009"
+canonical = "Aiò"
+lemma = "aiò"
+kind = "particle"
+gloss_it = "Esclamazione di avvertimento e attenzione"
+gloss_en = "A warning telling someone to watch out"
+register = "expressive"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Equivale a un richiamo come “Attenzione!” o “Occhio!”."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 3
+
+[[examples]]
+livornese = "Aiò, guarda 'ndove metti i piedi!"
+italian = "Attento, guarda dove metti i piedi!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_219"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_219"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_219"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

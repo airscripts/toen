@@ -1,0 +1,30 @@
+id = "liv-0437"
+canonical = "Spucià"
+lemma = "spucià"
+kind = "lexeme"
+gloss_it = "vincere con grande distacco"
+gloss_en = "to win by a wide margin"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["spuciare"]
+usage_notes = "Voce indicata come in via d’estinzione; equivale a vincere con una cenciata."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "I ragazzi hanno spuciàto la partita senza sudà."
+italian = "I ragazzi hanno vinto la partita con grande distacco senza faticare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_559"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_559"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_559"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0360"
+canonical = "Rinfiosecchìto"
+lemma = "rinfiosecchìto"
+kind = "lexeme"
+gloss_it = "Molto dimagrito e raggrinzito, come un fico secco"
+gloss_en = "Severely shrunken and wrinkled, like a dried fig"
+register = "everyday"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = ["rinficosecchìto"]
+usage_notes = "Può riferirsi anche a cibo molto disidratato e ormai poco appetibile."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel cacio è rinfiosecchìto, buttalo via."
+italian = "Quel formaggio è tutto secco e raggrinzito, buttalo via."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_378"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_378"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_378"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

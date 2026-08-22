@@ -1,0 +1,30 @@
+id = "liv-0461"
+canonical = "Telà"
+lemma = "telà"
+kind = "lexeme"
+gloss_it = "fuggire o svignarsela"
+gloss_en = "to run away or make oneself scarce"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["telare"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 33
+
+[[examples]]
+livornese = "Appena vede i carabinieri, decide di telà."
+italian = "Appena vede i carabinieri, decide di scappare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_296"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_296"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_296"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

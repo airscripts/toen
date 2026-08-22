@@ -1,0 +1,30 @@
+id = "liv-0190"
+canonical = "Furminànti"
+lemma = "furminànti"
+kind = "lexeme"
+gloss_it = "Piccole capsule esplosive per pistole giocattolo"
+gloss_en = "Small explosive caps for toy pistols"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["fulminanti"]
+usage_notes = "Voce segnalata come in pericolo d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Da bimbetto mettevo i furminànti nella pistola giocattolo."
+italian = "Da bambino mettevo i fulminanti nella pistola giocattolo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_594"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_594"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_594"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

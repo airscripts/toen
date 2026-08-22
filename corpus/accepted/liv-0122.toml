@@ -1,0 +1,30 @@
+id = "liv-0122"
+canonical = "Cinqueccìnque"
+lemma = "cinqueccìnque"
+kind = "lexeme"
+gloss_it = "Panino con torta di ceci"
+gloss_en = "A bread roll filled with chickpea flatbread"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["cinque e cinque"]
+usage_notes = "Specialità livornese composta da pane e torta di ceci; fuori Livorno la torta è spesso chiamata cecìna."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "A colazione mi piglio un cinqueccìnque caldo."
+italian = "A colazione prendo un panino con torta di ceci caldo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_364"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_364"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_364"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

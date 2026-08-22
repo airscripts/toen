@@ -1,0 +1,30 @@
+id = "liv-0077"
+canonical = "Bùa dell'orate"
+lemma = "bùa dell'orate"
+kind = "idiom"
+gloss_it = "Luogo o situazione molto favorevole e fortunata."
+gloss_en = "A particularly lucky or advantageous place or situation."
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["buca delle orate"]
+usage_notes = "Locuzione attestata come endangered."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Con quer vento alle spalle s'è trovata ner bùa dell'orate."
+italian = "Con quel vento alle spalle si è trovata in una situazione davvero favorevole."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_604"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_604"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_604"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

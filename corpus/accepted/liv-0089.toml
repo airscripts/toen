@@ -1,0 +1,30 @@
+id = "liv-0089"
+canonical = "Caarèlla"
+lemma = "caarèlla"
+kind = "lexeme"
+gloss_it = "Paura intensa, fifa."
+gloss_en = "Fear or a bad fright."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["cacarella"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "M'ha preso la caarèlla quando ho sentito quel botto."
+italian = "Mi è venuta una gran paura quando ho sentito quel botto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_535"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_535"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_535"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

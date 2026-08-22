@@ -1,0 +1,30 @@
+id = "liv-0186"
+canonical = "Fràte"
+lemma = "fràte"
+kind = "lexeme"
+gloss_it = "Ciambella fritta passata nello zucchero"
+gloss_en = "A fried ring doughnut coated in sugar"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "La mattina il fràte caldo va via subito."
+italian = "La mattina il frate caldo finisce subito."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_32"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_32"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_32"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0316"
+canonical = "Pezzìna"
+lemma = "pezzìna"
+kind = "lexeme"
+gloss_it = "Assorbente mestruale, in modo volgare."
+gloss_en = "A vulgar term for a menstrual pad."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Definizione esplicitamente volgare; forma segnalata come in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Devo comprà le pezzìne prima di tornà a casa."
+italian = "Devo comprare gli assorbenti prima di tornare a casa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_301"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_301"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_301"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

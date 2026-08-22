@@ -1,0 +1,30 @@
+id = "liv-0224"
+canonical = "Grandiglióne"
+lemma = "grandiglióne"
+kind = "lexeme"
+gloss_it = "Ragazzo cresciuto fisicamente ma ancora infantile"
+gloss_en = "physically grown but childish boy"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "È un grandiglióne: pare grande, ma vole sempre gioà."
+italian = "È un ragazzo cresciuto: sembra grande, ma vuole sempre giocare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_672"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_672"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_672"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0168"
+canonical = "Fare la masa"
+lemma = "fare la masa"
+kind = "idiom"
+gloss_it = "Sfregare scherzosamente la testa con le nocche"
+gloss_en = "To rub someone’s head with one’s knuckles as a teasing punishment"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Punizione scherzosa e dolorosa; locuzione indicata come in via d'estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Se vinci, ti faccio la masa come l'altra volta."
+italian = "Se vinci, ti strofino la testa con le nocche come l'altra volta."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_497"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_497"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_497"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

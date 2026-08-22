@@ -1,0 +1,30 @@
+id = "liv-0294"
+canonical = "Oimmèi"
+lemma = "oimmèi"
+kind = "particle"
+gloss_it = "Interiezione per esprimere insofferenza o dolore."
+gloss_en = "An interjection expressing annoyance or pain."
+register = "expressive"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = ["oimmène", "oimmèna", "uimmèna", "uimmène", "uimmèi", "aimmène", "aimmèi", "immène", "immèna", "immèi"]
+usage_notes = "Pronuncia e forma variano; è una corruzione lessicale di ahimè e ohimè. House spelling: dé, not dè."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 9
+
+[[examples]]
+livornese = "Oimmèi, che mal di schiena stamani!"
+italian = "Ahimè, che mal di schiena stamattina!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=79#lemma_348"
+url = "https://livornese.altervista.org/index.php?ascii=79#lemma_348"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=79#lemma_348"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

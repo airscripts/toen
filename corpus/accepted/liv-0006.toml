@@ -1,0 +1,30 @@
+id = "liv-0006"
+canonical = "Affriàno"
+lemma = "affriàno"
+kind = "lexeme"
+gloss_it = "Africano"
+gloss_en = "African"
+register = "everyday"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = ["affricano"]
+usage_notes = "Forma livornese corrispondente all'italiano “africano”."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel ristorante fa un caffè affriàno bello forte."
+italian = "Quel ristorante fa un caffè africano molto forte."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_2"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_2"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_2"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

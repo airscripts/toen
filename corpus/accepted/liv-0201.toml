@@ -1,0 +1,30 @@
+id = "liv-0201"
+canonical = "Gastìgo"
+lemma = "gastìgo"
+kind = "lexeme"
+gloss_it = "Castigo, punizione"
+gloss_en = "Punishment or penalty"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in pericolo d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Per quel casino s'è preso un gastìgo dalla maestra."
+italian = "Per quel baccano ha ricevuto una punizione dalla maestra."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_300"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_300"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_300"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

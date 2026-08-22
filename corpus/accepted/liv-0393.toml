@@ -1,0 +1,30 @@
+id = "liv-0393"
+canonical = "Scazzàta"
+lemma = "scazzàta"
+kind = "lexeme"
+gloss_it = "Colpo di fortuna inatteso."
+gloss_en = "A lucky break or stroke of luck."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Espressione informale per una fortuna improvvisa."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 29
+
+[[examples]]
+livornese = "Vincere quel premio è stata una scazzàta enorme."
+italian = "Vincere quel premio è stato un colpo di fortuna enorme."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_171"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_171"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_171"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

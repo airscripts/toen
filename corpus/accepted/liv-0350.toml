@@ -1,0 +1,30 @@
+id = "liv-0350"
+canonical = "Rassegà"
+lemma = "rassegà"
+kind = "lexeme"
+gloss_it = "intirizzirsi e accartocciarsi per il freddo"
+gloss_en = "to shrivel or huddle up from the cold"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["rassegare"]
+usage_notes = "Voce segnalata come endangered."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Co’ ’sto vento mi rassego tutto prima d’arrivà a casa."
+italian = "Con questo vento mi intirizzisco tutto prima di arrivare a casa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_415"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_415"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_415"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

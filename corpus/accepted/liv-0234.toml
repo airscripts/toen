@@ -1,0 +1,30 @@
+id = "liv-0234"
+canonical = "Impermiàbile"
+lemma = "impermiàbile"
+kind = "lexeme"
+gloss_it = "impermeabile"
+gloss_en = "waterproof coat"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Forma attestata a Livorno; segnalata come in possibile declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Mettiti l'impermiàbile, che sta per piove."
+italian = "Mettiti l'impermeabile, perché sta per piovere."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=73#lemma_265"
+url = "https://livornese.altervista.org/index.php?ascii=73#lemma_265"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=73#lemma_265"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

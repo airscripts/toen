@@ -1,0 +1,30 @@
+id = "liv-0325"
+canonical = "Pìpi"
+lemma = "pìpi"
+kind = "lexeme"
+gloss_it = "organo genitale maschile, soprattutto riferito ai bambini"
+gloss_en = "male genitals, especially when referring to children"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Di solito non richiama pratiche sessuali ed è usato soprattutto parlando di bambini."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Da piccolo s’era fatto male ar pìpi giocando."
+italian = "Da piccolo si era fatto male al pisellino giocando."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_57"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_57"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_57"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

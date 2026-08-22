@@ -1,0 +1,30 @@
+id = "liv-0302"
+canonical = "Pallétte"
+lemma = "pallétte"
+kind = "lexeme"
+gloss_it = "Nomignolo affettuoso per “palle”."
+gloss_en = "A more affectionate nickname for “palle”."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Alternativa frequente a “palle”; segnalata come forma in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Oh Pallétte, vieni a mangià!"
+italian = "Ehi Pallétte, vieni a mangiare!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_413"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_413"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_413"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

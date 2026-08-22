@@ -1,0 +1,30 @@
+id = "liv-0212"
+canonical = "Giografìa"
+lemma = "giografìa"
+kind = "lexeme"
+gloss_it = "Geografia"
+gloss_en = "geography"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Domani ho l’interrogazione di giografìa."
+italian = "Domani ho l’interrogazione di geografia."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_273"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_273"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_273"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

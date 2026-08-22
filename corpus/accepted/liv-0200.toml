@@ -1,0 +1,30 @@
+id = "liv-0200"
+canonical = "Gargheròzzo"
+lemma = "gargheròzzo"
+kind = "lexeme"
+gloss_it = "Gola, gargarozzo; talvolta pomo d'Adamo"
+gloss_en = "Throat or gullet; sometimes the Adam’s apple"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Può indicare anche specificamente il pomo d'Adamo; voce segnalata come in pericolo d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "M'è rimasto un boccone ner gargheròzzo."
+italian = "Mi è rimasto un boccone in gola."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_627"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_627"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_627"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

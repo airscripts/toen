@@ -1,0 +1,30 @@
+id = "liv-0482"
+canonical = "Trabarcà"
+lemma = "trabarcà"
+kind = "lexeme"
+gloss_it = "scavalcare un ostacolo"
+gloss_en = "to climb over an obstacle"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["trabarcare"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Per entrà nel campo tocca trabarcà il muretto."
+italian = "Per entrare nel campo bisogna scavalcare il muretto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_82"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_82"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_82"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

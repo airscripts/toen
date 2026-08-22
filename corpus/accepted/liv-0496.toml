@@ -1,0 +1,30 @@
+id = "liv-0496"
+canonical = "Zibìllo"
+lemma = "zibìllo"
+kind = "lexeme"
+gloss_it = "Pieno fino all’orlo"
+gloss_en = "Filled to the brim"
+register = "everyday"
+grammatical_role = "adjective"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["zi p illo"]
+usage_notes = "In molte zone di Livorno è preferita la forma zi p illo; voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Er bicchiere è zibìllo, un ce n’entra più nemmeno una goccia."
+italian = "Il bicchiere è colmo, non ci entra più nemmeno una goccia."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=90#lemma_201"
+url = "https://livornese.altervista.org/index.php?ascii=90#lemma_201"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=90#lemma_201"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

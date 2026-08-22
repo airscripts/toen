@@ -1,0 +1,30 @@
+id = "liv-0480"
+canonical = "Tótto"
+lemma = "tótto"
+kind = "lexeme"
+gloss_it = "Voce infantile per dire di non toccare"
+gloss_en = "Child-directed word meaning “don’t touch”"
+register = "everyday"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Uso infantile rivolto ai bambini."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Tótto, amore, un toccà la pentola che scotta."
+italian = "Non toccare, amore, non toccare la pentola perché scotta."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_246"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_246"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_246"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

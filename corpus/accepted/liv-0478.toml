@@ -1,0 +1,30 @@
+id = "liv-0478"
+canonical = "Totterà"
+lemma = "totterà"
+kind = "lexeme"
+gloss_it = "brontolare senza smettere"
+gloss_en = "to grumble incessantly"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["totterare"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fa altro che totterà perché la cena è in ritardo."
+italian = "Non fa altro che brontolare perché la cena è in ritardo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_103"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_103"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_103"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

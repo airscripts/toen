@@ -1,0 +1,30 @@
+id = "liv-0113"
+canonical = "Chìcco"
+lemma = "chìcco"
+kind = "lexeme"
+gloss_it = "Dolciume o caramella"
+gloss_en = "A sweet or confection"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Può indicare anche il ciucciamèlo."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dammi un chìcco, via, che m’è venuta fame."
+italian = "Dammi un dolcetto, dai, perché mi è venuta fame."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_176"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_176"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_176"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

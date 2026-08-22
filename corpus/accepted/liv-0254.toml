@@ -1,0 +1,30 @@
+id = "liv-0254"
+canonical = "Lónze"
+lemma = "lónze"
+kind = "lexeme"
+gloss_it = "Parte grassa che avvolge l’addome."
+gloss_en = "The fatty tissue surrounding a person’s abdomen."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Il singolare lonza è usato raramente; voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Con tutta quella lónze un si piega nemmeno."
+italian = "Con tutta quella pancia grassa non riesce nemmeno a piegarsi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=76#lemma_403"
+url = "https://livornese.altervista.org/index.php?ascii=76#lemma_403"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=76#lemma_403"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0125"
+canonical = "Ciòttolo"
+lemma = "ciòttolo"
+kind = "lexeme"
+gloss_it = "Utensile o recipiente da cucina"
+gloss_en = "A kitchen utensil or piece of crockery"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Termine generico per uno strumento da cucina o una stoviglia."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Lava anche quel ciòttolo prima di mette via tutto."
+italian = "Lava anche quell’utensile prima di mettere via tutto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_106"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_106"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_106"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

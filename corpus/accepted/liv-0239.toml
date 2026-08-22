@@ -1,0 +1,30 @@
+id = "liv-0239"
+canonical = "Incignà"
+lemma = "incignà"
+kind = "lexeme"
+gloss_it = "usare o indossare qualcosa per la prima volta"
+gloss_en = "to use or wear something for the first time"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["incignare"]
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 29
+
+[[examples]]
+livornese = "Oggi incigno le scarpe nove per andà sul lungomare."
+italian = "Oggi indosso per la prima volta le scarpe nuove per andare sul lungomare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=73#lemma_36"
+url = "https://livornese.altervista.org/index.php?ascii=73#lemma_36"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=73#lemma_36"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

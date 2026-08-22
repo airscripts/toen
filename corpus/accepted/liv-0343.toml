@@ -1,0 +1,30 @@
+id = "liv-0343"
+canonical = "Pùnto"
+lemma = "pùnto"
+kind = "lexeme"
+gloss_it = "per niente"
+gloss_en = "not at all"
+register = "colloquial"
+grammatical_role = "adverb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione adverb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 46
+
+[[examples]]
+livornese = "Sei stanco? Pùnto, si riparte."
+italian = "Sei stanco? Per niente, si riparte."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_108"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_108"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_108"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

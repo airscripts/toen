@@ -1,0 +1,30 @@
+id = "liv-0305"
+canonical = "Partàccia"
+lemma = "partàccia"
+kind = "lexeme"
+gloss_it = "Rimprovero accanito e risentito; scenata."
+gloss_en = "A bitter, relentless scolding or tirade."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso expressive con funzione noun."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "S’è preso una partàccia per esse’ rientrato tardi."
+italian = "Si è preso una scenata per essere rientrato tardi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_520"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_520"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_520"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

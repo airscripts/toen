@@ -1,0 +1,30 @@
+id = "liv-0477"
+canonical = "Tórzolo"
+lemma = "tórzolo"
+kind = "lexeme"
+gloss_it = "Persona incapace o sciocca"
+gloss_en = "Good-for-nothing; fool"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Insulto generico; la specifica riporta quattro varianti."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel tórzolo s’è scordato pure le chiavi dentro casa."
+italian = "Quel buono a nulla ha dimenticato persino le chiavi dentro casa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_164"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_164"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_164"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

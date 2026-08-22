@@ -1,0 +1,30 @@
+id = "liv-0026"
+canonical = "Arrizzà"
+lemma = "arrizzà"
+kind = "lexeme"
+gloss_it = "Rizzare o sollevare"
+gloss_en = "To straighten up or lift"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["arrizzare"]
+usage_notes = "Forma livornese per “rizzare” o “sollevare”; vocabolo indicato come endangered."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Arrizzà quella sedia e mettila accanto ar muro."
+italian = "Raddrizza quella sedia e mettila accanto al muro."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_358"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_358"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_358"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

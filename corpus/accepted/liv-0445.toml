@@ -1,0 +1,30 @@
+id = "liv-0445"
+canonical = "Stoppinà"
+lemma = "stoppinà"
+kind = "lexeme"
+gloss_it = "chiudere porte e finestre molto bene; isolarsi in casa"
+gloss_en = "to shut doors and windows tightly; to shut oneself indoors"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["stoppinare"]
+usage_notes = "Può descrivere anche una persona che si chiude in casa per molto tempo."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "S’è stoppinàto in casa e un risponde nemmeno ar telefono."
+italian = "Si è chiuso in casa e non risponde nemmeno al telefono."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_322"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_322"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_322"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

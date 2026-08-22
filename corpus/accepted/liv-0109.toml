@@ -1,0 +1,30 @@
+id = "liv-0109"
+canonical = "Céncio"
+lemma = "céncio"
+kind = "lexeme"
+gloss_it = "straccio per pulire"
+gloss_en = "cleaning rag"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Prendi un céncio e pulisci il pavimento."
+italian = "Prendi uno straccio e pulisci il pavimento."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_551"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_551"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_551"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0380"
+canonical = "Sàrago"
+lemma = "sàrago"
+kind = "lexeme"
+gloss_it = "sonnolenza molto intensa"
+gloss_en = "powerful drowsiness"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "M’è preso un sàrago dopo pranzo, un tengo l’occhi aperti."
+italian = "Mi è venuta una sonnolenza tremenda dopo pranzo, non tengo gli occhi aperti."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_262"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_262"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_262"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0443"
+canonical = "Stiantà"
+lemma = "stiantà"
+kind = "lexeme"
+gloss_it = "schiantare, morire o ridere moltissimo"
+gloss_en = "to drop dead or laugh one’s head off"
+register = "expressive"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["stiantare"]
+usage_notes = "Voce indicata come in via d’estinzione; può riferirsi alla morte o all’ilarità estrema."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Con quella battuta m’ha fatto stianta’ dar ride."
+italian = "Con quella battuta mi ha fatto morire dal ridere."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_422"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_422"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_422"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

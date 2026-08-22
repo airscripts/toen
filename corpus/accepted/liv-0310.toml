@@ -1,0 +1,30 @@
+id = "liv-0310"
+canonical = "Peneróne"
+lemma = "peneróne"
+kind = "lexeme"
+gloss_it = "Giovane sfaccendato che gira senza meta."
+gloss_en = "An aimless, unemployed young loafer."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Accrescitivo di “penero”; forma segnalata come in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel peneróne passa le giornate a girà pe’ i fossi."
+italian = "Quel giovane sfaccendato passa le giornate a girare per i fossi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_591"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_591"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_591"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

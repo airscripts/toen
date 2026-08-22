@@ -1,0 +1,30 @@
+id = "liv-0046"
+canonical = "Battere 'na ghignata"
+lemma = "battere 'na ghignata"
+kind = "idiom"
+gloss_it = "chiedere una relazione e venire respinti"
+gloss_en = "to ask someone out and get rejected"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["battere una ghignata"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Gli ha scritto per uscì e ha battuto 'na ghignata secca."
+italian = "Gli ha scritto per uscire e ha ricevuto un rifiuto netto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_89"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_89"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_89"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

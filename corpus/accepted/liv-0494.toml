@@ -1,0 +1,30 @@
+id = "liv-0494"
+canonical = "Zampàte"
+lemma = "zampàte"
+kind = "lexeme"
+gloss_it = "Impronte di scarpe sul pavimento bagnato"
+gloss_en = "Shoeprints left on a wet floor"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Guarda che zampàte hai lasciato ner corridoio."
+italian = "Guarda che impronte hai lasciato nel corridoio."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=90#lemma_544"
+url = "https://livornese.altervista.org/index.php?ascii=90#lemma_544"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=90#lemma_544"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

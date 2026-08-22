@@ -1,0 +1,30 @@
+id = "liv-0262"
+canonical = "Malidétto"
+lemma = "malidétto"
+kind = "lexeme"
+gloss_it = "Maledetto."
+gloss_en = "Damn; accursed."
+register = "expressive"
+grammatical_role = "adjective"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Malidétto te, m’hai fatto perde il treno."
+italian = "Maledetto te, mi hai fatto perdere il treno."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_40"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_40"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_40"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

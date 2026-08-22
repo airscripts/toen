@@ -1,0 +1,30 @@
+id = "liv-0106"
+canonical = "Cautèrio"
+lemma = "cautèrio"
+kind = "lexeme"
+gloss_it = "Persona malaticcia o ipocondriaca che si lamenta spesso"
+gloss_en = "A sickly or hypochondriacal person who constantly complains"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Appellativo per chi si lamenta continuamente dei propri malanni, reali o presunti."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un cautèrio così ti fa venì il malumore solo a sentillo."
+italian = "Un tipo così malaticcio ti fa venire il malumore solo a sentirlo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_197"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_197"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_197"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

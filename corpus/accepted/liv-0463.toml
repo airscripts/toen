@@ -1,0 +1,30 @@
+id = "liv-0463"
+canonical = "Toccànne"
+lemma = "toccànne"
+kind = "lexeme"
+gloss_it = "prendere molte botte"
+gloss_en = "to get badly beaten"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["toccarne"]
+usage_notes = "Usato nella locuzione con il senso di buscarsi una dura punizione fisica."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Se continui a provocallo, va a finì che toccànne."
+italian = "Se continui a provocarlo, finirai per prendere un sacco di botte."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_98"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_98"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_98"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

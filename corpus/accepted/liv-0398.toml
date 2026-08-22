@@ -1,0 +1,30 @@
+id = "liv-0398"
+canonical = "Scìmmia"
+lemma = "scìmmia"
+kind = "lexeme"
+gloss_it = "Sbornia, forte ubriacatura."
+gloss_en = "Drunken binge."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il significato è indicato come identico a briàa."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ieri sera s'è preso una scìmmia e stamani un si regge in piedi."
+italian = "Ieri sera si è preso una sbronza e stamattina non si regge in piedi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_475"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_475"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_475"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

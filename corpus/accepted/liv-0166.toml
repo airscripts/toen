@@ -1,0 +1,30 @@
+id = "liv-0166"
+canonical = "Fare franèlla"
+lemma = "fare franèlla"
+kind = "idiom"
+gloss_it = "Pomiciare o perdere tempo in compagnia di qualcuno"
+gloss_en = "To make out or waste time fooling around with someone"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il significato secondario è attestato come «gingillarsi, perdere tempo»."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quei due fanno franèlla dietro ar cinema."
+italian = "Quei due amoreggiano dietro al cinema."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_99"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_99"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_99"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0308"
+canonical = "Pàtta"
+lemma = "pàtta"
+kind = "lexeme"
+gloss_it = "caduta rovinosa a terra"
+gloss_en = "nasty fall to the ground"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il significato è vicino a pattone."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ho preso una pàtta sulle scale e m’è toccato rialzàmi piano."
+italian = "Ho fatto una brutta caduta sulle scale e ho dovuto rialzarmi piano."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_179"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_179"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_179"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

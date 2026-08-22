@@ -1,0 +1,28 @@
+{
+  "name": "toen",
+  "version": "0.1.0",
+  "description": "Optional, source-grounded Livornese output that keeps Codex replies concise.",
+  "author": {
+    "name": "airscripts",
+    "url": "https://github.com/airscripts"
+  },
+  "homepage": "https://github.com/airscripts/toen",
+  "repository": "https://github.com/airscripts/toen",
+  "license": "MIT",
+  "keywords": ["livornese", "concise", "codex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Toen",
+    "shortDescription": "Concise, source-grounded Livornese",
+    "longDescription": "Explicitly activate a concise contemporary Livornese style for visible Codex replies.",
+    "developerName": "airscripts",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://github.com/airscripts/toen",
+    "privacyPolicyURL": "https://github.com/airscripts/toen/blob/main/docs/privacy.md",
+    "defaultPrompt": [
+      "Use $toen ammodino to answer concisely in readable Livornese.",
+      "Use $toen arranda to answer in denser local Livornese."
+    ]
+  }
+}

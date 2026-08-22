@@ -1,0 +1,30 @@
+id = "liv-0158"
+canonical = "Facci la presa!"
+lemma = "facci la presa!"
+kind = "idiom"
+gloss_it = "Sfottimento rivolto a chi non può più prendere la palla"
+gloss_en = "A taunt aimed at someone who has no chance of catching the ball"
+register = "colloquial"
+grammatical_role = "interjection"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione interjection."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "È partita una sassata all'incrocio: facci la presa!"
+italian = "È partito un tiro all'incrocio: prova a prenderla adesso!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_681"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_681"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_681"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

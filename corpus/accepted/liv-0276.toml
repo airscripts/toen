@@ -1,0 +1,30 @@
+id = "liv-0276"
+canonical = "Mèttisi di buzzo bòno"
+lemma = "mèttisi di buzzo bòno"
+kind = "idiom"
+gloss_it = "Impegnarsi molto in un compito."
+gloss_en = "To apply oneself seriously to a task."
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["mettersi di buzzo buono"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 24
+
+[[examples]]
+livornese = "Se ti metti di buzzo bòno, finisci prima di cena."
+italian = "Se ti impegni davvero, finisci prima di cena."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_701"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_701"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_701"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

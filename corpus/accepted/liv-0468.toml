@@ -1,0 +1,30 @@
+id = "liv-0468"
+canonical = "Tónno"
+lemma = "tónno"
+kind = "lexeme"
+gloss_it = "Persona sciocca o sempliciotta"
+gloss_en = "Fool; idiot"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Insulto generico."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sei un tónno, t’avevo detto di guardà dove mettevi i piedi."
+italian = "Sei uno sciocco, ti avevo detto di guardare dove mettevi i piedi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_654"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_654"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_654"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

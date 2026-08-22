@@ -1,0 +1,30 @@
+id = "liv-0153"
+canonical = "Èsse der gatto"
+lemma = "èsse der gatto"
+kind = "idiom"
+gloss_it = "Essere in trappola e ormai fregati"
+gloss_en = "To be trapped and thoroughly done for"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["essere del gatto"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ora che hanno chiuso il cancello, siamo der gatto."
+italian = "Ora che hanno chiuso il cancello, siamo in trappola."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=69#lemma_195"
+url = "https://livornese.altervista.org/index.php?ascii=69#lemma_195"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=69#lemma_195"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

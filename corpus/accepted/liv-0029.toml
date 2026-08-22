@@ -1,0 +1,30 @@
+id = "liv-0029"
+canonical = "Arronzà"
+lemma = "arronzà"
+kind = "lexeme"
+gloss_it = "Lanciare o porgere qualcosa in modo sgarbato"
+gloss_en = "To fling or thrust something rudely instead of handing it over"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["arronzare"]
+usage_notes = "Indica un gesto brusco e poco garbato."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un me l'arronzà il piatto, dammelo piano."
+italian = "Non lanciarmi il piatto, dammelo con calma."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_134"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_134"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_134"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

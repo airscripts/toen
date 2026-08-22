@@ -1,0 +1,30 @@
+id = "liv-0178"
+canonical = "Figurétta"
+lemma = "figurétta"
+kind = "lexeme"
+gloss_it = "Brutta figura o situazione imbarazzante"
+gloss_en = "An embarrassing impression or awkward situation"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 39
+
+[[examples]]
+livornese = "Che figurétta davanti ar professore!"
+italian = "Che brutta figura davanti al professore!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_398"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_398"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_398"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

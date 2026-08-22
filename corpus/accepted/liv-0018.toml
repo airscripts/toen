@@ -1,0 +1,30 @@
+id = "liv-0018"
+canonical = "Aó"
+lemma = "aó"
+kind = "particle"
+gloss_it = "rafforza il vocativo, spesso in appellativi scherzosi o ingiuriosi"
+gloss_en = "vocative particle, often used in playful or insulting address"
+register = "expressive"
+grammatical_role = "discourse"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Uso livornese soprattutto per richiamare o apostrofare qualcuno; può introdurre insulti scherzosi."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 6
+
+[[examples]]
+livornese = "Aó fenomeno, vieni a dà una mano!"
+italian = "Ehi fenomeno, vieni a dare una mano!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_330"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_330"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_330"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0410"
+canonical = "Sfarinà"
+lemma = "sfarinà"
+kind = "lexeme"
+gloss_it = "Malmenare, sfinire o distruggere; anche mandare un oggetto in pezzi."
+gloss_en = "To beat up, exhaust, psychologically wear out, or smash."
+register = "expressive"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["sfarinare", "sfarinarsi", "sfarinassi"]
+usage_notes = "Il riflessivo sfarinarsi è pronunciato sfarinassi; il significato si estende anche allo sfinimento psicologico e alla distruzione materiale."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel turno m'ha sfarinato: stasera vo dritto a letto."
+italian = "Quel turno mi ha distrutto: stasera vado dritto a letto."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_640"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_640"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_640"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

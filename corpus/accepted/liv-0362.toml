@@ -1,0 +1,30 @@
+id = "liv-0362"
+canonical = "Riparèlla"
+lemma = "riparèlla"
+kind = "lexeme"
+gloss_it = "Piastrina circolare tra dado e bullone"
+gloss_en = "Washer placed between a nut and a bolt"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Termine tecnico tradizionale, segnalato come a rischio d'uso."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Passami una riparèlla, sennò il bullone un tiene."
+italian = "Passami una rondella, altrimenti il bullone non tiene."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=82#lemma_684"
+url = "https://livornese.altervista.org/index.php?ascii=82#lemma_684"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=82#lemma_684"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

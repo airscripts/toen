@@ -1,0 +1,30 @@
+id = "liv-0405"
+canonical = "Sculàto"
+lemma = "sculàto"
+kind = "lexeme"
+gloss_it = "Sfortunato, poco fortunato."
+gloss_en = "Unlucky."
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Attestato come termine in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Oggi so' proprio sculàto: ho perso pure l'autobus."
+italian = "Oggi sono proprio sfortunato: ho perso anche l'autobus."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_688"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_688"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_688"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

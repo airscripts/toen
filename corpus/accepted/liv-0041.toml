@@ -1,0 +1,30 @@
+id = "liv-0041"
+canonical = "Bagónghi"
+lemma = "bagónghi"
+kind = "lexeme"
+gloss_it = "persona bassa o goffa per vestiti troppo larghi"
+gloss_en = "short person or clumsy-looking person in oversized clothes"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Epiteto scherzoso riferito alla statura o all'abbigliamento; insulto generico."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Oh bagónghi, con quelle maniche sembri sparito dentro la giacca!"
+italian = "Ehi bagónghi, con quelle maniche sembri scomparso dentro la giacca!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_207"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_207"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_207"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

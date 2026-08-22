@@ -1,0 +1,30 @@
+id = "liv-0495"
+canonical = "Zéba"
+lemma = "zéba"
+kind = "lexeme"
+gloss_it = "Voce onomatopeica per l’atto sessuale"
+gloss_en = "Onomatopoeic word for sexual intercourse"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce onomatopeica; segnalata come in via d’estinzione."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Nel muro c’era scritto zéba, roba da ragazzini."
+italian = "Sul muro c’era scritto zéba, roba da ragazzini."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=90#lemma_258"
+url = "https://livornese.altervista.org/index.php?ascii=90#lemma_258"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=90#lemma_258"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

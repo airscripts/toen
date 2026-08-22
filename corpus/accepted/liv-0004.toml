@@ -1,0 +1,30 @@
+id = "liv-0004"
+canonical = "Adìo"
+lemma = "adìo"
+kind = "particle"
+gloss_it = "Saluto di commiato; anche esclamazione di rassegnazione o preoccupazione"
+gloss_en = "A farewell; also an exclamation of resignation or concern"
+register = "everyday"
+grammatical_role = "interjection"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["adio"]
+usage_notes = "La pronuncia con una sola d è documentata come forma oggi in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Adìo, se si principia così s’è freschi."
+italian = "Accidenti, se si comincia così siamo messi male."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_742"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_742"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_742"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

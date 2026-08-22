@@ -1,0 +1,30 @@
+id = "liv-0291"
+canonical = "Niepitèlla"
+lemma = "niepitèlla"
+kind = "lexeme"
+gloss_it = "Nome livornese della nepitella."
+gloss_en = "Livornese name for calamint, a mint-like herb."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["nipitella", "nepitella"]
+usage_notes = "Voce indicata come endangered."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Nella zuppa ci vòle du' foglie di niepitèlla."
+italian = "Nella zuppa servono due foglie di nepitella."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=78#lemma_173"
+url = "https://livornese.altervista.org/index.php?ascii=78#lemma_173"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=78#lemma_173"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

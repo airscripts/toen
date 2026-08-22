@@ -1,0 +1,30 @@
+id = "liv-0016"
+canonical = "Annàcqualo!"
+lemma = "annàcqualo"
+kind = "lexeme"
+gloss_it = "Invito scherzoso a diluire il vino, dando dell’ubriaco a qualcuno"
+gloss_en = "A joking command to dilute the wine, teasing someone for being drunk"
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Rivolto scherzosamente anche a chi non beve; non indica necessariamente un’ubriachezza reale."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Annàcqualo, s'è scolato appena un poncino!"
+italian = "Dagli dell’ubriaco, ha bevuto appena un poncino!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_636"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_636"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_636"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

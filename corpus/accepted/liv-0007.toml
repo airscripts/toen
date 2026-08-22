@@ -1,0 +1,30 @@
+id = "liv-0007"
+canonical = "Aggaì"
+lemma = "aggaì"
+kind = "lexeme"
+gloss_it = "Provare disagio fisico per fame, sete, sonno o sensazioni sgradevoli"
+gloss_en = "To feel physical discomfort from hunger, thirst, sleepiness, or similar sensations"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["aggaire"]
+usage_notes = "Descrive un malessere corporeo legato a bisogni o sensazioni sgradevoli."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "A digiuno da stamani, aggaìo dalla fame."
+italian = "Sono a digiuno da stamattina e sto male dalla fame."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_361"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_361"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_361"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

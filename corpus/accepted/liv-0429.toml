@@ -1,0 +1,30 @@
+id = "liv-0429"
+canonical = "Spaccascurrégge"
+lemma = "spaccascurrégge"
+kind = "lexeme"
+gloss_it = "spaccone insicuro che si vanta di qualità inesistenti"
+gloss_en = "insecure braggart who boasts of qualities he does not possess"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["spacca scurregge"]
+usage_notes = "Insulto generico per una persona spaccona e millantatrice."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fa’ lo spaccascurrégge e parla meno."
+italian = "Non fare lo spaccone e parla meno."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_557"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_557"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_557"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

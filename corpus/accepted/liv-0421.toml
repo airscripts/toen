@@ -1,0 +1,30 @@
+id = "liv-0421"
+canonical = "Sigarétta"
+lemma = "sigarétta"
+kind = "lexeme"
+gloss_it = "Rotolino che sostiene il filo da cucire."
+gloss_en = "Small spool for sewing thread."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Attestato come termine in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Passami la sigarétta del filo bianco, per piacere."
+italian = "Passami il rocchetto del filo bianco, per favore."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_719"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_719"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_719"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

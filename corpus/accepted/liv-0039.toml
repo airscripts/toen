@@ -1,0 +1,30 @@
+id = "liv-0039"
+canonical = "Bagiòge"
+lemma = "bagiòge"
+kind = "lexeme"
+gloss_it = "guance molto paffute"
+gloss_en = "full, chubby cheeks"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Da bimbo avevo du' bagiòge tutte rosse."
+italian = "Da bambino avevo due guance paffute e tutte rosse."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_5"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_5"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_5"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0064"
+canonical = "Bòna"
+lemma = "bòna"
+kind = "idiom"
+gloss_it = "Saluto molto confidenziale usato solo congedandosi."
+gloss_en = "A very informal farewell used only when parting."
+register = "colloquial"
+grammatical_role = "discourse"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Può essere seguito da “Ugo”; non si usa per salutare all’arrivo."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 9
+
+[[examples]]
+livornese = "Bòna, ci si vede domani ar barre!"
+italian = "Ciao, ci vediamo domani al bar!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_182"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_182"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_182"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

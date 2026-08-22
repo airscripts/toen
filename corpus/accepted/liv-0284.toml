@@ -1,0 +1,30 @@
+id = "liv-0284"
+canonical = "Murà a secco"
+lemma = "murà a secco"
+kind = "idiom"
+gloss_it = "Mangiare senza bere."
+gloss_en = "To eat without drinking."
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["murare a secco"]
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ho murato a secco e ora c'ho la gola impastata."
+italian = "Ho mangiato senza bere e ora ho la gola impastata."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_408"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_408"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_408"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0438"
+canonical = "Squacquarèlla"
+lemma = "squacquarèlla"
+kind = "lexeme"
+gloss_it = "epiteto molto pesante, usato anche scherzosamente tra amici intimi"
+gloss_en = "very harsh insult, also used jokingly among close friends"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il significato preciso è volutamente non specificato; il tono dipende fortemente dalla confidenza."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Oh squacquarèlla, vieni qua che s’è fatto tardi!"
+italian = "Ehi, brutto ceffo, vieni qui che si è fatto tardi!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_325"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_325"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_325"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

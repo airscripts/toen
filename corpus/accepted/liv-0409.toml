@@ -1,0 +1,30 @@
+id = "liv-0409"
+canonical = "Sentissi strùgge"
+lemma = "sentissi strùgge"
+kind = "idiom"
+gloss_it = "Avere una fretta o un desiderio impellente."
+gloss_en = "To be desperate for something to happen."
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["sentirsi struggere"]
+usage_notes = "Esprime forte impazienza o desiderio, in senso positivo o negativo."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 23
+
+[[examples]]
+livornese = "Mi sento strùgge dalla voglia di tornà a casa."
+italian = "Non vedo l'ora di tornare a casa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_577"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_577"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_577"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

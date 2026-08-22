@@ -1,0 +1,30 @@
+id = "liv-0394"
+canonical = "Schizzignóso"
+lemma = "schizzignóso"
+kind = "lexeme"
+gloss_it = "Che mostra gusti troppo selettivi e difficili da soddisfare."
+gloss_en = "Fussy and overly particular, especially about food or choices."
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione adjective."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fa' lo schizzignóso e assaggia la zuppa."
+italian = "Non fare lo schizzinoso e assaggia la zuppa."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_141"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_141"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_141"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

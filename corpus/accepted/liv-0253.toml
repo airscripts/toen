@@ -1,0 +1,30 @@
+id = "liv-0253"
+canonical = "Limà"
+lemma = "limà"
+kind = "lexeme"
+gloss_it = "insistere con richieste moleste"
+gloss_en = "to pester someone with repeated requests"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["limare"]
+usage_notes = "Può indicare il chiedere insistentemente e il mettere l'uggia."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un mi limà pe' venì alla festa: t'ho già detto di sì."
+italian = "Non insistere perché venga alla festa: ti ho già detto di sì."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=76#lemma_148"
+url = "https://livornese.altervista.org/index.php?ascii=76#lemma_148"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=76#lemma_148"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

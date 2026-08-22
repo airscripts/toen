@@ -1,0 +1,30 @@
+id = "liv-0066"
+canonical = "Bottéga"
+lemma = "bottéga"
+kind = "lexeme"
+gloss_it = "Patta dei pantaloni, con cerniera o bottoni"
+gloss_en = "Fly of the trousers, fastened with a zip or buttons"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Tirati su la bottéga, sennò prendi freddo."
+italian = "Tirati su la patta, altrimenti prendi freddo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_9"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_9"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_9"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

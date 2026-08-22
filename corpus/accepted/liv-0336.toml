@@ -1,0 +1,30 @@
+id = "liv-0336"
+canonical = "Pròpio"
+lemma = "pròpio"
+kind = "lexeme"
+gloss_it = "Proprio, esattamente o davvero."
+gloss_en = "Really, exactly, or one’s own, depending on context."
+register = "everyday"
+grammatical_role = "adverb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione adverb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 11
+
+[[examples]]
+livornese = "È pròpio quello che ti volevo dì."
+italian = "È proprio quello che volevo dirti."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_147"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_147"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_147"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0228"
+canonical = "Gropponàta"
+lemma = "gropponàta"
+kind = "lexeme"
+gloss_it = "Urto violento della schiena contro un ostacolo"
+gloss_en = "violent impact of the back against an obstacle"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ho preso una gropponàta contro lo spigolo del muro."
+italian = "Ho urtato violentemente la schiena contro lo spigolo del muro."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_511"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_511"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_511"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

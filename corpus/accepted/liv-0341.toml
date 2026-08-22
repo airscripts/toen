@@ -1,0 +1,30 @@
+id = "liv-0341"
+canonical = "Puntaròlo 2"
+lemma = "puntaròlo"
+kind = "lexeme"
+gloss_it = "tiro al pallone dato con la punta del piede"
+gloss_en = "a football shot struck with the toe"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Indica tipicamente un tiro considerato da dilettante o inesperto."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ha tirato un puntaròlo e la palla è finita ’n tribuna."
+italian = "Ha tirato una punta e la palla è finita in tribuna."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_277"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_277"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_277"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

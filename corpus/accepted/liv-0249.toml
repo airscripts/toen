@@ -1,0 +1,30 @@
+id = "liv-0249"
+canonical = "Levà di 'ulo"
+lemma = "levà di 'ulo"
+kind = "idiom"
+gloss_it = "piacere moltissimo"
+gloss_en = "to be absolutely fantastic"
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["levare di culo"]
+usage_notes = "Espressione volgare e informale per qualcosa o qualcuno che piace molto."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel panino col polpo leva di 'ulo."
+italian = "Quel panino col polpo è fantastico."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=76#lemma_641"
+url = "https://livornese.altervista.org/index.php?ascii=76#lemma_641"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=76#lemma_641"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

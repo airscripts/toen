@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "chooser": {"type": "boolean"},
+    "ammodino": {"type": "boolean"},
+    "arranda": {"type": "boolean"},
+    "status_de": {"type": "boolean"},
+    "spengi": {"type": "boolean"},
+    "inline_task": {"type": "boolean"},
+    "switching": {"type": "boolean"},
+    "new_session_reset": {"type": "boolean"},
+    "resume": {"type": "boolean"},
+    "compaction": {"type": "boolean"},
+    "notes": {"type": "string", "maxLength": 1000}
+  },
+  "required": [
+    "chooser",
+    "ammodino",
+    "arranda",
+    "status_de",
+    "spengi",
+    "inline_task",
+    "switching",
+    "new_session_reset",
+    "resume",
+    "compaction",
+    "notes"
+  ]
+}

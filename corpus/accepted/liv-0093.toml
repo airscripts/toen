@@ -1,0 +1,30 @@
+id = "liv-0093"
+canonical = "Caìcciolo"
+lemma = "caìcciolo"
+kind = "lexeme"
+gloss_it = "Quantità minima, soprattutto di cibo"
+gloss_en = "A tiny amount, especially of food"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Si riferisce perlopiù a una porzione o quantità di cibo."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 43
+
+[[examples]]
+livornese = "M’hai lasciato un caìcciolo di pasta, ora che ci fo?"
+italian = "Mi hai lasciato una quantità ridicola di pasta, adesso che ci faccio?"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_17"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_17"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_17"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

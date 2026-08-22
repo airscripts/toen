@@ -1,0 +1,30 @@
+id = "liv-0248"
+canonical = "Levà 'r fumo alle stiacciate"
+lemma = "levà 'r fumo alle stiacciate"
+kind = "idiom"
+gloss_it = "essere rapidissimo e sveglio nell'agire"
+gloss_en = "to be exceptionally quick and sharp"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["levare il fumo alle stiacciate"]
+usage_notes = "Espressione figurata per indicare prontezza, reattività e velocità."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 21
+
+[[examples]]
+livornese = "A trova' il guasto gli leva 'r fumo alle stiacciate."
+italian = "A trovare il guasto è rapidissimo e non si fa sfuggire nulla."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=76#lemma_489"
+url = "https://livornese.altervista.org/index.php?ascii=76#lemma_489"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=76#lemma_489"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

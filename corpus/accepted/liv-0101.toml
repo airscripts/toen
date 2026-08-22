@@ -1,0 +1,30 @@
+id = "liv-0101"
+canonical = "Canteràle"
+lemma = "canteràle"
+kind = "lexeme"
+gloss_it = "Mobile con molti cassetti, un cassettone."
+gloss_en = "A chest of drawers or bureau with several drawers."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "La fonte lo presenta anche come canterano."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ho ritrovato le lettere ner canteràle della nonna."
+italian = "Ho ritrovato le lettere nel cassettone della nonna."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_20"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_20"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_20"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

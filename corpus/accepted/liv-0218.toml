@@ -1,0 +1,30 @@
+id = "liv-0218"
+canonical = "Gollìno"
+lemma = "gollìno"
+kind = "lexeme"
+gloss_it = "Colpo alla gola dato con la mano"
+gloss_en = "hand strike to the throat"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Indica un colpo alla gola meno violento di un gollettone; voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Per scherzo m’ha dato un gollìno leggero."
+italian = "Per scherzo mi ha dato un leggero colpo alla gola."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_123"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_123"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_123"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

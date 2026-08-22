@@ -1,0 +1,30 @@
+id = "liv-0060"
+canonical = "Bòcco"
+lemma = "bòcco"
+kind = "lexeme"
+gloss_it = "Piccolo oggetto pesante da lanciare"
+gloss_en = "Small, heavy object suitable for throwing"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come in via d’estinzione; riferita soprattutto ai giochi da strada."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dammi un bòcco piccino, si gioca a colpì il barattolo."
+italian = "Dammi un oggetto pesante piccolo, giochiamo a colpire il barattolo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_323"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_323"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_323"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

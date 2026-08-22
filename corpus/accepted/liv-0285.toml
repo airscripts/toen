@@ -1,0 +1,30 @@
+id = "liv-0285"
+canonical = "Musaròla"
+lemma = "musaròla"
+kind = "lexeme"
+gloss_it = "Museruola per un animale."
+gloss_en = "A muzzle for an animal."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come endangered."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Mettigli la musaròla prima d'entra' dal veterinario."
+italian = "Mettigli la museruola prima di entrare dal veterinario."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_373"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_373"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_373"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

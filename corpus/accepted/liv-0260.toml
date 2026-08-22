@@ -1,0 +1,30 @@
+id = "liv-0260"
+canonical = "Magnàccio"
+lemma = "magnàccio"
+kind = "lexeme"
+gloss_it = "Sfruttatore di prostitute."
+gloss_en = "A pimp who exploits prostitutes."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel magnàccio vive alle spalle delle donne."
+italian = "Quel magnaccia vive alle spalle delle donne."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_293"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_293"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_293"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

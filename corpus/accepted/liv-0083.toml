@@ -1,0 +1,30 @@
+id = "liv-0083"
+canonical = "Buóna"
+lemma = "buóna"
+kind = "lexeme"
+gloss_it = "Insulto osceno rivolto alla madre di qualcuno"
+gloss_en = "Obscene insult directed at someone’s mother"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["bucona"]
+usage_notes = "Termine estremamente volgare, usato solo in espressioni altamente offensive."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Gli urlò buóna e la discussione finì male."
+italian = "Gli urlò un insulto osceno e la discussione finì male."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_621"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_621"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_621"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0123"
+canonical = "Ciòcco"
+lemma = "ciòcco"
+kind = "lexeme"
+gloss_it = "Termine volgare attenuato per l’ano"
+gloss_en = "A mildly vulgar term for the anus"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Espressione volgare ma non tra le più pesanti, usata per il buco del culo."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "M’è cascato il sellino e m’ha fatto male al ciòcco."
+italian = "Mi è caduto il sellino e mi ha fatto male al sedere."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_533"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_533"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_533"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

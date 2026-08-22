@@ -1,0 +1,36 @@
+id = "liv-0014"
+canonical = "Ammodino"
+lemma = "ammodino"
+kind = "idiom"
+gloss_it = "Con cura, attenzione e misura; in modo composto"
+gloss_en = "Carefully, attentively, and with restraint; properly"
+register = "everyday"
+grammatical_role = "adverb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Forma di casa usata soprattutto nelle esortazioni; il Comune di Livorno la impiega nel nome della campagna #fateammodino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 1
+
+[[examples]]
+livornese = "Fallo ammodino, dé, senza sciupà nulla."
+italian = "Fallo con cura, senza rovinare nulla."
+
+[[evidence]]
+source_id = "comune-livorno-ammodino"
+locator = "Titolo e descrizione, 13 novembre 2025"
+url = "https://www.comune.livorno.it/it/news/133618/fateammodino-campagna-di-sensibilizzazione-contro-i-comportamenti-barriera"
+accessed = "2026-08-14"
+
+[[evidence]]
+source_id = "crusca-ammodino"
+locator = "Lemma ammodino, locuzione a–b"
+url = "https://www.vocabolariofiorentino.it/lemma/ammodino/2808"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://www.vocabolariofiorentino.it/lemma/ammodino/2808"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

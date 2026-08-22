@@ -1,0 +1,30 @@
+id = "liv-0264"
+canonical = "Mallèvati di 'ulo"
+lemma = "mallèvati di 'ulo"
+kind = "idiom"
+gloss_it = "Smettila di dire sciocchezze esagerate."
+gloss_en = "Stop exaggerating or talking nonsense."
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Spesso non invita letteralmente ad andarsene, ma a smettere di spararle grosse."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 13
+
+[[examples]]
+livornese = "Mallèvati di ’ulo, un puoi avé pescato un pesce di cento chili."
+italian = "Smettila di dire sciocchezze, non puoi aver pescato un pesce di cento chili."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_553"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_553"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_553"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

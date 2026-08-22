@@ -1,0 +1,30 @@
+id = "liv-0279"
+canonical = "Mitiolóso"
+lemma = "mitiolóso"
+kind = "lexeme"
+gloss_it = "Meticoloso, molto attento ai dettagli."
+gloss_en = "Meticulous and highly attentive to detail."
+register = "colloquial"
+grammatical_role = "adjective"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["miticoloso"]
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "È così mitiolóso che ricontrolla ogni numero."
+italian = "È così meticoloso che ricontrolla ogni numero."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_713"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_713"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_713"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

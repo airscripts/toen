@@ -1,0 +1,30 @@
+id = "liv-0289"
+canonical = "Nènne"
+lemma = "nènne"
+kind = "lexeme"
+gloss_it = "Latte per bambini, di solito nel biberon."
+gloss_en = "Milk for babies, usually given in a bottle."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Scalda il nènne che il bimbo s'è svegliato."
+italian = "Scalda il latte, il bambino si è svegliato."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=78#lemma_314"
+url = "https://livornese.altervista.org/index.php?ascii=78#lemma_314"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=78#lemma_314"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

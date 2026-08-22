@@ -1,0 +1,30 @@
+id = "liv-0133"
+canonical = "Comparìta"
+lemma = "comparìta"
+kind = "idiom"
+gloss_it = "comparsa, presenza in una locuzione fissa"
+gloss_en = "appearance, showing up, in a fixed expression"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come in declino; compare solo nella locuzione fare comparita."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un fa' comparita nemmeno oggi?"
+italian = "Non ti fai vedere nemmeno oggi?"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_733"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_733"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_733"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

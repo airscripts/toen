@@ -1,0 +1,30 @@
+id = "liv-0419"
+canonical = "Sgranàta"
+lemma = "sgranàta"
+kind = "lexeme"
+gloss_it = "Grande mangiata."
+gloss_en = "A hearty feast."
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Attestato come termine in declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Dopo la sgranàta ci vole una passeggiata sul mare."
+italian = "Dopo questa grande mangiata ci vuole una passeggiata sul mare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_217"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_217"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_217"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0412"
+canonical = "Sfranellà"
+lemma = "sfranellà"
+kind = "lexeme"
+gloss_it = "Pomiciare."
+gloss_en = "To make out."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["sfranellare", "fare franella"]
+usage_notes = "Indicato come equivalente di fare franella."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quei due sfranellano dietro lo stabilimento."
+italian = "Quei due stanno pomiciando dietro lo stabilimento balneare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_72"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_72"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_72"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

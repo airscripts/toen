@@ -1,0 +1,30 @@
+id = "liv-0241"
+canonical = "Inteligènte"
+lemma = "inteligènte"
+kind = "lexeme"
+gloss_it = "intelligente, dotato di buon acume"
+gloss_en = "intelligent, sharp-minded"
+register = "everyday"
+grammatical_role = "adjective"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Forma attestata a Livorno; segnalata come in possibile declino."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "È inteligènte e capisce subito dove sta il problema."
+italian = "È intelligente e capisce subito dove sta il problema."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=73#lemma_203"
+url = "https://livornese.altervista.org/index.php?ascii=73#lemma_203"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=73#lemma_203"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

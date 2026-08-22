@@ -1,0 +1,30 @@
+id = "liv-0179"
+canonical = "Figurìni"
+lemma = "figurìni"
+kind = "lexeme"
+gloss_it = "Figurine da collezione"
+gloss_en = "Collectible trading cards or stickers"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "A Livorno le figurine Panini sono chiamate anche maschietti, come indicato nella descrizione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Ho trovato tre figurìni doppi da scambià."
+italian = "Ho trovato tre figurine doppie da scambiare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_191"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_191"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_191"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

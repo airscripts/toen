@@ -1,0 +1,30 @@
+id = "liv-0107"
+canonical = "Cazzabùbolo"
+lemma = "cazzabùbolo"
+kind = "lexeme"
+gloss_it = "Uomo di bassa statura"
+gloss_en = "A short-statured man"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quel cazzabùbolo s’è infilato davanti a tutti al banco."
+italian = "Quell’uomo basso si è infilato davanti a tutti al bancone."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_391"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_391"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_391"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

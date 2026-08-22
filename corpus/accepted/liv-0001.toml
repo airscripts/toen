@@ -1,0 +1,30 @@
+id = "liv-0001"
+canonical = "Abbócco"
+lemma = "abbócco"
+kind = "lexeme"
+gloss_it = "Scherzo preparato di nascosto per far cadere qualcuno in trappola"
+gloss_en = "A harmless prank set up secretly to trick someone"
+register = "colloquial"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Tranello bonario, spesso associato agli scherzi; attestato come uso livornese corrente."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "T'ho preparato un abbócco e te ci sei cascato preciso."
+italian = "Ti ho preparato uno scherzo e ci sei cascato in pieno."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_531"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_531"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_531"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

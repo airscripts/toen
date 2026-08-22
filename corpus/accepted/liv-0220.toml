@@ -1,0 +1,30 @@
+id = "liv-0220"
+canonical = "Gonnèlla"
+lemma = "gonnèlla"
+kind = "lexeme"
+gloss_it = "Gonna"
+gloss_en = "skirt"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Nel parlato familiare livornese è preferita a gonna; la forma standard può comparire in contesti commerciali."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "La mi’ sorella s’è comprata una gonnèlla blu."
+italian = "Mia sorella si è comprata una gonna blu."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_646"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_646"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_646"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

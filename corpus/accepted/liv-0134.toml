@@ -1,0 +1,30 @@
+id = "liv-0134"
+canonical = "Conquìdere"
+lemma = "conquìdere"
+kind = "lexeme"
+gloss_it = "assillare fino a sfinire"
+gloss_en = "to badger or wear someone down"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "A Livorno ha un senso diverso dall'italiano conquistare o sconfiggere, con forte idea di estenuazione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un mi conquìde più co' le solite richieste."
+italian = "Non mi assillare più con le solite richieste."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_426"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_426"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_426"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

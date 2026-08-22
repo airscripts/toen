@@ -1,0 +1,30 @@
+id = "liv-0397"
+canonical = "Scianguinà"
+lemma = "scianguinà"
+kind = "lexeme"
+gloss_it = "Perdere sangue o far sanguinare qualcuno picchiandolo."
+gloss_en = "To bleed or make someone bleed by beating them."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["scianguinare"]
+usage_notes = "Può essere usato sia in senso intransitivo sia transitivo."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Con quella botta s'è scianguinato dal naso."
+italian = "Con quel colpo gli è uscito sangue dal naso."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_119"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_119"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_119"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

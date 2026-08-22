@@ -1,0 +1,30 @@
+id = "liv-0084"
+canonical = "Burrattìno"
+lemma = "burrattìno"
+kind = "lexeme"
+gloss_it = "Burattino"
+gloss_en = "Puppet"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Da piccino avevo un burrattìno fatto di legno."
+italian = "Da piccolo avevo un burattino fatto di legno."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_14"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_14"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_14"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0236"
+canonical = "In du' balletti"
+lemma = "in du' balletti"
+kind = "idiom"
+gloss_it = "in pochissimo tempo"
+gloss_en = "in next to no time"
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["in due balletti"]
+usage_notes = "Indica rapidità; forma attestata anche in altre zone della Toscana."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "arranda"
+runtime_priority = 19
+
+[[examples]]
+livornese = "Te lo sistemo in du' balletti e si riparte."
+italian = "Te lo sistemo in pochissimo tempo e ripartiamo."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=73#lemma_644"
+url = "https://livornese.altervista.org/index.php?ascii=73#lemma_644"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=73#lemma_644"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

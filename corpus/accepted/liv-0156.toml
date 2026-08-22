@@ -1,0 +1,30 @@
+id = "liv-0156"
+canonical = "Èsse stucco"
+lemma = "èsse stucco"
+kind = "idiom"
+gloss_it = "Avere gusti molto difficili e intolleranti"
+gloss_en = "To be extremely fussy and hard to please"
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["essere stucco"]
+usage_notes = "Attestazione Catarsi corrente; uso expressive con funzione phrase."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un caffè senza quella marca? Lui è stucco, un gli va bene nulla."
+italian = "Un caffè senza quella marca? Lui è difficilissimo, non gli va bene niente."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=69#lemma_571"
+url = "https://livornese.altervista.org/index.php?ascii=69#lemma_571"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=69#lemma_571"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

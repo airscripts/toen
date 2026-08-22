@@ -1,0 +1,30 @@
+id = "liv-0329"
+canonical = "Pòsa 'r fiasco!"
+lemma = "pòsa 'r fiasco"
+kind = "idiom"
+gloss_it = "invito scherzoso a smettere di bere o di parlare da ubriaco"
+gloss_en = "teasing command to stop drinking or talking like a drunk"
+register = "expressive"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = ["posa il fiasco"]
+usage_notes = "Può essere scherzoso oppure offensivo in un contesto litigioso."
+allowed_modes = ["arranda"]
+runtime = "arranda"
+runtime_priority = 15
+
+[[examples]]
+livornese = "Oh, Pòsa ’r fiasco e vieni a mangià con noi!"
+italian = "Ehi, posa il fiasco e vieni a mangiare con noi!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_647"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_647"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_647"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

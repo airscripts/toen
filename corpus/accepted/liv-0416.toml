@@ -1,0 +1,30 @@
+id = "liv-0416"
+canonical = "Sghignà"
+lemma = "sghignà"
+kind = "lexeme"
+gloss_it = "Rompere la faccia."
+gloss_en = "To beat someone’s face."
+register = "expressive"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["sghignare", "sghignarsi", "sghignassi"]
+usage_notes = "Il riflessivo sghignarsi è pronunciato sghignassi."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Se continui a provocà, quello ti sghigna."
+italian = "Se continui a provocare, quello ti rompe la faccia."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_87"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_87"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_87"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

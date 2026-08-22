@@ -1,0 +1,30 @@
+id = "liv-0114"
+canonical = "Chìe?"
+lemma = "chìe"
+kind = "particle"
+gloss_it = "Forma livornese di “chi?” in domanda isolata o finale"
+gloss_en = "Livornese form of “who?” when used alone or at the end of a question"
+register = "colloquial"
+grammatical_role = "pronoun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "La e finale compare quando chi è isolato o collocato per ultimo nella domanda."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 8
+
+[[examples]]
+livornese = "Stasera vieni con chìe?"
+italian = "Stasera vieni con chi?"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_487"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_487"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_487"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

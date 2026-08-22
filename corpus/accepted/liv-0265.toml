@@ -1,0 +1,30 @@
+id = "liv-0265"
+canonical = "Mandrugià"
+lemma = "mandrugià"
+kind = "lexeme"
+gloss_it = "Palpeggiare, toccare in modo insistente."
+gloss_en = "To fondle or handle someone inappropriately."
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["mandrugiare"]
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un la mandrugià, lasciala sta’."
+italian = "Non palpeggiarla, lasciala stare."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_589"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_589"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_589"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

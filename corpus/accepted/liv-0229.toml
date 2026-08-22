@@ -1,0 +1,30 @@
+id = "liv-0229"
+canonical = "Gua'"
+lemma = "gua'"
+kind = "particle"
+gloss_it = "Saluto confidenziale equivalente a “guarda”"
+gloss_en = "informal greeting, roughly “look who it is”"
+register = "colloquial"
+grammatical_role = "interjection"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = ["guarda"]
+usage_notes = "Voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "ammodino"
+runtime_priority = 42
+
+[[examples]]
+livornese = "Gua’, sei già qui stamani?"
+italian = "Guarda, sei già qui stamattina?"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_113"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_113"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_113"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

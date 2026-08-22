@@ -1,0 +1,30 @@
+id = "liv-0045"
+canonical = "Bàttere"
+lemma = "bàttere"
+kind = "lexeme"
+gloss_it = "Corteggiare o stare dietro a qualcuno"
+gloss_en = "To court someone or pursue them romantically"
+register = "colloquial"
+grammatical_role = "verb"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Voce indicata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "La batte da settimane, ma lei un gli dà retta."
+italian = "Le fa il filo da settimane, ma lei non gli dà retta."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_91"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_91"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_91"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

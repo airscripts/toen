@@ -1,0 +1,30 @@
+id = "liv-0209"
+canonical = "Ghiòzzo"
+lemma = "ghiòzzo"
+kind = "lexeme"
+gloss_it = "Persona sciocca o credulona"
+gloss_en = "fool or simpleton"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Insulto generico, non riferito a una classe protetta."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sei proprio un ghiòzzo: t’hanno convinto con una bufala."
+italian = "Sei proprio uno sciocco: ti hanno convinto con una bufala."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=71#lemma_237"
+url = "https://livornese.altervista.org/index.php?ascii=71#lemma_237"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=71#lemma_237"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

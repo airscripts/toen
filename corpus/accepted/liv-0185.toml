@@ -1,0 +1,30 @@
+id = "liv-0185"
+canonical = "Fratàio"
+lemma = "fratàio"
+kind = "lexeme"
+gloss_it = "Venditore di frati fritti"
+gloss_en = "A person who fries and sells frati"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Il fratàio apre presto per la colazione."
+italian = "Il venditore di frati apre presto per la colazione."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=70#lemma_259"
+url = "https://livornese.altervista.org/index.php?ascii=70#lemma_259"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=70#lemma_259"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

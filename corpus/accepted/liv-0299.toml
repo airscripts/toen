@@ -1,0 +1,30 @@
+id = "liv-0299"
+canonical = "Padùlo"
+lemma = "padùlo"
+kind = "lexeme"
+gloss_it = "Organo genitale maschile, usato spesso in disegni osceni."
+gloss_en = "Male genital organ, often used in obscene drawings."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Termine volgare e indicato come endangered."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Qualcuno ha disegnato un padùlo sul banco."
+italian = "Qualcuno ha disegnato un pene sul banco."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_411"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_411"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_411"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

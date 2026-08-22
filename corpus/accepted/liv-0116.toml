@@ -1,0 +1,30 @@
+id = "liv-0116"
+canonical = "Chiorbóne"
+lemma = "chiorbóne"
+kind = "lexeme"
+gloss_it = "Persona testarda e poco sveglia"
+gloss_en = "A stubborn, slow-witted person"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Insulto generico equivalente a testone o zuccone."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "O chiorbóne, guarda dove metti i piedi!"
+italian = "Ehi testone, guarda dove metti i piedi!"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=67#lemma_104"
+url = "https://livornese.altervista.org/index.php?ascii=67#lemma_104"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=67#lemma_104"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

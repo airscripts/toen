@@ -1,0 +1,30 @@
+id = "liv-0298"
+canonical = "Padèlla"
+lemma = "padèlla"
+kind = "lexeme"
+gloss_it = "Patella, mollusco attaccato agli scogli."
+gloss_en = "A limpet, a mollusc attached to rocks."
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sullo scoglio c'eran padèlle da riempì un secchio."
+italian = "Sullo scoglio c'erano patelle sufficienti a riempire un secchio."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_51"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_51"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_51"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

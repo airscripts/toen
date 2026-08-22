@@ -1,0 +1,30 @@
+id = "liv-0267"
+canonical = "Mangiare i lupini"
+lemma = "mangiare i lupini"
+kind = "idiom"
+gloss_it = "Domanda scherzosa rivolta a chi sembra cresciuto all’improvviso."
+gloss_en = "A teasing question for someone who suddenly looks taller."
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "L’origine del riferimento ai lupini non è precisata; voce segnalata come in via d’estinzione."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Oh, hai mangiato i lupini? Un ti si vedono più le caviglie."
+italian = "Ehi, hai mangiato i lupini? Non si vedono più le tue caviglie."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=77#lemma_397"
+url = "https://livornese.altervista.org/index.php?ascii=77#lemma_397"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=77#lemma_397"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

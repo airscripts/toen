@@ -1,0 +1,30 @@
+id = "liv-0061"
+canonical = "Bòdda"
+lemma = "bòdda"
+kind = "lexeme"
+gloss_it = "Persona molto sovrappeso, detto in modo poco gentile."
+gloss_en = "An overweight person, said rather rudely."
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Appellativo offensivo ma generico; attestato come termine in via d’estinzione."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "O bòdda, ti ci vole un'artra sedia?"
+italian = "Ehi, ciccione, ti serve un’altra sedia?"
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_345"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_345"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_345"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

@@ -1,0 +1,30 @@
+id = "liv-0242"
+canonical = "Ìsa"
+lemma = "ìsa"
+kind = "particle"
+gloss_it = "esortazione a sollevare o alzarsi"
+gloss_en = "heave-ho exhortation to lift or get up"
+register = "expressive"
+grammatical_role = "interjection"
+contemporary_status = "endangered"
+confidence = "medium"
+variants = []
+usage_notes = "Può coordinare il ritmo di più persone durante uno sforzo; forma segnalata come in possibile declino."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Tutti insieme: ìsa! E il cassone sale sul furgone."
+italian = "Tutti insieme: su! E il cassone sale sul furgone."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=73#lemma_629"
+url = "https://livornese.altervista.org/index.php?ascii=73#lemma_629"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=73#lemma_629"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

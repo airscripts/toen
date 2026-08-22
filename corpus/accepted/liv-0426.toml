@@ -1,0 +1,30 @@
+id = "liv-0426"
+canonical = "Smoccolà 2"
+lemma = "smoccolà"
+kind = "lexeme"
+gloss_it = "Bestemmiare."
+gloss_en = "To blaspheme."
+register = "expressive"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Il numero distingue questa accezione da smoccolà 1."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Quando perde, comincia a smoccolà contro il mondo intero."
+italian = "Quando perde, comincia a bestemmiare contro il mondo intero."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=83#lemma_459"
+url = "https://livornese.altervista.org/index.php?ascii=83#lemma_459"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=83#lemma_459"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

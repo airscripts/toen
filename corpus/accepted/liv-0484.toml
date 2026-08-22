@@ -1,0 +1,30 @@
+id = "liv-0484"
+canonical = "Trèninghe"
+lemma = "trèninghe"
+kind = "lexeme"
+gloss_it = "tuta per fare ginnastica"
+gloss_en = "tracksuit"
+register = "everyday"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["training"]
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione noun."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Mettiti il trèninghe, si va a correre sugli Scali."
+italian = "Mettiti la tuta, andiamo a correre sugli Scali."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=84#lemma_344"
+url = "https://livornese.altervista.org/index.php?ascii=84#lemma_344"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=84#lemma_344"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

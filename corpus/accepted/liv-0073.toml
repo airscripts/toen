@@ -1,0 +1,30 @@
+id = "liv-0073"
+canonical = "Briào fisso"
+lemma = "briào fisso"
+kind = "lexeme"
+gloss_it = "Persona sempre ubriaca"
+gloss_en = "Someone who is constantly drunk"
+register = "expressive"
+grammatical_role = "noun"
+contemporary_status = "current"
+confidence = "high"
+variants = ["briaco fisso"]
+usage_notes = "Etichetta spregiativa per chi è abitualmente ubriaco."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Un briào fisso così un lavoro un lo regge."
+italian = "Uno che è sempre ubriaco non riesce a mantenere un lavoro così."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=66#lemma_611"
+url = "https://livornese.altervista.org/index.php?ascii=66#lemma_611"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=66#lemma_611"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

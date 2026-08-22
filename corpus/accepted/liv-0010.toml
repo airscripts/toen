@@ -1,0 +1,30 @@
+id = "liv-0010"
+canonical = "Allezzìto"
+lemma = "allezzìto"
+kind = "lexeme"
+gloss_it = "Insulto polisemico per una persona misera, trasandata, incapace o tirchia"
+gloss_en = "A context-dependent insult for someone shabby, inept, unlucky, or stingy"
+register = "expressive"
+grammatical_role = "adjective"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Significato fortemente dipendente dal contesto e dalla pronuncia; può riferirsi anche a una persona ricca ma tirchia."
+allowed_modes = ["arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Sei proprio allezzìto: hai fatto casino e ora lasci tutto a noi."
+italian = "Sei proprio un incapace: hai combinato un pasticcio e ora lasci tutto a noi."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_192"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_192"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_192"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

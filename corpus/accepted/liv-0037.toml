@@ -1,0 +1,30 @@
+id = "liv-0037"
+canonical = "Avellà"
+lemma = "avellà"
+kind = "lexeme"
+gloss_it = "emanare cattivo odore"
+gloss_en = "to smell bad"
+register = "everyday"
+grammatical_role = "verb"
+contemporary_status = "current"
+confidence = "high"
+variants = ["avellare"]
+usage_notes = "Attestazione Catarsi corrente; uso everyday con funzione verb."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "Questa scarpa avella da morì."
+italian = "Questa scarpa puzza da morire."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=65#lemma_239"
+url = "https://livornese.altervista.org/index.php?ascii=65#lemma_239"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=65#lemma_239"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"

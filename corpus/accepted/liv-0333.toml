@@ -1,0 +1,30 @@
+id = "liv-0333"
+canonical = "Prendere una razzata"
+lemma = "prendere una razzata"
+kind = "idiom"
+gloss_it = "Scottarsi violentemente al sole."
+gloss_en = "To get badly sunburned."
+register = "colloquial"
+grammatical_role = "phrase"
+contemporary_status = "current"
+confidence = "high"
+variants = []
+usage_notes = "Attestazione Catarsi corrente; uso colloquial con funzione phrase."
+allowed_modes = ["ammodino", "arranda"]
+runtime = "spento"
+runtime_priority = 0
+
+[[examples]]
+livornese = "A forza di sta’ senza crema ho preso una razzata."
+italian = "A forza di stare senza crema mi sono scottato molto al sole."
+
+[[evidence]]
+source_id = "catarsi"
+locator = "index.php?ascii=80#lemma_417"
+url = "https://livornese.altervista.org/index.php?ascii=80#lemma_417"
+accessed = "2026-08-14"
+archive_url = "https://web.archive.org/web/20260814/https://livornese.altervista.org/index.php?ascii=80#lemma_417"
+
+[review]
+reviewer = "openai-codex/source-audit"
+date = "2026-08-14"
