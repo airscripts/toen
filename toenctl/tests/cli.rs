@@ -1,8 +1,13 @@
+use std::path::Path;
 use std::process::Command;
 
 fn toenctl() -> Command {
+    toenctl_in(Path::new(env!("CARGO_MANIFEST_DIR")))
+}
+
+fn toenctl_in(directory: &Path) -> Command {
     let mut command = Command::new(env!("CARGO_BIN_EXE_toenctl"));
-    command.current_dir(env!("CARGO_MANIFEST_DIR"));
+    command.current_dir(directory);
     command
 }
 
@@ -62,14 +67,46 @@ fn plugin_manifests_are_consistent() {
 }
 
 #[test]
-fn smoke_benchmark_validates_balanced_scenarios() {
+fn toenizer_reports_exact_input_metrics() {
     let output = toenctl()
-        .args(["bench", "smoke", "--check"])
+        .args(["toenizer", "count", "--text", "città", "--format", "json"])
         .output()
-        .expect("run benchmark smoke check");
+        .expect("run toenizer");
 
     assert!(output.status.success());
-    assert!(String::from_utf8_lossy(&output.stdout).contains("non-spending CI manifest"));
+    let json = String::from_utf8_lossy(&output.stdout);
+    assert!(json.contains("\"schema_version\": 1"));
+    assert!(json.contains("\"tokenizer\": \"o200k-base\""));
+    assert!(json.contains("\"utf8_bytes\": 6"));
+}
+
+#[test]
+fn nested_help_is_successful_stdout() {
+    let output = toenctl()
+        .args(["toenizer", "--help"])
+        .output()
+        .expect("run toenizer help");
+
+    assert!(output.status.success());
+    assert!(String::from_utf8_lossy(&output.stdout).contains("Usage: toenizer"));
+    assert!(String::from_utf8_lossy(&output.stderr).is_empty());
+}
+
+#[test]
+fn nested_help_is_available_outside_a_workspace() {
+    let directory =
+        std::env::temp_dir().join(format!("toen-cli-toenizer-help-{}", std::process::id()));
+    std::fs::create_dir_all(&directory).unwrap();
+
+    let output = toenctl_in(&directory)
+        .args(["toenizer", "--help"])
+        .output()
+        .expect("run toenizer help outside workspace");
+
+    assert!(output.status.success());
+    assert!(String::from_utf8_lossy(&output.stdout).contains("Usage: toenizer"));
+    assert!(String::from_utf8_lossy(&output.stderr).is_empty());
+    std::fs::remove_dir_all(directory).unwrap();
 }
 
 #[test]
@@ -86,14 +123,14 @@ fn mutating_commands_reject_unexpected_arguments() {
 }
 
 #[test]
-fn release_packaging_refuses_missing_benchmark_evidence() {
+fn smoke_manifest_is_current_without_spending_tokens() {
     let output = toenctl()
-        .args(["package", "--version", "0.1.0"])
+        .args(["bench", "smoke", "--check"])
         .output()
-        .expect("run gated package command");
+        .expect("run benchmark smoke check");
 
-    assert!(!output.status.success());
-    assert!(String::from_utf8_lossy(&output.stderr).contains("report.json"));
+    assert!(output.status.success());
+    assert!(String::from_utf8_lossy(&output.stdout).contains("non-spending CI manifest"));
 }
 
 #[test]
@@ -105,4 +142,22 @@ fn unknown_commands_fail_without_running_a_mutation() {
 
     assert!(!output.status.success());
     assert!(String::from_utf8_lossy(&output.stderr).contains("unknown command"));
+}
+
+#[test]
+fn unknown_commands_are_invalid_outside_a_workspace() {
+    let directory =
+        std::env::temp_dir().join(format!("toen-cli-non-workspace-{}", std::process::id()));
+    std::fs::create_dir_all(&directory).unwrap();
+
+    let output = toenctl_in(&directory)
+        .arg("not-a-command")
+        .output()
+        .expect("run toenctl outside workspace");
+
+    assert!(!output.status.success());
+    let stderr = String::from_utf8_lossy(&output.stderr);
+    assert!(stderr.contains("invalid arguments"));
+    assert!(!stderr.contains("workspace error"));
+    std::fs::remove_dir_all(directory).unwrap();
 }

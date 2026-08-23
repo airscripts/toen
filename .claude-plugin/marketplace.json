@@ -1,0 +1,19 @@
+{
+  "name": "toen",
+  "owner": {
+    "name": "airscripts",
+    "url": "https://github.com/airscripts"
+  },
+  "metadata": {
+    "description": "Portable Toen skill and certified Claude Code integration."
+  },
+  "plugins": [
+    {
+      "name": "toen",
+      "source": "./plugins/claude-code/toen",
+      "description": "Explicit contemporary Livornese for concise Claude Code replies.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}

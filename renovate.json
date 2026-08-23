@@ -1,0 +1,16 @@
+{
+  "extends": ["config:recommended", ":pinGitHubActionDigests"],
+  "dependencyDashboard": true,
+  "automerge": false,
+  "rangeStrategy": "pin",
+  "packageRules": [
+    {
+      "matchManagers": ["cargo"],
+      "groupName": "Rust dependencies"
+    },
+    {
+      "matchDatasources": ["docker"],
+      "groupName": "Rust container image"
+    }
+  ]
+}

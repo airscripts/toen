@@ -1,14 +1,38 @@
 {
-  "encoding": "o200k_base",
-  "models": {
-    "gpt-5.6-luna": 741,
-    "gpt-5.6-sol": 741
-  },
   "runtime_core": {
     "ammodino": 50,
     "arranda": 30
   },
-  "skill_sha256": "b039592775c2246eaa66c4ee2b3185f45377c62d7c620429938fa27c28fa9e1a",
-  "skill_token_budget": 750,
+  "schema_version": 1,
+  "skills": {
+    "claude-code": {
+      "line_budget": 50,
+      "lines": 36,
+      "sha256": "690b4bbcee696b212c2814e077f33a58f01e8080d6d0d5354195ea1a924db6c9",
+      "token_budget": 850,
+      "tokens": 805,
+      "utf8_byte_budget": 3072,
+      "utf8_bytes": 2500
+    },
+    "codex": {
+      "line_budget": 40,
+      "lines": 32,
+      "sha256": "10dde382c80dbb1b4b1356249fbacc110f2cdfeab27ec049742a98195dcaa55d",
+      "token_budget": 750,
+      "tokens": 750,
+      "utf8_byte_budget": 2560,
+      "utf8_bytes": 2320
+    },
+    "portable": {
+      "line_budget": 40,
+      "lines": 32,
+      "sha256": "10dde382c80dbb1b4b1356249fbacc110f2cdfeab27ec049742a98195dcaa55d",
+      "token_budget": 750,
+      "tokens": 750,
+      "utf8_byte_budget": 2560,
+      "utf8_bytes": 2320
+    }
+  },
+  "tokenizer": "o200k-base",
   "version": "0.1.0"
 }

@@ -1,0 +1,11 @@
+[[schemas]]
+path = "corpus/accepted/*.toml"
+url = "schemas/corpus-record.schema.json"
+
+[[schemas]]
+path = "corpus/sources.toml"
+url = "schemas/sources.schema.json"
+
+[[schemas]]
+path = "corpus/grammar.toml"
+url = "schemas/grammar.schema.json"

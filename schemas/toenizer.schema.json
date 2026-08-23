@@ -1,0 +1,278 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Comparison": {
+      "properties": {
+        "baseline": {
+          "$ref": "#/definitions/Metrics"
+        },
+        "candidate": {
+          "$ref": "#/definitions/Metrics"
+        },
+        "estimated_saving_percent": {
+          "format": "double",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "schema_version": {
+          "format": "uint32",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "signed_token_difference": {
+          "format": "int64",
+          "type": "integer"
+        },
+        "tokenizer": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "baseline",
+        "candidate",
+        "schema_version",
+        "signed_token_difference",
+        "tokenizer"
+      ],
+      "type": "object"
+    },
+    "ExampleMetrics": {
+      "properties": {
+        "estimated_saving_percent": {
+          "format": "double",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "example_index": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "italian": {
+          "$ref": "#/definitions/Metrics"
+        },
+        "livornese": {
+          "$ref": "#/definitions/Metrics"
+        },
+        "record_id": {
+          "type": "string"
+        },
+        "signed_token_difference": {
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "example_index",
+        "italian",
+        "livornese",
+        "record_id",
+        "signed_token_difference"
+      ],
+      "type": "object"
+    },
+    "Metrics": {
+      "properties": {
+        "lines": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "schema_version": {
+          "format": "uint32",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "token_estimate": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "tokenizer": {
+          "type": "string"
+        },
+        "utf8_bytes": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "lines",
+        "schema_version",
+        "token_estimate",
+        "tokenizer",
+        "utf8_bytes"
+      ],
+      "type": "object"
+    },
+    "Report": {
+      "properties": {
+        "examples": {
+          "items": {
+            "$ref": "#/definitions/ExampleMetrics"
+          },
+          "type": "array"
+        },
+        "schema_version": {
+          "format": "uint32",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "skills": {
+          "items": {
+            "$ref": "#/definitions/SkillMetrics"
+          },
+          "type": "array"
+        },
+        "tokenizer": {
+          "type": "string"
+        },
+        "totals": {
+          "$ref": "#/definitions/ReportTotals"
+        }
+      },
+      "required": [
+        "examples",
+        "schema_version",
+        "skills",
+        "tokenizer",
+        "totals"
+      ],
+      "type": "object"
+    },
+    "ReportTotals": {
+      "properties": {
+        "equal_count": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "estimated_saving_percent": {
+          "format": "double",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "example_count": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "italian_tokens": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "livornese_tokens": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "longer_count": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "paired_median_saving_percent": {
+          "format": "double",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "shorter_count": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "signed_token_difference": {
+          "format": "int64",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "equal_count",
+        "example_count",
+        "italian_tokens",
+        "livornese_tokens",
+        "longer_count",
+        "shorter_count",
+        "signed_token_difference"
+      ],
+      "type": "object"
+    },
+    "SkillMetrics": {
+      "properties": {
+        "line_budget": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "lines": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        },
+        "token_budget": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "token_estimate": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "tokenizer": {
+          "type": "string"
+        },
+        "utf8_byte_budget": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        },
+        "utf8_bytes": {
+          "format": "uint",
+          "minimum": 0.0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "line_budget",
+        "lines",
+        "path",
+        "sha256",
+        "token_budget",
+        "token_estimate",
+        "tokenizer",
+        "utf8_byte_budget",
+        "utf8_bytes"
+      ],
+      "type": "object"
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/definitions/Metrics"
+    },
+    {
+      "$ref": "#/definitions/Comparison"
+    },
+    {
+      "$ref": "#/definitions/Report"
+    }
+  ],
+  "title": "ToenizerOutput"
+}

@@ -1,3 +1,4 @@
+<!-- Generated File—Do Not Edit. -->
 # Generated Dictionary
 
 Generated from the accepted TOML corpus. Runtime records are marked Ammodino or Arranda; non-runtime records are marked Spento.

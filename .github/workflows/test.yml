@@ -14,20 +14,20 @@ permissions:
 jobs:
   installation:
     name: Clean Plugin Installation
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container:
       image: rust:1.89-bookworm@sha256:948f9b08a66e7fe01b03a98ef1c7568292e07ec2e4fe90d88c07bb14563c84ff
       options: --user root
     timeout-minutes: 15
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         name: Checkout Code
 
         with:
           ref: ${{ inputs.ref || github.ref }}
 
-      - uses: actions/setup-node@v7
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         name: Install Node.js
 
         with:
@@ -60,16 +60,46 @@ jobs:
         env:
           CODEX_HOME: ${{ runner.temp }}/toen-codex-home
 
+      - run: mkdir --parents "$CLAUDE_CONFIG_DIR"
+        name: Create Isolated Claude Configuration
+
+        env:
+          CLAUDE_CONFIG_DIR: ${{ runner.temp }}/toen-claude-config
+
+      - run: npm install --global @anthropic-ai/claude-code@2.1.241
+        name: Install Pinned Claude Code CLI
+
+      - run: claude plugin marketplace add "$GITHUB_WORKSPACE"
+        name: Add Claude Local Marketplace
+
+        env:
+          CLAUDE_CONFIG_DIR: ${{ runner.temp }}/toen-claude-config
+
+      - run: claude plugin install toen@toen
+        name: Install Claude Toen Plugin
+
+        env:
+          CLAUDE_CONFIG_DIR: ${{ runner.temp }}/toen-claude-config
+
+      - run: claude plugin list
+        name: Inspect Installed Claude Plugin
+
+        env:
+          CLAUDE_CONFIG_DIR: ${{ runner.temp }}/toen-claude-config
+
+      - run: claude plugin validate .
+        name: Validate Claude Plugin
+
   linux-container:
     name: Linux Container
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container:
       image: rust:1.89-bookworm@sha256:948f9b08a66e7fe01b03a98ef1c7568292e07ec2e4fe90d88c07bb14563c84ff
       options: --user root
     timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         name: Checkout Code
 
         with:
@@ -77,7 +107,7 @@ jobs:
 
       - run: |
           apt-get update
-          apt-get install --yes --no-install-recommends ca-certificates curl make python3 unzip
+          apt-get install --yes --no-install-recommends ca-certificates make unzip
           rustup component add llvm-tools-preview
           rm -rf /var/lib/apt/lists/*
         name: Prepare Container Runtime
@@ -90,36 +120,36 @@ jobs:
         env:
           CARGO_BUILD_JOBS: 4
 
-      - uses: actions/upload-artifact@v7
+      - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         name: Upload Coverage Report
 
         with:
           name: toen-coverage-${{ github.run_id }}
           path: target/llvm-cov/
 
-      - run: cargo run --release --locked --bin toenctl -- bench smoke --check
-        name: Check Smoke Manifest
+      - run: cargo run --release --locked --bin toenctl -- toenizer report --check
+        name: Check Toenizer Report
 
   native:
     name: Native
     strategy:
       fail-fast: false
       matrix:
-        os: [macos-latest, windows-latest]
+        os: [macos-15-intel, windows-2025, ubuntu-24.04-arm, macos-15]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         name: Checkout Code
 
         with:
           ref: ${{ inputs.ref || github.ref }}
 
-      - uses: dtolnay/rust-toolchain@1.89
+      - uses: dtolnay/rust-toolchain@1d1eb14921d9c2d8ea575663e5fe3a0b57868a05 # 1.89
         name: Install Rust Toolchain
 
-      - uses: Swatinem/rust-cache@v2
+      - uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2
         name: Cache Cargo
 
       - run: cargo test --workspace --all-targets --locked
@@ -128,5 +158,11 @@ jobs:
         env:
           CARGO_BUILD_JOBS: 4
 
-      - run: cargo run --release --locked --bin toenctl -- bench smoke --check
-        name: Check Smoke Manifest
+      - run: cargo run --release --locked --bin toenctl -- manifests check
+        name: Check Native Manifests
+
+      - run: cargo run --release --locked --bin toenctl -- generate --check
+        name: Check Native Generated Assets
+
+      - run: cargo run --release --locked --bin toenctl -- toenizer report --check
+        name: Check Toenizer Report

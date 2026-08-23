@@ -4,62 +4,96 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Corpus](https://img.shields.io/badge/corpus-500%20records-blue)](docs/methodology.md)
 
-Token-efficient, source-grounded Livornese for AI assistants.
+Toen is a compact, source-grounded Livornese skill for assistants. It changes
+visible replies, status updates, and tool narration when explicitly activated;
+it preserves technical literals and never controls hidden reasoning.
 
-Toen is an optional Codex plugin with a portable Markdown skill that makes
-visible replies, status updates, and tool narration shorter in contemporary
-Livornese. It is useful first and playful second: technical terms and
-protected literals stay exact, while ordinary prose can use a compact,
-documented local style.
-
-Toen is off by default and explicit-only. It is text-only and makes no claims
-about hidden model reasoning. The Codex integration is a plugin; the generated
-skill can be used by any assistant that supports Markdown skills or custom
-instructions. Toen does not provide a CLI runtime, hosted service, account,
-telemetry, hook, or MCP server.
+Toen is text-only, explicit-only, and local. It has no service, account,
+telemetry, hook, MCP server, or model-calling runtime. The repository provides
+one portable skill plus certified Codex and Claude Code integrations.
 
 ## Contents
 
-- [Installation](#installation)
+- [Why Toen Exists](#why-toen-exists)
+- [Choose A Distribution](#choose-a-distribution)
+- [Install](#install)
 - [Quick Start](#quick-start)
-- [Maintainer](#maintainer)
-- [Containers](#containers)
+- [Protected Text And Session State](#protected-text-and-session-state)
+- [Architecture](#architecture)
 - [Repository Map](#repository-map)
-- [Evaluation](#evaluation)
-- [Limitations](#limitations)
-- [Contributing](#contributing)
-- [Security](#security)
-- [Acknowledgements](#acknowledgements)
+- [Corpus And Licensing](#corpus-and-licensing)
+- [Toenizer](#toenizer)
+- [Maintainer Setup](#maintainer-setup)
+- [Platform Support](#platform-support)
+- [Release Artifacts](#release-artifacts)
+- [Privacy And Security](#privacy-and-security)
+- [Support And Contribution](#support-and-contribution)
+- [Citation And Acknowledgements](#citation-and-acknowledgements)
 - [License](#license)
 
-## Installation
+## Why Toen Exists
+
+Livornese can make ordinary assistant prose shorter and more local without
+changing a requested deliverable. Toen documents a small contemporary runtime
+core, separates readable Ammodino from denser Arranda, and keeps source-backed
+forms in an accepted corpus.
+
+Toen does not translate protected literals, invent unsupported forms, promise a
+provider-specific token reduction, or replace a host's safety and language
+requirements. The style is optional and can be turned off at any time.
+
+## Choose A Distribution
+
+| Distribution | Use It When | Activation |
+| --- | --- | --- |
+| Portable Skill | Your assistant accepts Markdown skills or custom instructions. | `$toen ...` |
+| Codex Plugin | You want Codex marketplace installation and session metadata. | `$toen ...` |
+| Claude Code Plugin | You want a namespaced Claude Code skill. | `/toen:toen [command] [task]` |
+
+The three skill bodies are generated from the same corpus and grammar renderer.
+Only host frontmatter and invocation metadata differ.
+
+## Install
+
+### Portable Skill
+
+Clone the public repository, then copy [skill/toen/SKILL.md](skill/toen/SKILL.md)
+into the skill or custom-instructions directory supported by your assistant.
+The portable distribution also includes its README and attribution files.
 
 ### Codex Plugin
 
-To test the current checkout, clone the repository and install its local
-marketplace:
+The project is currently installed from its public repository marketplace rather
+than an official hosted marketplace:
 
 ```bash
 git clone https://github.com/airscripts/toen.git
 cd toen
-codex plugin marketplace add "$PWD"
+codex plugin marketplace add .
 codex plugin add toen --marketplace toen
 ```
 
-Start a new Codex session after installation. The plugin is explicit-only, so
-installation does not activate it. A published marketplace release is not
-available yet; release installation instructions will be added when one is
-deployed. See [Installation](docs/installation.md).
+Start a new session after installation. Installation does not activate Toen.
+The distributable plugin is [plugins/codex/toen](plugins/codex/toen).
 
-### Portable Skill
+### Claude Code Plugin
 
-The portable skill is [SKILL.md](plugins/toen/skills/toen/SKILL.md). Upload it
-or copy it into an assistant's custom-instructions or skills directory, then
-invoke it explicitly with `$toen ammodino` or `$toen arranda`. The host
-assistant controls the exact installation location; no Codex marketplace is
-required.
+Install from the repository marketplace:
+
+```bash
+git clone https://github.com/airscripts/toen.git
+cd toen
+claude plugin marketplace add .
+claude plugin install toen@toen
+```
+
+Validate the checkout before installation with `claude plugin validate .`.
+Invoke the installed skill explicitly as `/toen:toen ammodino` or
+`/toen:toen arranda`.
 
 ## Quick Start
+
+Portable and Codex commands:
 
 ```text
 $toen
@@ -68,127 +102,155 @@ $toen arranda
 $toen de
 $toen spengi
 $toen ammodino explain this error
-$toen spengi summarize this in normal Italian
+$toen spengi summarize this normally
 ```
 
-`ammodino` is readable and concise for Italian readers. `arranda` is denser
-and more local-first. Mode state lasts only for the current conversation;
-new sessions start `spento`, while resume and compaction preserve the mode.
-The status command is ASCII `de`; prose writes the Livornese interjection
-`dé`.
+`ammodino` is readable and concise. `arranda` is denser and more local-first.
+`de` reports the state; prose uses the Livornese interjection `dé`. Claude Code
+uses the same command protocol after its namespaced explicit invocation.
 
-See the [command reference](docs/commands.md), [house orthography](docs/orthography.md),
-[privacy](docs/privacy.md), and the [full documentation index](docs/README.md).
+## Protected Text And Session State
 
-## Maintainer
+Toen applies only to visible assistant output. Preserve code, commands, paths,
+URLs, IDs, logs, errors, quotes, numbers, and requested output formats exactly.
+Technical terms remain standard unless the user explicitly asks otherwise.
 
-`toenctl` is a maintainer binary, not an end-user dependency. The Makefile is
-the convenient project surface:
+New sessions start `spento`. Activation is conversation-local; supported resume
+and compaction flows retain the selected mode. `$toen de` reports state, and
+`$toen spengi` disables the style. Unknown commands show usage without changing
+state. Host safety rules and explicit deliverable requirements always win.
 
-```bash
-make verify
-make test
-make smoke-check
-# Live, token-spending development campaign:
-make smoke
-make package VERSION=0.1.0
+## Architecture
+
+```mermaid
+flowchart TD
+    corpus[Accepted corpus and grammar] --> renderer[Deterministic Rust renderer]
+    renderer --> portable[Portable skill]
+    renderer --> codex[Codex plugin skill]
+    renderer --> claude[Claude Code plugin skill]
+    renderer --> docs[Generated dictionary, notices, reports]
+    portable --> packages[Reproducible release archives]
+    codex --> packages
+    claude --> packages
 ```
 
-Install Lefthook once after cloning, then commits run the verification and
-test commands automatically:
-
-```bash
-lefthook install
-```
-
-The pre-commit hook intentionally runs only `make verify` and `make test`,
-with command output streamed while they run. Container, package, benchmark,
-and release commands remain explicit. `make test` runs the unit and integration
-suites and enforces at least 81% line coverage.
-
-## Containers
-
-The checked-in [Containerfile](Containerfile) provides a disposable Linux
-runtime with Rust 1.89, the pinned formatting and lint components, Make,
-Python, curl, and archive tools. Use it when you want the same Linux tool
-boundary as CI:
-
-```bash
-make container-verify
-make container-test
-make container-package VERSION=0.1.0
-```
-
-Each target builds the image and runs a fresh container with `--rm`. Package
-archives are mounted back into `dist/`; the container itself is discarded.
-Set `CONTAINER_ENGINE` for a compatible engine such as Podman, or override
-`CONTAINER_IMAGE` to choose a local tag. macOS and Windows CI jobs remain
-native so platform-specific behavior is still covered.
-
-The individual commands are:
-
-```bash
-cargo run --release --locked --bin toenctl -- corpus check
-cargo run --release --locked --bin toenctl -- sources verify --metadata-only
-cargo run --release --locked --bin toenctl -- generate --check
-cargo run --release --locked --bin toenctl -- bench smoke --check
-cargo run --release --locked --bin toenctl -- bench run --release 0.1.0 --resume
-cargo run --release --locked --bin toenctl -- bench judge --release 0.1.0
-cargo run --release --locked --bin toenctl -- bench report --release 0.1.0
-cargo run --release --locked --bin toenctl -- package --version 0.1.0
-```
-
-`corpus check` validates exactly 500 accepted TOML records, source URL
-consistency, review metadata, variants, modes, and the 50/30 runtime core.
-`generate --check` prevents drift in the skill, generated dictionary, source
-notice, and token-budget manifest. `package` refuses to run until the complete
-campaign and every release gate pass. It then creates deterministic plugin,
-raw-skill, and benchmark-evidence ZIPs, the benchmark report, and SHA-256
-checksums.
+`toenctl` discovers the workspace, validates source metadata and corpus
+relationships, renders generated files atomically, runs the local Toenizer, and
+packages self-contained distributions. CI uses only non-spending benchmark
+checks; live benchmark campaigns are explicit maintainer commands and invoke
+the configured model provider.
 
 ## Repository Map
 
 | Path | Responsibility |
 | --- | --- |
-| `plugins/toen/` | Distributable Codex plugin and portable generated skill. |
+| `skill/toen/` | Host-neutral generated skill distribution. |
+| `plugins/codex/toen/` | Self-contained Codex plugin. |
+| `plugins/claude-code/toen/` | Self-contained Claude Code plugin. |
 | `corpus/accepted/` | One TOML file per accepted linguistic record. |
 | `corpus/sources.toml` | Bibliography and local-attestation metadata. |
-| `toenctl/` | Rust 2024 maintainer tooling. |
-| `benchmarks/` | Protocol and saved development campaign artifacts. |
-| `docs/` | English product and maintainer documentation. |
-| `.github/workflows/` | Cross-platform verification, testing, build, and release workflows. |
+| `toenctl/` | Rust 2024 validation, generation, Toenizer, and packaging. |
+| `docs/` | Product, maintainer, corpus, and generated documentation. |
+| `.github/workflows/` | Pinned cross-platform verification and release automation. |
 
-## Evaluation
+## Corpus And Licensing
 
-The benchmark protocol compares normal Italian, terse Italian, Ammodino, and
-Arranda on the specified Codex models. `bench smoke` runs the live Luna suite;
-`bench smoke --check` is the non-spending CI check. Complete campaigns,
-judging, and reports are manual, resumable, source-controlled release evidence.
-See [Benchmarks](docs/benchmarks.md).
+The accepted corpus contains exactly 500 reviewed records. Each record carries
+stable identity, linguistic metadata, original examples, evidence locators, and
+review information. Livorno-specific attestation is required; source pages are
+never copied into the repository. See [Corpus Methodology](docs/methodology.md)
+and [Corpus Authoring](docs/corpus-authoring.md).
 
-## Limitations
+Rust code, plugin metadata, and skill instructions are MIT-licensed. Original
+corpus records and generated linguistic documentation are CC BY 4.0. Each
+distribution carries the software license, corpus license, and source notice.
 
-The accepted corpus contains 500 reviewed, locator-backed records. Release
-quality still depends on passing the published behavioral and statistical
-gates; the package command enforces that boundary.
+## Toenizer
 
-## Contributing
+Toenizer is a deterministic local estimator using the disclosed `o200k-base`
+engine. It counts exact input, reports UTF-8 bytes and lines, and does not claim
+provider usage or billing:
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md), run `make verify`, and update docs
-with behavior changes.
+```bash
+cargo toen toenizer count --text "Ciao, dé!"
+cargo toen toenizer count --file path/to/text.md --format json
+cargo toen toenizer compare --baseline "Italian text" --candidate "Testo livornese"
+cargo toen toenizer report
+cargo toen toenizer report --check
+```
 
-## Security
+Comparison reports signed token differences and `Estimated Saving`, including
+negative values as increases. A zero-token baseline is `n/a` in human output
+and `null` in JSON. Read [Tokenization Methodology](docs/tokenization.md) and
+the generated [Toenizer Report](docs/toenizer-report.md) for limitations.
 
-Report security issues privately as described in [SECURITY.md](SECURITY.md).
+## Maintainer Setup
 
-## Acknowledgements
+Install Rust 1.89 from `rust-toolchain.toml`, clone the repository, and enter
+it before running the portable Cargo alias:
 
-Thanks to Dario Moccia for inspiring this project.
+```bash
+git clone https://github.com/airscripts/toen.git
+cd toen
+cargo toen verify
+cargo toen test
+```
+
+The same gates are exposed as `make verify` and `make test`; Lefthook runs only
+those two targets before a commit. Use `cargo toen doctor` to inspect workspace
+discovery, platform details, optional tools, and the command for checking
+generated-file status.
+
+## Platform Support
+
+| Platform | Architecture | Coverage |
+| --- | --- | --- |
+| Ubuntu 24.04 Container | x86-64 | Full verification, coverage, packaging. |
+| Windows 2025 | x86-64 | Build, tests, generation, manifests. |
+| macOS 15 Intel | x86-64 | Build, tests, generation, manifests. |
+| Ubuntu 24.04 ARM | ARM64 | Build, tests, generation, manifests. |
+| macOS 15 | ARM64 | Build, tests, generation, manifests. |
+
+CI performs no live source-link verification, live benchmark campaign, or
+assistant invocation. The committed smoke manifest is still checked.
+
+## Release Artifacts
+
+`cargo toen package --version 0.1.0` requires reviewed benchmark evidence and
+produces exactly:
+
+```text
+toen-skill-v0.1.0.zip
+toen-codex-plugin-v0.1.0.zip
+toen-claude-code-plugin-v0.1.0.zip
+toen-benchmark-evidence-v0.1.0.zip
+toen-benchmark-report-v0.1.0.md
+toen-v0.1.0-checksums.txt
+```
+
+The archives have stable lexical entries, fixed timestamps, normalized text,
+no repository metadata or build output, and self-contained licenses and source
+notices. Checksums are lowercase SHA-256 lines sorted by filename. See
+[Release Runbook](docs/release.md).
+
+## Privacy And Security
+
+Toen has no service, account, telemetry, dynamic vocabulary fetch, hook, or MCP
+server. Source-link checks are explicit and use the local Rust HTTP client. CI
+never sends prompts to an assistant or spends model tokens. Report security
+issues privately as described in [SECURITY.md](SECURITY.md).
+
+## Support And Contribution
+
+See [SUPPORT.md](SUPPORT.md) for supported versions and help channels. Read
+[CONTRIBUTING.md](CONTRIBUTING.md) before changing code or corpus records.
+
+## Citation And Acknowledgements
+
+Citation metadata is in [CITATION.cff](CITATION.cff). Thanks to Dario Moccia
+for inspiring this project.
 
 ## License
 
-Rust code, plugin metadata, and skill instructions are MIT-licensed. Original
-corpus records and generated linguistic documentation are licensed under
-[CC BY 4.0](CORPUS-LICENSE.md). Third-party source material is not copied into
-the repository. Plugin and raw-skill distributions carry both license files
-and the generated source notice beside the runtime skill.
+See [LICENSE](LICENSE), [CORPUS-LICENSE.md](CORPUS-LICENSE.md), and the
+generated [Source Notice](docs/source-notice.md).

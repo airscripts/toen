@@ -1,0 +1,2 @@
+[alias]
+toen = "run --release --locked --bin toenctl --"

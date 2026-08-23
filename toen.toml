@@ -1,0 +1,45 @@
+schema_version = 1
+accepted_records = 500
+
+[runtime_core]
+ammodino = 50
+arranda = 30
+
+[tokenizer]
+id = "o200k-base"
+
+[budgets.portable]
+tokens = 750
+utf8_bytes = 2560
+lines = 40
+
+[budgets.codex]
+tokens = 750
+utf8_bytes = 2560
+lines = 40
+
+[budgets.claude-code]
+tokens = 850
+utf8_bytes = 3072
+lines = 50
+
+[generated]
+assets = [
+    "skill/toen/SKILL.md",
+    "plugins/codex/toen/skills/toen/SKILL.md",
+    "plugins/claude-code/toen/skills/toen/SKILL.md",
+    "docs/generated-dictionary.md",
+    "docs/source-notice.md",
+    "docs/token-budget.json",
+    "docs/toenizer-report.md",
+    "docs/toenizer-report.json",
+    "schemas/corpus-record.schema.json",
+    "schemas/sources.schema.json",
+    "schemas/grammar.schema.json",
+    "schemas/project-config.schema.json",
+    "schemas/package-manifest.schema.json",
+    "schemas/toenizer.schema.json",
+]
+
+[integrations]
+supported = ["portable", "codex", "claude-code"]

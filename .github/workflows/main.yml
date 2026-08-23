@@ -37,3 +37,7 @@ jobs:
   security:
     name: Security
     uses: ./.github/workflows/security.yml
+
+  static:
+    name: Static
+    uses: ./.github/workflows/static.yml

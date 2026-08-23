@@ -548,6 +548,16 @@ pub fn run(root: &Path, args: &[String], version: &str) -> Result<(), String> {
     }
 }
 
+pub(crate) fn validate_args(args: &[String]) -> Result<(), String> {
+    match args.first().map(String::as_str) {
+        Some("smoke") if args.len() == 1 || (args.len() == 2 && args[1] == "--check") => Ok(()),
+        Some("run") => release_args(&args[1..], true).map(|_| ()),
+        Some("judge") | Some("report") => release_args(&args[1..], false).map(|_| ()),
+        Some(command) => Err(format!("invalid arguments for bench {command}")),
+        None => Err("bench command requires smoke, run, judge, or report".to_owned()),
+    }
+}
+
 fn check_smoke(root: &Path) -> Result<(), String> {
     let scenarios = load_scenarios(root)?;
     let sessions = load_sessions(root)?;

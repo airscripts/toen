@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "Toen"
-message: "If Toen helps your Codex workflow, please cite the repository."
+message: "If Toen helps your assistant workflow, please cite the repository."
 type: software
 authors:
   - name: "airscripts"

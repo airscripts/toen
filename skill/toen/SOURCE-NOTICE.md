@@ -1,3 +1,4 @@
+<!-- Generated File—Do Not Edit. -->
 # Source Notice
 
 Toen ships original examples and distilled notes, not copied source pages. Evidence locators and access dates remain in each corpus record.

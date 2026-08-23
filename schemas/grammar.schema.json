@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GrammarFile",
+  "type": "object",
+  "required": [
+    "rule"
+  ],
+  "properties": {
+    "rule": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/GrammarRule"
+      }
+    }
+  },
+  "definitions": {
+    "GrammarRule": {
+      "type": "object",
+      "required": [
+        "id",
+        "modes",
+        "source_ids",
+        "text"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "modes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/RuntimeMode"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    },
+    "RuntimeMode": {
+      "type": "string",
+      "enum": [
+        "spento",
+        "ammodino",
+        "arranda"
+      ]
+    }
+  }
+}

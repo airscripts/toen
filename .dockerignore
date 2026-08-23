@@ -2,5 +2,5 @@
 .github
 dist
 target
-benchmarks/releases
+benchmarks/releases/*/work
 *.swp

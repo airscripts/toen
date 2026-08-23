@@ -6,9 +6,10 @@
   "plugins": [
     {
       "name": "toen",
+      "version": "0.1.0",
       "source": {
         "source": "local",
-        "path": "./plugins/toen"
+        "path": "./plugins/codex/toen"
       },
       "policy": {
         "installation": "AVAILABLE",

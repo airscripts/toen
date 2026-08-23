@@ -1,7 +1,7 @@
 {
   "name": "toen",
   "version": "0.1.0",
-  "description": "Optional, source-grounded Livornese output that keeps Codex replies concise.",
+  "description": "Optional, source-grounded Livornese output for Codex.",
   "author": {
     "name": "airscripts",
     "url": "https://github.com/airscripts"

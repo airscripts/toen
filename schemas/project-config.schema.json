@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ProjectConfigSchema",
+  "type": "object",
+  "required": [
+    "accepted_records",
+    "budgets",
+    "generated",
+    "integrations",
+    "runtime_core",
+    "schema_version",
+    "tokenizer"
+  ],
+  "properties": {
+    "accepted_records": {
+      "type": "integer",
+      "format": "uint",
+      "minimum": 0.0
+    },
+    "budgets": {
+      "$ref": "#/definitions/BudgetsSchema"
+    },
+    "generated": {
+      "$ref": "#/definitions/GeneratedSchema"
+    },
+    "integrations": {
+      "$ref": "#/definitions/IntegrationsSchema"
+    },
+    "runtime_core": {
+      "$ref": "#/definitions/RuntimeCoreSchema"
+    },
+    "schema_version": {
+      "type": "integer",
+      "format": "uint32",
+      "minimum": 0.0
+    },
+    "tokenizer": {
+      "$ref": "#/definitions/TokenizerSchema"
+    }
+  },
+  "definitions": {
+    "BudgetSchema": {
+      "type": "object",
+      "required": [
+        "lines",
+        "tokens",
+        "utf8_bytes"
+      ],
+      "properties": {
+        "lines": {
+          "type": "integer",
+          "format": "uint",
+          "minimum": 0.0
+        },
+        "tokens": {
+          "type": "integer",
+          "format": "uint",
+          "minimum": 0.0
+        },
+        "utf8_bytes": {
+          "type": "integer",
+          "format": "uint",
+          "minimum": 0.0
+        }
+      }
+    },
+    "BudgetsSchema": {
+      "type": "object",
+      "required": [
+        "claude-code",
+        "codex",
+        "portable"
+      ],
+      "properties": {
+        "claude-code": {
+          "$ref": "#/definitions/BudgetSchema"
+        },
+        "codex": {
+          "$ref": "#/definitions/BudgetSchema"
+        },
+        "portable": {
+          "$ref": "#/definitions/BudgetSchema"
+        }
+      }
+    },
+    "GeneratedSchema": {
+      "type": "object",
+      "required": [
+        "assets"
+      ],
+      "properties": {
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "IntegrationsSchema": {
+      "type": "object",
+      "required": [
+        "supported"
+      ],
+      "properties": {
+        "supported": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "RuntimeCoreSchema": {
+      "type": "object",
+      "required": [
+        "ammodino",
+        "arranda"
+      ],
+      "properties": {
+        "ammodino": {
+          "type": "integer",
+          "format": "uint",
+          "minimum": 0.0
+        },
+        "arranda": {
+          "type": "integer",
+          "format": "uint",
+          "minimum": 0.0
+        }
+      }
+    },
+    "TokenizerSchema": {
+      "type": "object",
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

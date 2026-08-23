@@ -13,11 +13,11 @@ permissions:
 jobs:
   release:
     name: Checksum
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
 
     steps:
-      - uses: actions/download-artifact@v8
+      - uses: actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0
         name: Download Release Archives
 
         with:
@@ -30,16 +30,17 @@ jobs:
           cd dist
 
           mapfile -t release_files < <(find . -maxdepth 1 -type f | sort)
-          if [[ "${#release_files[@]}" -ne 5 ]]; then
-            echo "expected exactly five release files" >&2
+          if [[ "${#release_files[@]}" -ne 6 ]]; then
+            echo "expected exactly six release files" >&2
             printf '%s\n' "${release_files[@]}" >&2
             exit 1
           fi
 
           sha256sum --check "toen-v${RELEASE_VERSION}-checksums.txt"
 
-          test -f "toen-plugin-v${RELEASE_VERSION}.zip"
           test -f "toen-skill-v${RELEASE_VERSION}.zip"
+          test -f "toen-codex-plugin-v${RELEASE_VERSION}.zip"
+          test -f "toen-claude-code-plugin-v${RELEASE_VERSION}.zip"
           test -f "toen-benchmark-evidence-v${RELEASE_VERSION}.zip"
           test -f "toen-benchmark-report-v${RELEASE_VERSION}.md"
 

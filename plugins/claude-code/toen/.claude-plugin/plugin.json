@@ -1,0 +1,15 @@
+{
+  "name": "toen",
+  "displayName": "Toen",
+  "version": "0.1.0",
+  "description": "Optional, source-grounded Livornese output for Claude Code.",
+  "author": {
+    "name": "airscripts",
+    "url": "https://github.com/airscripts"
+  },
+  "homepage": "https://github.com/airscripts/toen",
+  "repository": "https://github.com/airscripts/toen",
+  "license": "MIT",
+  "keywords": ["livornese", "concise", "claude-code"],
+  "skills": "./skills/"
+}

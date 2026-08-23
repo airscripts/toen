@@ -1,0 +1,224 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Record",
+  "type": "object",
+  "required": [
+    "allowed_modes",
+    "canonical",
+    "confidence",
+    "contemporary_status",
+    "evidence",
+    "examples",
+    "gloss_en",
+    "gloss_it",
+    "grammatical_role",
+    "id",
+    "kind",
+    "lemma",
+    "register",
+    "review",
+    "runtime",
+    "runtime_priority",
+    "usage_notes",
+    "variants"
+  ],
+  "properties": {
+    "allowed_modes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/RuntimeMode"
+      }
+    },
+    "canonical": {
+      "type": "string"
+    },
+    "confidence": {
+      "$ref": "#/definitions/Confidence"
+    },
+    "contemporary_status": {
+      "$ref": "#/definitions/ContemporaryStatus"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Evidence"
+      }
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Example"
+      }
+    },
+    "gloss_en": {
+      "type": "string"
+    },
+    "gloss_it": {
+      "type": "string"
+    },
+    "grammatical_role": {
+      "$ref": "#/definitions/GrammaticalRole"
+    },
+    "id": {
+      "type": "string"
+    },
+    "kind": {
+      "$ref": "#/definitions/RecordKind"
+    },
+    "lemma": {
+      "type": "string"
+    },
+    "register": {
+      "$ref": "#/definitions/Register"
+    },
+    "review": {
+      "$ref": "#/definitions/Review"
+    },
+    "runtime": {
+      "$ref": "#/definitions/RuntimeMode"
+    },
+    "runtime_priority": {
+      "type": "integer",
+      "format": "uint32",
+      "minimum": 0.0
+    },
+    "usage_notes": {
+      "type": "string"
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "definitions": {
+    "Confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium"
+      ]
+    },
+    "ContemporaryStatus": {
+      "type": "string",
+      "enum": [
+        "current",
+        "endangered"
+      ]
+    },
+    "Evidence": {
+      "type": "object",
+      "required": [
+        "accessed",
+        "locator",
+        "source_id",
+        "url"
+      ],
+      "properties": {
+        "accessed": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "archive_url": {
+          "format": "uri",
+          "anyOf": [
+            {
+              "$ref": "#/definitions/HttpsUrl"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "locator": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "url": {
+          "format": "uri",
+          "allOf": [
+            {
+              "$ref": "#/definitions/HttpsUrl"
+            }
+          ]
+        }
+      }
+    },
+    "Example": {
+      "type": "object",
+      "required": [
+        "italian",
+        "livornese"
+      ],
+      "properties": {
+        "italian": {
+          "type": "string"
+        },
+        "livornese": {
+          "type": "string"
+        }
+      }
+    },
+    "GrammaticalRole": {
+      "type": "string",
+      "enum": [
+        "adjective",
+        "adverb",
+        "discourse",
+        "interjection",
+        "noun",
+        "phrase",
+        "pronoun",
+        "verb"
+      ]
+    },
+    "HttpsUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "RecordKind": {
+      "type": "string",
+      "enum": [
+        "lexeme",
+        "idiom",
+        "particle"
+      ]
+    },
+    "Register": {
+      "type": "string",
+      "enum": [
+        "everyday",
+        "colloquial",
+        "expressive"
+      ]
+    },
+    "Review": {
+      "type": "object",
+      "required": [
+        "date",
+        "reviewer"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "reviewer": {
+          "type": "string"
+        }
+      }
+    },
+    "RuntimeMode": {
+      "type": "string",
+      "enum": [
+        "spento",
+        "ammodino",
+        "arranda"
+      ]
+    }
+  }
+}

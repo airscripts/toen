@@ -3,6 +3,8 @@ name: toen
 description: Explicit contemporary Livornese for concise assistant replies.
 ---
 
+<!-- Generated File—Do Not Edit. -->
+
 # Toen
 
 Default `spento`; only `$toen` activates. New sessions reset; resume/compaction retain mode.

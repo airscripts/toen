@@ -4,7 +4,7 @@ CONTAINER_ENGINE ?= docker
 CONTAINER_IMAGE ?= toen-ci:0.1.0
 VERSION ?= 0.1.0
 
-.PHONY: all fmt lint check test corpus sources manifests generate generate-check smoke smoke-check package verify container-build container-verify container-test container-package clean
+.PHONY: all fmt lint check test corpus sources manifests generate generate-check smoke smoke-check toenizer-report package verify doctor container-build container-verify container-test container-package clean
 
 all: verify
 
@@ -18,7 +18,7 @@ check:
 	CARGO_BUILD_JOBS=$(CARGO_BUILD_JOBS) $(CARGO) check --workspace --locked
 
 test:
-	CARGO_BUILD_JOBS=$(CARGO_BUILD_JOBS) $(CARGO) llvm-cov --workspace --all-targets --locked --fail-under-lines 81
+	$(CARGO) toen test
 
 corpus:
 	$(CARGO) run --release --locked --bin toenctl -- corpus check
@@ -41,10 +41,17 @@ smoke:
 smoke-check:
 	$(CARGO) run --release --locked --bin toenctl -- bench smoke --check
 
+toenizer-report:
+	$(CARGO) toen toenizer report
+
 package:
 	$(CARGO) run --release --locked --bin toenctl -- package --version $(VERSION)
 
-verify: fmt lint check corpus sources manifests generate-check
+verify:
+	$(CARGO) toen verify
+
+doctor:
+	$(CARGO) toen doctor
 
 container-build:
 	$(CONTAINER_ENGINE) build --pull --file Containerfile --tag $(CONTAINER_IMAGE) .
