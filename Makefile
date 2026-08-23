@@ -1,10 +1,8 @@
 CARGO ?= cargo
 CARGO_BUILD_JOBS ?= 4
-CONTAINER_ENGINE ?= docker
-CONTAINER_IMAGE ?= toen-ci:0.1.0
 VERSION ?= 0.1.0
 
-.PHONY: all fmt lint check test corpus sources manifests generate generate-check smoke smoke-check toenizer-report package verify doctor container-build container-verify container-test container-package clean
+.PHONY: all fmt lint check test release-notes-test corpus sources manifests generate generate-check smoke smoke-check toenizer-report package verify doctor clean
 
 all: verify
 
@@ -17,8 +15,11 @@ lint:
 check:
 	CARGO_BUILD_JOBS=$(CARGO_BUILD_JOBS) $(CARGO) check --workspace --locked
 
-test:
+test: release-notes-test
 	$(CARGO) toen test
+
+release-notes-test:
+	./scripts/tests/release-notes.sh
 
 corpus:
 	$(CARGO) run --release --locked --bin toenctl -- corpus check
@@ -52,24 +53,6 @@ verify:
 
 doctor:
 	$(CARGO) toen doctor
-
-container-build:
-	$(CONTAINER_ENGINE) build --pull --file Containerfile --tag $(CONTAINER_IMAGE) .
-
-container-verify: container-build
-	$(CONTAINER_ENGINE) run --rm --name toen-ci-verify $(CONTAINER_IMAGE) make verify
-
-container-test: container-build
-	$(CONTAINER_ENGINE) run --rm --name toen-ci-test $(CONTAINER_IMAGE) make test
-
-container-package: container-build
-	test -d benchmarks/releases/$(VERSION)
-	mkdir -p dist
-	$(CONTAINER_ENGINE) run --rm \
-		--name toen-ci-package \
-		--volume "$(CURDIR)/dist:/workspace/dist" \
-		--volume "$(CURDIR)/benchmarks/releases:/workspace/benchmarks/releases:ro" \
-		$(CONTAINER_IMAGE) make package VERSION=$(VERSION)
 
 clean:
 	$(CARGO) clean

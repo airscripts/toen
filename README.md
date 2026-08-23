@@ -207,9 +207,10 @@ generated-file status.
 | --- | --- | --- |
 | Ubuntu 24.04 Container | x86-64 | Full verification, coverage, packaging. |
 | Windows 2025 | x86-64 | Build, tests, generation, manifests. |
-| macOS 15 Intel | x86-64 | Build, tests, generation, manifests. |
+| Windows 11 (ARM64) | ARM64 | Build, tests, generation, manifests. |
+| macOS 15 (x86-64) | x86-64 | Build, tests, generation, manifests. |
 | Ubuntu 24.04 ARM | ARM64 | Build, tests, generation, manifests. |
-| macOS 15 | ARM64 | Build, tests, generation, manifests. |
+| macOS 15 (ARM64) | ARM64 | Build, tests, generation, manifests. |
 
 CI performs no live source-link verification, live benchmark campaign, or
 assistant invocation. The committed smoke manifest is still checked.

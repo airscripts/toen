@@ -11,9 +11,6 @@ on:
       version:
         value: ${{ jobs.release.outputs.version }}
 
-      prerelease:
-        value: ${{ jobs.release.outputs.prerelease }}
-
       tag:
         value: ${{ jobs.release.outputs.tag }}
 
@@ -28,7 +25,6 @@ jobs:
 
     outputs:
       version: ${{ steps.release.outputs.version }}
-      prerelease: ${{ steps.release.outputs.prerelease }}
       tag: ${{ steps.release.outputs.tag }}
 
     steps:
@@ -37,6 +33,7 @@ jobs:
 
         with:
           ref: ${{ inputs.tag }}
+          persist-credentials: false
 
       - id: release
         run: |
@@ -44,42 +41,18 @@ jobs:
 
           raw_tag="$RELEASE_INPUT_TAG"
           tag="${raw_tag#refs/tags/}"
+
+          if ! git rev-parse --verify --quiet "refs/tags/$tag^{commit}" >/dev/null; then
+            echo "release tag $tag does not exist in the checked-out repository" >&2
+            exit 1
+          fi
+
           version="${tag#v}"
-          repository_version="$(tr -d '[:space:]' < VERSION)"
-
-          if [[ ! "$tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+([.-][0-9A-Za-z]+([.-][0-9A-Za-z]+)*)?$ ]]; then
-            echo "release tag is not a valid version tag: $tag" >&2
-            exit 1
-          fi
-
-          if [[ "$version" != "$repository_version" ]]; then
-            echo "tag version $version does not match VERSION $repository_version" >&2
-            exit 1
-          fi
-
-          awk -v header="## $version" '
-            index($0, header) == 1 && substr($0, length(header) + 1, 1) == " " {
-              found = 1
-              next
-            }
-            found && /^## / { exit }
-            found { print }
-          ' CHANGELOG.md > release-notes.md
-
-          if [[ ! -s release-notes.md ]]; then
-            echo "no changelog entry found for $version" >&2
-            exit 1
-          fi
-
-          prerelease=false
-          if [[ "$version" == *-* ]]; then
-            prerelease=true
-          fi
+          bash scripts/release-notes.sh "$tag" release-notes.md
 
           {
             echo "tag=$tag"
             echo "version=$version"
-            echo "prerelease=$prerelease"
           } >> "$GITHUB_OUTPUT"
 
           echo "Prepared release $tag"

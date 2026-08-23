@@ -61,11 +61,12 @@ Workspace line coverage must remain at or above 81%, keeping the enforced gate
 strictly above 80%. Add meaningful unit or integration coverage for new paths;
 do not exclude production modules merely to satisfy the threshold.
 
-Keep Linux CI inside fresh Rust 1.89 containers pinned by digest. Retain native
-Windows and macOS jobs plus Linux and macOS ARM64 build/test coverage. Do not
+Keep CI inside fresh Rust 1.89 containers pinned by digest. Retain native
+Windows x86-64 and ARM64, macOS x86-64 and ARM64, and Linux x86-64 and ARM64
+build/test coverage. Do not
 put credentials, source pages, generated archives, benchmark outputs, or model
-outputs into the image. `container-package` mounts tracked release evidence
-read-only.
+outputs into the image. `make -f Makefile.container package` mounts tracked
+release evidence read-only.
 
 ## Release Rules
 

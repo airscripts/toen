@@ -5,6 +5,12 @@ published. Versions must agree across `VERSION`, Cargo metadata, plugin
 manifests, marketplaces, citation metadata, changelog, documentation, and
 archive names.
 
+Keep the changelog in Keep a Changelog format with an `## [Unreleased]` section
+followed by bracketed version sections such as `## [0.1.0] - 2026-08-23`.
+The release workflow extracts the matching dated version section. Release tags
+must be stable `vX.Y.Z` tags; prerelease tags are rejected until benchmark
+evidence and archive naming support them consistently.
+
 Run the gates from a clean checkout:
 
 ```bash

@@ -11,10 +11,6 @@ on:
         required: true
         type: string
 
-      prerelease:
-        required: true
-        type: string
-
 permissions:
   contents: write
   id-token: write
@@ -51,12 +47,21 @@ jobs:
         with:
           subject-path: release/assets/*
 
-      - uses: softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda # v3.0.0
-        name: Publish GitHub Release
+      - name: Publish GitHub Release
+        run: |
+          set -euo pipefail
 
-        with:
-          tag_name: ${{ inputs.tag }}
-          name: Toen ${{ inputs.tag }}
-          body_path: release/release-notes.md
-          prerelease: ${{ inputs.prerelease }}
-          files: release/assets/*
+          release_args=(
+            "$RELEASE_TAG"
+            release/assets/*
+            --title "Toen $RELEASE_TAG"
+            --notes-file release/release-notes.md
+            --repo "$GH_REPO"
+            --verify-tag
+          )
+          gh release create "${release_args[@]}"
+
+        env:
+          GH_REPO: ${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}

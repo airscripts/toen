@@ -2,5 +2,12 @@
 .github
 dist
 target
-benchmarks/releases/*/work
+/benchmarks/releases/
+node_modules/
+.container-cache/
+__pycache__/
+*.py[cod]
+.env*
+*.pem
+*.key
 *.swp

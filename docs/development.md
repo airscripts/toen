@@ -20,7 +20,7 @@ cd toen
 | `cargo toen bench smoke --check` | Validate the non-spending benchmark manifest. |
 | `cargo toen bench smoke` | Run the explicit live smoke campaign and spend provider tokens. |
 | `cargo toen package --version 0.1.0` | Build three distribution archives, benchmark evidence/report, and checksums. |
-| `make container-verify` | Run verification in a disposable container. |
+| `make -f Makefile.container verify` | Run verification in a disposable container. |
 
 Lefthook runs only `make verify` and `make test` before a commit. Container,
 package, live source-link, and live benchmark operations remain explicit. CI

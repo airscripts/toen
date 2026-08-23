@@ -1,5 +1,6 @@
 /target/
 /dist/
+node_modules/
 .container-cache/
 benchmarks/releases/*/work/
 __pycache__/

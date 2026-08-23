@@ -7,8 +7,8 @@ permissions:
   contents: read
 
 jobs:
-  linux-container:
-    name: Linux Container
+  container:
+    name: Container
     runs-on: ubuntu-24.04
     container:
       image: rust:1.89-bookworm@sha256:948f9b08a66e7fe01b03a98ef1c7568292e07ec2e4fe90d88c07bb14563c84ff
@@ -18,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         name: Checkout Code
+
+        with:
+          persist-credentials: false
 
       - run: |
           apt-get update
@@ -34,16 +37,37 @@ jobs:
         name: Smoke Test Version
 
   native:
-    name: Native
+    name: Native (${{ matrix.platform }} ${{ matrix.architecture }})
     strategy:
       matrix:
-        os: [macos-15-intel, windows-2025, ubuntu-24.04-arm, macos-15]
+        include:
+          - os: macos-15-intel
+            platform: macOS 15
+            architecture: x86-64
+          - os: windows-2025
+            platform: Windows 2025
+            architecture: x86-64
+          - os: windows-11-arm
+            platform: Windows 11
+            architecture: ARM64
+          - os: ubuntu-24.04
+            platform: Ubuntu 24.04
+            architecture: x86-64
+          - os: ubuntu-24.04-arm
+            platform: Ubuntu 24.04
+            architecture: ARM64
+          - os: macos-15
+            platform: macOS 15
+            architecture: ARM64
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
 
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         name: Checkout Code
+
+        with:
+          persist-credentials: false
 
       - uses: dtolnay/rust-toolchain@1d1eb14921d9c2d8ea575663e5fe3a0b57868a05 # 1.89
         name: Install Rust Toolchain

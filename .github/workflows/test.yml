@@ -26,6 +26,7 @@ jobs:
 
         with:
           ref: ${{ inputs.ref || github.ref }}
+          persist-credentials: false
 
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         name: Install Node.js
@@ -33,8 +34,15 @@ jobs:
         with:
           node-version: "24"
 
-      - run: npm install --global @openai/codex@0.147.0
-        name: Install Pinned Codex CLI
+      - run: |
+          set -euo pipefail
+          host_tools="$RUNNER_TEMP/toen-host-tools"
+          mkdir --parents "$host_tools"
+          cp ci/package.json "$host_tools/package.json"
+          cp ci/package-lock.json "$host_tools/package-lock.json"
+          npm ci --prefix "$host_tools" --no-audit --no-fund
+          echo "$host_tools/node_modules/.bin" >> "$GITHUB_PATH"
+        name: Install Pinned Host CLIs
 
       - run: mkdir --parents "$CODEX_HOME"
         name: Create Isolated Codex Home
@@ -66,9 +74,6 @@ jobs:
         env:
           CLAUDE_CONFIG_DIR: ${{ runner.temp }}/toen-claude-config
 
-      - run: npm install --global @anthropic-ai/claude-code@2.1.241
-        name: Install Pinned Claude Code CLI
-
       - run: claude plugin marketplace add "$GITHUB_WORKSPACE"
         name: Add Claude Local Marketplace
 
@@ -90,8 +95,8 @@ jobs:
       - run: claude plugin validate .
         name: Validate Claude Plugin
 
-  linux-container:
-    name: Linux Container
+  container:
+    name: Container
     runs-on: ubuntu-24.04
     container:
       image: rust:1.89-bookworm@sha256:948f9b08a66e7fe01b03a98ef1c7568292e07ec2e4fe90d88c07bb14563c84ff
@@ -104,6 +109,7 @@ jobs:
 
         with:
           ref: ${{ inputs.ref || github.ref }}
+          persist-credentials: false
 
       - run: |
           apt-get update
@@ -131,11 +137,29 @@ jobs:
         name: Check Toenizer Report
 
   native:
-    name: Native
+    name: Native (${{ matrix.platform }} ${{ matrix.architecture }})
     strategy:
       fail-fast: false
       matrix:
-        os: [macos-15-intel, windows-2025, ubuntu-24.04-arm, macos-15]
+        include:
+          - os: macos-15-intel
+            platform: macOS 15
+            architecture: x86-64
+          - os: windows-2025
+            platform: Windows 2025
+            architecture: x86-64
+          - os: windows-11-arm
+            platform: Windows 11
+            architecture: ARM64
+          - os: ubuntu-24.04
+            platform: Ubuntu 24.04
+            architecture: x86-64
+          - os: ubuntu-24.04-arm
+            platform: Ubuntu 24.04
+            architecture: ARM64
+          - os: macos-15
+            platform: macOS 15
+            architecture: ARM64
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
 
@@ -145,6 +169,7 @@ jobs:
 
         with:
           ref: ${{ inputs.ref || github.ref }}
+          persist-credentials: false
 
       - uses: dtolnay/rust-toolchain@1d1eb14921d9c2d8ea575663e5fe3a0b57868a05 # 1.89
         name: Install Rust Toolchain

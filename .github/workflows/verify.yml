@@ -12,8 +12,8 @@ permissions:
   contents: read
 
 jobs:
-  rust-container:
-    name: Linux Container
+  container:
+    name: Container
     runs-on: ubuntu-24.04
     container:
       image: rust:1.89-bookworm@sha256:948f9b08a66e7fe01b03a98ef1c7568292e07ec2e4fe90d88c07bb14563c84ff
@@ -26,6 +26,7 @@ jobs:
 
         with:
           ref: ${{ inputs.ref || github.ref }}
+          persist-credentials: false
 
       - run: |
           apt-get update

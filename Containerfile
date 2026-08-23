@@ -10,7 +10,7 @@ RUN apt-get update \
     && apt-get install --yes --no-install-recommends \
         ca-certificates \
         make \
-    && rustup component add rustfmt clippy llvm-tools-preview \
+    && rustup component add rustfmt clippy rust-analyzer llvm-tools-preview \
     && cargo install cargo-llvm-cov --version 0.8.7 --locked \
     && rm -rf /var/lib/apt/lists/*
 

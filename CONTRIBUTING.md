@@ -17,9 +17,9 @@ Install the repository hook once with `lefthook install`. The pre-commit hook
 runs only `make verify` and `make test`; it does not build containers, verify
 live source links, or call a model.
 
-For the Linux container boundary, run `make container-verify` when a Docker- or
-Podman-compatible engine is available. CI keeps native platform coverage in
-addition to the Linux container gate.
+For the container boundary, run `make -f Makefile.container verify` when a
+Docker- or Podman-compatible engine is available. CI keeps native platform
+coverage in addition to the container gate.
 
 ## Corpus Changes
 
