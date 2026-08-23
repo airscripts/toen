@@ -42,7 +42,7 @@ jobs:
           RELEASE_VERSION: ${{ inputs.version }}
 
       - run: |
-          set -euo pipefail
+          set -eu
           for archive in dist/*.zip; do
             unzip -t "$archive"
           done

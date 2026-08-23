@@ -35,7 +35,7 @@ jobs:
           node-version: "24"
 
       - run: |
-          set -euo pipefail
+          set -eu
           host_tools="$RUNNER_TEMP/toen-host-tools"
           mkdir --parents "$host_tools"
           cp ci/package.json "$host_tools/package.json"

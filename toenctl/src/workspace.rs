@@ -38,12 +38,14 @@ impl Workspace {
     }
 
     fn from_path(root: &Path) -> Result<Self, ToenError> {
-        let root = fs::canonicalize(root).map_err(|error| {
-            ToenError::Workspace(format!(
-                "workspace {} is not readable: {error}",
-                root.display()
-            ))
-        })?;
+        let root = fs::canonicalize(root)
+            .map(normalize_windows_path)
+            .map_err(|error| {
+                ToenError::Workspace(format!(
+                    "workspace {} is not readable: {error}",
+                    root.display()
+                ))
+            })?;
         if !root.join("Cargo.toml").is_file()
             || !root.join("VERSION").is_file()
             || !root.join("corpus/accepted").is_dir()
@@ -59,4 +61,22 @@ impl Workspace {
     pub(crate) fn root(&self) -> &Path {
         &self.root
     }
+}
+
+#[cfg(windows)]
+fn normalize_windows_path(path: PathBuf) -> PathBuf {
+    let path = path.to_string_lossy().into_owned();
+    if let Some(path) = path.strip_prefix("\\\\?\\UNC\\") {
+        return PathBuf::from(format!(r"\\{path}"));
+    }
+
+    if let Some(path) = path.strip_prefix("\\\\?\\") {
+        return PathBuf::from(path);
+    }
+    PathBuf::from(path)
+}
+
+#[cfg(not(windows))]
+fn normalize_windows_path(path: PathBuf) -> PathBuf {
+    path
 }
