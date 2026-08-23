@@ -51,13 +51,15 @@ flowchart LR
     report -->|all pass| package[Five Release Files]
 ```
 
-## Measurements and Evidence
+## Measurements
 
 Provider-reported input and output usage is stored exactly and drives the
 ten-turn total-token break-even measurement. Visible output is measured
 separately: all visible agent messages are joined in order and counted with
 `o200k_base`. This keeps the visible-output gate distinct from hidden or
 non-visible model work.
+
+## Evidence
 
 The evidence set includes exact model IDs, Codex version, medium-reasoning
 configuration, prompts, fixtures, raw outputs, provider usage, randomized

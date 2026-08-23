@@ -1,6 +1,6 @@
 ---
 name: toen
-description: Explicit contemporary Livornese for concise Codex replies.
+description: Explicit contemporary Livornese for concise assistant replies.
 ---
 
 # Toen

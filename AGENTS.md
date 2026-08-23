@@ -2,11 +2,11 @@
 
 ## Overview
 
-Toen is a Codex-only plugin and a Rust 2024 maintainer workspace. The plugin
-is explicit-only and has no runtime service, account, telemetry, hook, or MCP
-server. `toenctl` validates the corpus, renders committed assets, runs
-resumable benchmark campaigns, judges and reports results, and packages gated
-releases.
+Toen is a Codex plugin with a portable Markdown skill and a Rust 2024
+maintainer workspace. The plugin and skill are explicit-only and have no
+runtime service, account, telemetry, hook, or MCP server. `toenctl` validates
+the corpus, renders committed assets, runs resumable benchmark campaigns,
+judges and reports results, and packages gated releases.
 
 ## Boundaries
 

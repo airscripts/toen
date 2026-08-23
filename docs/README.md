@@ -6,7 +6,7 @@
 - [Containers](containers.md)
 - [House orthography](orthography.md)
 - [Corpus methodology](methodology.md)
-- [Privacy and limitations](privacy.md)
+- [Privacy](privacy.md)
 - [Benchmarks](benchmarks.md)
 - [Contributing](contributing.md)
 

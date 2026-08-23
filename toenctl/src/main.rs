@@ -956,7 +956,7 @@ fn render_skill(records: &[Record], grammar: &[GrammarRule]) -> Result<String, S
     Ok(format!(
         r#"---
 name: toen
-description: Explicit contemporary Livornese for concise Codex replies.
+description: Explicit contemporary Livornese for concise assistant replies.
 ---
 
 # Toen

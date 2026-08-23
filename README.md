@@ -4,31 +4,60 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Corpus](https://img.shields.io/badge/corpus-500%20records-blue)](docs/methodology.md)
 
-Token-efficient, source-grounded Livornese for Codex.
+Token-efficient, source-grounded Livornese for AI assistants.
 
-Toen is an optional Codex plugin that makes visible replies, status updates,
-and tool narration shorter in contemporary Livornese. It is useful first and
-playful second: technical terms and protected literals stay exact, while
-ordinary prose can use a compact, documented local style.
+Toen is an optional Codex plugin with a portable Markdown skill that makes
+visible replies, status updates, and tool narration shorter in contemporary
+Livornese. It is useful first and playful second: technical terms and
+protected literals stay exact, while ordinary prose can use a compact,
+documented local style.
 
-Toen is off by default and explicit-only. It is text-only and Codex-only. It
-does not provide a CLI runtime, hosted service, account, telemetry, hook, or
-MCP server, and it makes no claims about hidden model reasoning.
+Toen is off by default and explicit-only. It is text-only and makes no claims
+about hidden model reasoning. The Codex integration is a plugin; the generated
+skill can be used by any assistant that supports Markdown skills or custom
+instructions. Toen does not provide a CLI runtime, hosted service, account,
+telemetry, hook, or MCP server.
+
+## Contents
+
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Maintainer](#maintainer)
+- [Containers](#containers)
+- [Repository Map](#repository-map)
+- [Evaluation](#evaluation)
+- [Limitations](#limitations)
+- [Contributing](#contributing)
+- [Security](#security)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
 ## Installation
 
-Pin the release and start a new Codex session after installation:
+### Codex Plugin
+
+To test the current checkout, clone the repository and install its local
+marketplace:
 
 ```bash
-codex plugin marketplace add airscripts/toen --ref v0.1.0
+git clone https://github.com/airscripts/toen.git
+cd toen
+codex plugin marketplace add "$PWD"
 codex plugin add toen --marketplace toen
 ```
 
-The repository marketplace is `.agents/plugins/marketplace.json` and the
-plugin is under `plugins/toen/`. A raw `toen-skill-v0.1.0.zip` is also produced
-for direct skill installation. All release archives and checksums are also
-published on the [GitHub Releases page](https://github.com/airscripts/toen/releases).
-See [Installation](docs/installation.md).
+Start a new Codex session after installation. The plugin is explicit-only, so
+installation does not activate it. A published marketplace release is not
+available yet; release installation instructions will be added when one is
+deployed. See [Installation](docs/installation.md).
+
+### Portable Skill
+
+The portable skill is [SKILL.md](plugins/toen/skills/toen/SKILL.md). Upload it
+or copy it into an assistant's custom-instructions or skills directory, then
+invoke it explicitly with `$toen ammodino` or `$toen arranda`. The host
+assistant controls the exact installation location; no Codex marketplace is
+required.
 
 ## Quick Start
 
@@ -49,9 +78,9 @@ The status command is ASCII `de`; prose writes the Livornese interjection
 `dé`.
 
 See the [command reference](docs/commands.md), [house orthography](docs/orthography.md),
-[privacy and limitations](docs/privacy.md), and the [full documentation index](docs/README.md).
+[privacy](docs/privacy.md), and the [full documentation index](docs/README.md).
 
-## Maintainer Workflow
+## Maintainer
 
 `toenctl` is a maintainer binary, not an end-user dependency. The Makefile is
 the convenient project surface:
@@ -77,7 +106,7 @@ with command output streamed while they run. Container, package, benchmark,
 and release commands remain explicit. `make test` runs the unit and integration
 suites and enforces at least 81% line coverage.
 
-## Container Workflow
+## Containers
 
 The checked-in [Containerfile](Containerfile) provides a disposable Linux
 runtime with Rust 1.89, the pinned formatting and lint components, Make,
@@ -121,15 +150,15 @@ checksums.
 
 | Path | Responsibility |
 | --- | --- |
-| `plugins/toen/` | Distributable Codex plugin and generated skill. |
+| `plugins/toen/` | Distributable Codex plugin and portable generated skill. |
 | `corpus/accepted/` | One TOML file per accepted linguistic record. |
 | `corpus/sources.toml` | Bibliography and local-attestation metadata. |
 | `toenctl/` | Rust 2024 maintainer tooling. |
 | `benchmarks/` | Protocol and saved development campaign artifacts. |
-| `docs/` | English and Italian product and maintainer documentation. |
+| `docs/` | English product and maintainer documentation. |
 | `.github/workflows/` | Cross-platform verification, testing, build, and release workflows. |
 
-## Evaluation and Limitations
+## Evaluation
 
 The benchmark protocol compares normal Italian, terse Italian, Ammodino, and
 Arranda on the specified Codex models. `bench smoke` runs the live Luna suite;
@@ -137,15 +166,20 @@ Arranda on the specified Codex models. `bench smoke` runs the live Luna suite;
 judging, and reports are manual, resumable, source-controlled release evidence.
 See [Benchmarks](docs/benchmarks.md).
 
+## Limitations
+
 The accepted corpus contains 500 reviewed, locator-backed records. Release
 quality still depends on passing the published behavioral and statistical
 gates; the package command enforces that boundary.
 
-## Contributing and Security
+## Contributing
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md), run `make verify`, and update docs with
-behavior changes. Report security issues privately as described in
-[SECURITY.md](SECURITY.md).
+Read [CONTRIBUTING.md](CONTRIBUTING.md), run `make verify`, and update docs
+with behavior changes.
+
+## Security
+
+Report security issues privately as described in [SECURITY.md](SECURITY.md).
 
 ## Acknowledgements
 

@@ -50,7 +50,7 @@ The container targets use `Containerfile` and default to Docker. Set
 runtime or image tag is needed. The image uses Rust 1.89 Bookworm and copies
 the checkout into `/workspace`; each run is removed after completion.
 
-## Release Workflow
+## Releases
 
 Push a `v<version>` tag, or manually dispatch the Release workflow with a tag.
 The workflow checks that the tag matches `VERSION` and `CHANGELOG.md`, then

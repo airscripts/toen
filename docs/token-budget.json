@@ -1,14 +1,14 @@
 {
   "encoding": "o200k_base",
   "models": {
-    "gpt-5.6-luna": 742,
-    "gpt-5.6-sol": 742
+    "gpt-5.6-luna": 741,
+    "gpt-5.6-sol": 741
   },
   "runtime_core": {
     "ammodino": 50,
     "arranda": 30
   },
-  "skill_sha256": "4c182b6bb20855ca7f46446760b8b7d1ad950fb929917612e7f1f96861b85453",
+  "skill_sha256": "b039592775c2246eaa66c4ee2b3185f45377c62d7c620429938fa27c28fa9e1a",
   "skill_token_budget": 750,
   "version": "0.1.0"
 }

@@ -18,4 +18,4 @@ The enforced workspace line-coverage floor is 81%.
 
 Use original examples, preserve source locators, and do not copy substantial
 third-party text. Changes to commands, style, corpus rules, or generated files
-must update English and Italian documentation together.
+must update the English documentation.

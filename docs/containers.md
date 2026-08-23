@@ -1,8 +1,8 @@
-# Container Workflow
+# Containers
 
 Toen supports disposable container runs for the Linux maintainer workflow.
 This gives local development and CI a defined Rust runtime without changing
-the plugin's end-user model: Toen remains a Codex skill with no service,
+the plugin's end-user model: Toen remains a text skill with no service,
 daemon, or container requirement.
 
 ## Local Use

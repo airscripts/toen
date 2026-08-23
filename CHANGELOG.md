@@ -2,5 +2,5 @@
 
 ## 0.1.0 - Unreleased
 
-Initial text-only, Codex-only release of the optional Toen plugin and
+Initial text-only release of the optional Toen plugin, portable skill, and
 maintainer corpus tooling.
