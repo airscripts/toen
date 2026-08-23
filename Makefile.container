@@ -1,0 +1,22 @@
+CONTAINER_ENGINE ?= docker
+CONTAINER_IMAGE ?= toen-ci:0.1.0
+VERSION ?= 0.1.0
+
+REPOSITORY_ROOT := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
+CONTAINER_COMMANDS := $(REPOSITORY_ROOT)/scripts/container/commands.sh
+
+.PHONY: all build verify test package
+
+all: verify
+
+build:
+	"$(CONTAINER_COMMANDS)" build "$(CONTAINER_ENGINE)" "$(CONTAINER_IMAGE)"
+
+verify: build
+	"$(CONTAINER_COMMANDS)" verify "$(CONTAINER_ENGINE)" "$(CONTAINER_IMAGE)"
+
+test: build
+	"$(CONTAINER_COMMANDS)" test "$(CONTAINER_ENGINE)" "$(CONTAINER_IMAGE)"
+
+package: build
+	"$(CONTAINER_COMMANDS)" package "$(CONTAINER_ENGINE)" "$(CONTAINER_IMAGE)" "$(VERSION)"
