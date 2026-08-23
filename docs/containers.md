@@ -18,10 +18,11 @@ dispatcher. The same functions can be sourced by another maintainer script
 when a different container workflow needs the shared build, verification, test,
 or package behavior.
 
-`Makefile.container package` mounts `dist/` read-write and tracked benchmark
-release evidence read-only so generated release files can be collected after
-the disposable container exits. No source pages,
-credentials, caches, model outputs, or build output are copied into the image.
+`Makefile.container package` mounts `dist/` read-write so generated release
+files can be collected after the disposable container exits. If matching
+benchmark evidence exists, it is mounted read-only and must pass the same gates
+as native packaging. No source pages, credentials, caches, model outputs, or
+build output are copied into the image.
 
 ## Runtime Boundary
 

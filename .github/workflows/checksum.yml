@@ -30,8 +30,8 @@ jobs:
           cd dist
 
           mapfile -t release_files < <(find . -maxdepth 1 -type f | sort)
-          if [[ "${#release_files[@]}" -ne 6 ]]; then
-            echo "expected exactly six release files" >&2
+          if [[ "${#release_files[@]}" -ne 4 && "${#release_files[@]}" -ne 6 ]]; then
+            echo "expected four core release files or six files with benchmark evidence" >&2
             printf '%s\n' "${release_files[@]}" >&2
             exit 1
           fi
@@ -41,8 +41,12 @@ jobs:
           test -f "toen-skill-v${RELEASE_VERSION}.zip"
           test -f "toen-codex-plugin-v${RELEASE_VERSION}.zip"
           test -f "toen-claude-code-plugin-v${RELEASE_VERSION}.zip"
-          test -f "toen-benchmark-evidence-v${RELEASE_VERSION}.zip"
-          test -f "toen-benchmark-report-v${RELEASE_VERSION}.md"
+          test -f "toen-v${RELEASE_VERSION}-checksums.txt"
+
+          if [[ "${#release_files[@]}" -eq 6 ]]; then
+            test -f "toen-benchmark-evidence-v${RELEASE_VERSION}.zip"
+            test -f "toen-benchmark-report-v${RELEASE_VERSION}.md"
+          fi
 
         name: Verify Release Checksums
 

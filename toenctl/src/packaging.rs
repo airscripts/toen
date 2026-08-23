@@ -11,6 +11,7 @@ pub(crate) fn replace_owned_outputs(
     staging: &Path,
     dist: &Path,
     outputs: &[String],
+    retired_outputs: &[String],
 ) -> Result<(), String> {
     let backup = dist.join(format!(".toen-backup-{}", std::process::id()));
     if backup.exists() {
@@ -20,17 +21,25 @@ pub(crate) fn replace_owned_outputs(
         ));
     }
 
-    for output in outputs {
-        let staged = staging.join(output);
-        let destination = dist.join(output);
-        if !staged.is_file() {
-            return Err(format!("package staging is missing {}", staged.display()));
+    let mut owned_outputs = std::collections::HashSet::new();
+    for output in outputs.iter().chain(retired_outputs) {
+        if !owned_outputs.insert(output) {
+            return Err(format!("duplicate owned package output: {output}"));
         }
+
+        let destination = dist.join(output);
         if destination.exists() && destination.is_dir() {
             return Err(format!(
                 "owned package output is a directory: {}",
                 destination.display()
             ));
+        }
+    }
+
+    for output in outputs {
+        let staged = staging.join(output);
+        if !staged.is_file() {
+            return Err(format!("package staging is missing {}", staged.display()));
         }
     }
 
@@ -41,7 +50,7 @@ pub(crate) fn replace_owned_outputs(
     }
 
     let result = (|| {
-        for output in outputs {
+        for output in outputs.iter().chain(retired_outputs) {
             let destination = dist.join(output);
             if destination.exists() {
                 let saved = backup.join(output);

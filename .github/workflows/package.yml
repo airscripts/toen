@@ -42,12 +42,33 @@ jobs:
           RELEASE_VERSION: ${{ inputs.version }}
 
       - run: |
-          set -eu
+          set -euo pipefail
+
           for archive in dist/*.zip; do
             unzip -t "$archive"
           done
-          test "$(find dist -maxdepth 1 -type f | wc -l)" -eq 6
+
+          mapfile -t release_files < <(find dist -maxdepth 1 -type f | sort)
+          if [[ "${#release_files[@]}" -ne 4 && "${#release_files[@]}" -ne 6 ]]; then
+            echo "expected four core release files or six files with benchmark evidence" >&2
+            printf '%s\n' "${release_files[@]}" >&2
+            exit 1
+          fi
+
+          test -f "dist/toen-skill-v${RELEASE_VERSION}.zip"
+          test -f "dist/toen-codex-plugin-v${RELEASE_VERSION}.zip"
+          test -f "dist/toen-claude-code-plugin-v${RELEASE_VERSION}.zip"
+          test -f "dist/toen-v${RELEASE_VERSION}-checksums.txt"
+
+          if [[ "${#release_files[@]}" -eq 6 ]]; then
+            test -f "dist/toen-benchmark-evidence-v${RELEASE_VERSION}.zip"
+            test -f "dist/toen-benchmark-report-v${RELEASE_VERSION}.md"
+          fi
         name: Validate Release Archives
+        shell: bash
+
+        env:
+          RELEASE_VERSION: ${{ inputs.version }}
 
       - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         name: Upload Release Archives

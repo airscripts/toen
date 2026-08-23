@@ -7,7 +7,7 @@ Claude Code integrations. It has no runtime service, account, telemetry, hook,
 or MCP server. The Rust 2024 maintainer workspace validates the corpus,
 renders committed assets, runs explicit non-spending benchmark checks and
 manual resumable live campaigns, estimates local token sizes, and packages
-gated releases.
+releases with optional gated benchmark evidence.
 
 ## Boundaries
 
@@ -66,7 +66,7 @@ Windows x86-64 and ARM64, macOS x86-64 and ARM64, and Linux x86-64 and ARM64
 build/test coverage. Do not
 put credentials, source pages, generated archives, benchmark outputs, or model
 outputs into the image. `make -f Makefile.container package` mounts tracked
-release evidence read-only.
+release evidence read-only when it is present.
 
 ## Release Rules
 
@@ -75,15 +75,20 @@ delete releases. Versions must agree across `VERSION`, Cargo manifests,
 plugin metadata, marketplace entries, citation metadata, changelog, docs, and
 release archives.
 
-`toenctl package --version 0.1.0` requires the complete reviewed benchmark
-evidence set and produces exactly five release files plus one checksum file:
+`toenctl package --version 0.1.0` always produces three distribution archives
+plus one checksum file:
 
 - `toen-skill-v0.1.0.zip`
 - `toen-codex-plugin-v0.1.0.zip`
 - `toen-claude-code-plugin-v0.1.0.zip`
-- `toen-benchmark-evidence-v0.1.0.zip`
-- `toen-benchmark-report-v0.1.0.md`
 - `toen-v0.1.0-checksums.txt`
 
-Packaging replaces only those six owned paths in `dist/`; unrelated files and
-directories remain untouched.
+Live benchmark evidence is optional. When `benchmarks/releases/0.1.0/` exists,
+it must pass every release gate and packaging also produces:
+
+- `toen-benchmark-evidence-v0.1.0.zip`
+- `toen-benchmark-report-v0.1.0.md`
+
+Packaging owns those six possible paths in `dist/`, removes stale optional
+benchmark files from core-only packages, and leaves unrelated files and
+directories untouched.

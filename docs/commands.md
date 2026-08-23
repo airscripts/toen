@@ -34,6 +34,9 @@ toenctl package --version <version>
 
 `bench smoke --check` is non-spending. The other live benchmark commands are
 explicit, resumable operations that may invoke the configured model provider.
+`package` is also non-spending: it always builds the core distributions and
+includes benchmark evidence only when a matching versioned evidence directory
+is present and passes every gate.
 
 The equivalent portable form is `cargo toen <command>`. Use
 `toenctl --workspace <path> <command>` or `TOEN_WORKSPACE` to select a

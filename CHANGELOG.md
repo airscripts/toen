@@ -28,11 +28,12 @@ Semantic Versioning.
   and reproducible reports using the disclosed `o200k-base` tokenizer.
 - Resumable four-condition benchmark campaigns with multilingual prompts,
   isolated fixtures, provider usage, randomized blind judging, compatibility
-  transcripts, statistical reports, and enforced release gates.
+  transcripts, statistical reports, and evidence-specific release gates.
 - Reproducible packaging for the portable skill, both plugins, reviewed benchmark
   evidence, benchmark reports, and sorted SHA-256 checksums.
-- Rollback-safe replacement of the six owned release files while preserving
-  unrelated `dist/` contents and rejecting incomplete or unreviewed evidence.
+- Rollback-safe replacement of four core and two optional release files while
+  preserving unrelated `dist/` contents and rejecting incomplete or unreviewed
+  evidence when supplied.
 - Pinned container and cross-platform CI coverage for Linux, macOS, and Windows
   on x86-64 and ARM64, with formatting, linting, tests, coverage, dependency
   policy, vulnerability auditing, and non-spending smoke checks.

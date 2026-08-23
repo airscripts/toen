@@ -19,22 +19,31 @@ cargo toen test
 cargo toen package --version 0.1.0
 ```
 
-Packaging requires the reviewed benchmark evidence for the release and
-produces exactly six files in `dist/`:
+Packaging always produces four core files in `dist/`:
 
 ```text
 toen-skill-v0.1.0.zip
 toen-codex-plugin-v0.1.0.zip
 toen-claude-code-plugin-v0.1.0.zip
-toen-benchmark-evidence-v0.1.0.zip
-toen-benchmark-report-v0.1.0.md
 toen-v0.1.0-checksums.txt
 ```
 
-Only these six owned paths are replaced. Existing unrelated files and
-directories in `dist/` are preserved.
+Live benchmark evidence is optional. When `benchmarks/releases/0.1.0/` is
+absent, no model tokens or benchmark report are required. When the directory
+exists, it must contain complete reviewed evidence that passes every release
+gate, and packaging adds:
+
+```text
+toen-benchmark-evidence-v0.1.0.zip
+toen-benchmark-report-v0.1.0.md
+```
+
+The six possible artifact paths are package-owned. A core-only package removes
+stale benchmark artifacts from a previous run, while existing unrelated files
+and directories in `dist/` are preserved.
 
 Each archive uses lexical entries, fixed timestamps, normalized text, no
 symlinks or traversal paths, and includes the applicable README and attribution
-files. The checksum file contains lowercase SHA-256 lines sorted by filename.
-Repeat packaging and compare the archives byte-for-byte before publishing.
+files. The checksum file contains lowercase SHA-256 lines for the artifacts
+present, sorted by filename. Repeat packaging and compare the archives
+byte-for-byte before publishing.

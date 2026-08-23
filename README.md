@@ -217,16 +217,22 @@ assistant invocation. The committed smoke manifest is still checked.
 
 ## Release Artifacts
 
-`cargo toen package --version 0.1.0` requires reviewed benchmark evidence and
-produces exactly:
+`cargo toen package --version 0.1.0` produces four core release files without
+calling a model:
 
 ```text
 toen-skill-v0.1.0.zip
 toen-codex-plugin-v0.1.0.zip
 toen-claude-code-plugin-v0.1.0.zip
+toen-v0.1.0-checksums.txt
+```
+
+Live benchmark evidence is optional. If a versioned evidence directory exists,
+it must pass every release gate and packaging adds:
+
+```text
 toen-benchmark-evidence-v0.1.0.zip
 toen-benchmark-report-v0.1.0.md
-toen-v0.1.0-checksums.txt
 ```
 
 The archives have stable lexical entries, fixed timestamps, normalized text,

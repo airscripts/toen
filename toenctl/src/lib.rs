@@ -14,9 +14,7 @@ pub(crate) mod workspace;
 use std::collections::{HashMap, HashSet};
 use std::env;
 use std::fs;
-use std::path::Path;
-#[cfg(test)]
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 use std::process::Command;
 
 use schemars::{
@@ -1194,6 +1192,22 @@ fn serialize_schema(schema: schemars::schema::RootSchema) -> Result<String, Stri
         .map_err(|error| format!("serialize JSON schema: {error}"))
 }
 
+fn benchmark_release_directory(root: &Path, version: &str) -> Result<Option<PathBuf>, String> {
+    let path = root.join("benchmarks/releases").join(version);
+    match fs::metadata(&path) {
+        Ok(metadata) if metadata.is_dir() => Ok(Some(path)),
+        Ok(_) => Err(format!(
+            "benchmark release path is not a directory: {}",
+            path.display()
+        )),
+        Err(error) if error.kind() == std::io::ErrorKind::NotFound => Ok(None),
+        Err(error) => Err(format!(
+            "inspect benchmark release path {}: {error}",
+            path.display()
+        )),
+    }
+}
+
 pub(crate) fn package(root: &Path, args: &[String]) -> Result<(), String> {
     let [flag, version] = args else {
         return Err("package requires --version <version>".to_owned());
@@ -1213,7 +1227,11 @@ pub(crate) fn package(root: &Path, args: &[String]) -> Result<(), String> {
     corpus_check(root)?;
     manifests::check(root)?;
     generate(root, true)?;
-    bench::release_gates_pass(root, version)?;
+
+    let benchmark_release = benchmark_release_directory(root, version)?;
+    if benchmark_release.is_some() {
+        bench::release_gates_pass(root, version)?;
+    }
 
     let dist = root.join("dist");
     fs::create_dir_all(&dist).map_err(|error| format!("create dist: {error}"))?;
@@ -1232,48 +1250,44 @@ pub(crate) fn package(root: &Path, args: &[String]) -> Result<(), String> {
         let skill_archive = staging.join(format!("toen-skill-v{version}.zip"));
         let codex_archive = staging.join(format!("toen-codex-plugin-v{version}.zip"));
         let claude_archive = staging.join(format!("toen-claude-code-plugin-v{version}.zip"));
-        let evidence_archive = staging.join(format!("toen-benchmark-evidence-v{version}.zip"));
-        let benchmark_report = staging.join(format!("toen-benchmark-report-v{version}.md"));
 
         packaging::write_zip_with_prefix(&skill_archive, root, "skill/toen", "toen")?;
         packaging::write_zip(&codex_archive, root, "plugins/codex/toen")?;
         packaging::write_zip(&claude_archive, root, "plugins/claude-code/toen")?;
-        packaging::write_benchmark_zip(&evidence_archive, root, version)?;
-        fs::copy(
-            root.join("benchmarks/releases")
-                .join(version)
-                .join("report.md"),
-            &benchmark_report,
-        )
-        .map_err(|error| format!("copy benchmark report: {error}"))?;
 
-        let mut archives = [
-            skill_archive,
-            codex_archive,
-            claude_archive,
-            evidence_archive,
-            benchmark_report,
+        let mut checksum_inputs = vec![skill_archive, codex_archive, claude_archive];
+        let mut outputs = vec![
+            format!("toen-skill-v{version}.zip"),
+            format!("toen-codex-plugin-v{version}.zip"),
+            format!("toen-claude-code-plugin-v{version}.zip"),
         ];
-        archives.sort_by(|left, right| left.file_name().cmp(&right.file_name()));
-        let checksums = archives
+        let mut retired_outputs = Vec::new();
+        let evidence_name = format!("toen-benchmark-evidence-v{version}.zip");
+        let report_name = format!("toen-benchmark-report-v{version}.md");
+
+        if let Some(benchmark_release) = &benchmark_release {
+            let evidence_archive = staging.join(&evidence_name);
+            let benchmark_report = staging.join(&report_name);
+            packaging::write_benchmark_zip(&evidence_archive, root, version)?;
+            fs::copy(benchmark_release.join("report.md"), &benchmark_report)
+                .map_err(|error| format!("copy benchmark report: {error}"))?;
+            checksum_inputs.extend([evidence_archive, benchmark_report]);
+            outputs.extend([evidence_name, report_name]);
+        } else {
+            retired_outputs.extend([evidence_name, report_name]);
+        }
+
+        checksum_inputs.sort_by(|left, right| left.file_name().cmp(&right.file_name()));
+        let checksums = checksum_inputs
             .iter()
             .map(|path| packaging::sha256_line(path))
             .collect::<Result<Vec<_>, _>>()?
             .join("");
-        atomic_write(
-            &staging.join(format!("toen-v{version}-checksums.txt")),
-            checksums.as_bytes(),
-        )?;
+        let checksum_name = format!("toen-v{version}-checksums.txt");
+        atomic_write(&staging.join(&checksum_name), checksums.as_bytes())?;
+        outputs.push(checksum_name);
 
-        let outputs = [
-            format!("toen-skill-v{version}.zip"),
-            format!("toen-codex-plugin-v{version}.zip"),
-            format!("toen-claude-code-plugin-v{version}.zip"),
-            format!("toen-benchmark-evidence-v{version}.zip"),
-            format!("toen-benchmark-report-v{version}.md"),
-            format!("toen-v{version}-checksums.txt"),
-        ];
-        packaging::replace_owned_outputs(&staging, &dist, &outputs)
+        packaging::replace_owned_outputs(&staging, &dist, &outputs, &retired_outputs)
     })();
 
     let cleanup = fs::remove_dir_all(&staging)
@@ -1284,9 +1298,13 @@ pub(crate) fn package(root: &Path, args: &[String]) -> Result<(), String> {
         (Ok(()), Ok(())) => {}
     }
 
-    println!(
-        "package: wrote reproducible distributions, benchmark evidence, and checksums in dist/"
-    );
+    if benchmark_release.is_some() {
+        println!(
+            "package: wrote reproducible distributions, benchmark evidence, and checksums in dist/"
+        );
+    } else {
+        println!("package: wrote reproducible distributions and checksums in dist/");
+    }
     Ok(())
 }
 
@@ -1416,6 +1434,28 @@ mod tests {
     }
 
     #[test]
+    fn benchmark_release_directory_is_optional_but_must_be_a_directory() {
+        let root =
+            std::env::temp_dir().join(format!("toen-optional-evidence-{}", std::process::id()));
+        let releases = root.join("benchmarks/releases");
+        fs::create_dir_all(&releases).unwrap();
+
+        assert_eq!(benchmark_release_directory(&root, "0.1.0").unwrap(), None);
+
+        let release = releases.join("0.1.0");
+        fs::write(&release, "not a directory").unwrap();
+        assert!(benchmark_release_directory(&root, "0.1.0").is_err());
+
+        fs::remove_file(&release).unwrap();
+        fs::create_dir(&release).unwrap();
+        assert_eq!(
+            benchmark_release_directory(&root, "0.1.0").unwrap(),
+            Some(release)
+        );
+        fs::remove_dir_all(root).unwrap();
+    }
+
+    #[test]
     fn package_output_replacement_preserves_unrelated_dist_entries() {
         let root = std::env::temp_dir().join(format!("toen-package-output-{}", std::process::id()));
         let dist = root.join("dist");
@@ -1426,7 +1466,7 @@ mod tests {
         fs::write(dist.join("owned.zip"), "old archive").unwrap();
         fs::write(staging.join("owned.zip"), "new archive").unwrap();
 
-        packaging::replace_owned_outputs(&staging, &dist, &["owned.zip".to_owned()]).unwrap();
+        packaging::replace_owned_outputs(&staging, &dist, &["owned.zip".to_owned()], &[]).unwrap();
 
         assert_eq!(
             fs::read_to_string(dist.join("unrelated.txt")).unwrap(),
@@ -1437,6 +1477,42 @@ mod tests {
             fs::read_to_string(dist.join("owned.zip")).unwrap(),
             "new archive"
         );
+        assert!(
+            !dist
+                .join(format!(".toen-backup-{}", std::process::id()))
+                .exists()
+        );
+        fs::remove_dir_all(root).unwrap();
+    }
+
+    #[test]
+    fn package_output_replacement_removes_retired_owned_files() {
+        let root =
+            std::env::temp_dir().join(format!("toen-package-retired-{}", std::process::id()));
+        let dist = root.join("dist");
+        let staging = dist.join(".toen-staging-test");
+        fs::create_dir_all(&staging).unwrap();
+        fs::write(dist.join("unrelated.txt"), "keep me").unwrap();
+        fs::write(dist.join("optional.zip"), "stale evidence").unwrap();
+        fs::write(staging.join("core.zip"), "new archive").unwrap();
+
+        packaging::replace_owned_outputs(
+            &staging,
+            &dist,
+            &["core.zip".to_owned()],
+            &["optional.zip".to_owned()],
+        )
+        .unwrap();
+
+        assert_eq!(
+            fs::read_to_string(dist.join("unrelated.txt")).unwrap(),
+            "keep me"
+        );
+        assert_eq!(
+            fs::read_to_string(dist.join("core.zip")).unwrap(),
+            "new archive"
+        );
+        assert!(!dist.join("optional.zip").exists());
         assert!(
             !dist
                 .join(format!(".toen-backup-{}", std::process::id()))
@@ -1461,6 +1537,7 @@ mod tests {
             &staging,
             &dist,
             &["first.zip".to_owned(), "second.zip".to_owned()],
+            &[],
         )
         .unwrap_err();
 
@@ -1483,6 +1560,7 @@ mod tests {
         let staging = dist.join(".toen-staging-test");
         fs::create_dir_all(staging.join("nested")).unwrap();
         fs::write(dist.join("first.zip"), "old first").unwrap();
+        fs::write(dist.join("optional.zip"), "old optional").unwrap();
         fs::write(staging.join("first.zip"), "new first").unwrap();
         fs::write(staging.join("nested/second.zip"), "new second").unwrap();
 
@@ -1490,6 +1568,7 @@ mod tests {
             &staging,
             &dist,
             &["first.zip".to_owned(), "nested/second.zip".to_owned()],
+            &["optional.zip".to_owned()],
         )
         .unwrap_err();
 
@@ -1497,6 +1576,10 @@ mod tests {
         assert_eq!(
             fs::read_to_string(dist.join("first.zip")).unwrap(),
             "old first"
+        );
+        assert_eq!(
+            fs::read_to_string(dist.join("optional.zip")).unwrap(),
+            "old optional"
         );
         fs::remove_dir_all(root).unwrap();
     }

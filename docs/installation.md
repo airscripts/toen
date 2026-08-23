@@ -38,6 +38,6 @@ Its frontmatter disables implicit model invocation.
 ## Distribution Contents
 
 The portable, Codex, and Claude Code directories are self-contained and each
-includes a README, software license, corpus license, and source notice. See
-[Release Runbook](release.md) for the six release files and benchmark-evidence
-gate.
+includes a README, software license, corpus license, and source notice. See the
+[Release Runbook](release.md) for the four core release files and optional
+benchmark-evidence artifacts.

@@ -24,9 +24,10 @@ Every live call prints campaign position, turn position, Codex event types, and
 stderr as it runs. Raw JSONL-derived outputs and provider usage are retained in
 the campaign directory.
 
-## Release Campaign
+## Optional Release Campaign
 
-Run the stages manually from an isolated maintainer environment:
+Packaging does not require a live campaign. To include benchmark evidence in a
+release, run the stages manually from an isolated maintainer environment:
 
 ```bash
 toenctl bench run --release 0.1.0 --resume
@@ -48,7 +49,7 @@ flowchart LR
     raw --> blind[Randomized Blind Pairs]
     blind --> judge[Structured Correctness And Style Judge]
     judge --> report[Bootstrap Report And Release Gates]
-    report -->|All Pass| package[Five Release Files]
+    report -->|All Pass| package[Optional Evidence Files]
 ```
 
 ## Measurements
@@ -64,19 +65,23 @@ non-visible model work.
 The evidence set includes exact model IDs, Codex version, medium-reasoning
 configuration, prompts, fixtures, raw outputs, provider usage, randomized
 judge inputs, hidden side mappings, schemas, rubrics, compatibility transcripts,
-judge results, and Markdown/JSON reports. The package command rejects missing,
-duplicate, stale-version, malformed, or incomplete campaign grids.
+judge results, and Markdown/JSON reports. When a versioned evidence directory
+is present, the package command rejects duplicate, stale-version, malformed, or
+incomplete campaign grids.
 
 Completed evidence under `benchmarks/releases/<version>/` must be reviewed for
 credentials, personal data, and unrelated content, then committed before the
-release tag is created. The tag pipeline packages that exact versioned evidence;
-temporary fixture work directories are excluded from the archive.
+release tag is created if it will be published. The tag pipeline packages that
+exact versioned evidence when present; absence produces a core-only release.
+Temporary fixture work directories are excluded from the archive. A present but
+incomplete or failing evidence directory blocks packaging instead of being
+silently omitted.
 
 Blind judging covers all 54 single-turn replies and every turn of all six
 sessions for each target mode, model, and repetition. Session judge inputs
 include the user-turn history through the reply being assessed.
 
-## Release Gates
+## Evidence Release Gates
 
 Each Toen mode must pass on each model:
 

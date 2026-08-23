@@ -38,16 +38,21 @@ package_release() {
     local release_evidence="$REPOSITORY_ROOT/benchmarks/releases/$version"
     local dist_directory="$REPOSITORY_ROOT/dist"
 
-    if [ ! -d "$release_evidence" ]; then
-        echo "missing benchmark release evidence: $release_evidence" >&2
+    if [ -e "$release_evidence" ] && [ ! -d "$release_evidence" ]; then
+        echo "benchmark release path is not a directory: $release_evidence" >&2
         return 1
     fi
 
     mkdir -p "$dist_directory"
 
-    "$engine" run --rm \
-        --volume "$dist_directory:/workspace/dist" \
-        --volume "$REPOSITORY_ROOT/benchmarks/releases:/workspace/benchmarks/releases:ro" \
+    local volumes=(--volume "$dist_directory:/workspace/dist")
+    if [ -d "$release_evidence" ]; then
+        volumes+=(
+            --volume "$REPOSITORY_ROOT/benchmarks/releases:/workspace/benchmarks/releases:ro"
+        )
+    fi
+
+    "$engine" run --rm "${volumes[@]}" \
         "$image" \
         make package VERSION="$version"
 }
