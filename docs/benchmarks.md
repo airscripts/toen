@@ -43,12 +43,12 @@ internal `HarnessAdapter` boundary has only a Codex implementation in v0.1.
 
 ```mermaid
 flowchart LR
-    prompts[Prompts and Fresh Fixtures] --> run[Four-Condition Codex Campaign]
-    run --> raw[Raw Outputs and Provider Usage]
+    prompts[Prompts And Fresh Fixtures] --> run[Four-Condition Codex Campaign]
+    run --> raw[Raw Outputs And Provider Usage]
     raw --> blind[Randomized Blind Pairs]
-    blind --> judge[Structured Correctness and Style Judge]
-    judge --> report[Bootstrap Report and Release Gates]
-    report -->|all pass| package[Five Release Files]
+    blind --> judge[Structured Correctness And Style Judge]
+    judge --> report[Bootstrap Report And Release Gates]
+    report -->|All Pass| package[Five Release Files]
 ```
 
 ## Measurements

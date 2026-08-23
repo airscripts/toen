@@ -4,12 +4,12 @@ Toen has one linguistic source of truth and three generated distributions.
 
 ```mermaid
 flowchart LR
-    corpus[corpus/accepted and grammar.toml] --> toenctl[toenctl]
-    toenctl --> skill[skill/toen]
-    toenctl --> codex[plugins/codex/toen]
-    toenctl --> claude[plugins/claude-code/toen]
-    toenctl --> generated[docs and schemas]
-    generated --> package[deterministic ZIPs]
+    corpus[Corpus/Accepted And Grammar.toml] --> toenctl[Toenctl]
+    toenctl --> skill[Skill/Toen]
+    toenctl --> codex[Plugins/Codex/Toen]
+    toenctl --> claude[Plugins/Claude-Code/Toen]
+    toenctl --> generated[Docs And Schemas]
+    generated --> package[Deterministic ZIPs]
 ```
 
 `toenctl` discovers the workspace, validates typed corpus relationships,

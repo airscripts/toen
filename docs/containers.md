@@ -33,10 +33,10 @@ build output, and release output.
 ```mermaid
 flowchart TD
     checkout[Checkout] --> image[Build Containerfile]
-    image --> runtime[Fresh Rust 1.89 container]
-    runtime --> gate[Run verify, test, or package]
-    gate --> output[Return mounted dist files]
-    gate --> discard[Remove container]
+    image --> runtime[Fresh Rust 1.89 Container]
+    runtime --> gate[Run Verify, Test, Or Package]
+    gate --> output[Return Mounted Dist Files]
+    gate --> discard[Remove Container]
 ```
 
 CI uses the same Rust container boundary. Native Windows x86-64, Windows

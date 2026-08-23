@@ -124,12 +124,12 @@ state. Host safety rules and explicit deliverable requirements always win.
 
 ```mermaid
 flowchart TD
-    corpus[Accepted corpus and grammar] --> renderer[Deterministic Rust renderer]
-    renderer --> portable[Portable skill]
-    renderer --> codex[Codex plugin skill]
-    renderer --> claude[Claude Code plugin skill]
-    renderer --> docs[Generated dictionary, notices, reports]
-    portable --> packages[Reproducible release archives]
+    corpus[Accepted Corpus And Grammar] --> renderer[Deterministic Rust Renderer]
+    renderer --> portable[Portable Skill]
+    renderer --> codex[Codex Plugin Skill]
+    renderer --> claude[Claude Code Plugin Skill]
+    renderer --> docs[Generated Dictionary, Notices, Reports]
+    portable --> packages[Reproducible Release Archives]
     codex --> packages
     claude --> packages
 ```
