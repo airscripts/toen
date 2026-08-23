@@ -54,7 +54,7 @@ jobs:
           release_args=(
             "$RELEASE_TAG"
             release/assets/*
-            --title "Toen $RELEASE_TAG"
+            --title "$RELEASE_TAG"
             --notes-file release/release-notes.md
             --repo "$GH_REPO"
             --verify-tag
